@@ -1,4 +1,6 @@
 spring:
+  profiles:
+    active: dev
   application:
     name: app
   datasource:
@@ -7,13 +9,8 @@ spring:
     password: admin
 
   jpa:
-    database-platform: org.hibernate.dialect.PostgreSQLDialect
     hibernate:
       ddl-auto: update
-    show-sql: true
-    properties:
-      hibernate:
-        format_sql: true
 
 server:
   port: 8888
