@@ -15,14 +15,12 @@ import java.util.Map;
 public class GlobalExceptionHandler {
 
     @ExceptionHandler(HttpMessageNotReadableException.class)
-    public ResponseEntity<ResponseDto<Void>> handleEnumErrors(HttpMessageNotReadableException ex) {
+    public ResponseEntity<ResponseDto<Void>> handleEnumErrors(HttpMessageNotReadableException httpMessageNotReadableException) {
         String message = "Invalid request payload";
 
-        if (ex.getMostSpecificCause() != null) {
-            String cause = ex.getMostSpecificCause().getMessage();
-            if (cause != null && cause.contains("UserRoles")) {
-                message = "Invalid role value. Allowed values are ADMIN or CUSTOMER";
-            }
+        if (httpMessageNotReadableException.getMostSpecificCause() != null &&
+                httpMessageNotReadableException.getMostSpecificCause().getMessage().contains("UserRoles")) {
+            message = "Invalid role. Allowed values are ADMIN or CUSTOMER";
         }
 
         return ResponseEntity
@@ -42,7 +40,7 @@ public class GlobalExceptionHandler {
                 });
 
         return ResponseEntity
-                .status(HttpStatus.BAD_REQUEST)
+                .badRequest()
                 .body(ResponseDto.error("Validation errors", errors));
     }
 }

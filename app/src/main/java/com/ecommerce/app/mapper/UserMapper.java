@@ -3,20 +3,20 @@ package com.ecommerce.app.mapper;
 import com.ecommerce.app.dto.AddressDto;
 import com.ecommerce.app.dto.UserRequestDto;
 import com.ecommerce.app.dto.UserResponseDto;
+import com.ecommerce.app.dto.UserRoles;
 import com.ecommerce.app.entities.Address;
 import com.ecommerce.app.entities.Users;
 
 import java.util.List;
 
 public class UserMapper {
-
     public static Users toEntity(UserRequestDto user) {
         Users users = new Users();
         users.setFirstName(user.getFirstName());
         users.setLastName(user.getLastName());
         users.setEmail(user.getEmail());
         users.setPhone(user.getPhone());
-        users.setRole(user.getRole());
+        users.setRole(user.getRole() != null ? user.getRole() : UserRoles.CUSTOMER);
 
         if(user.getAddress() != null) {
             Address address = new Address();

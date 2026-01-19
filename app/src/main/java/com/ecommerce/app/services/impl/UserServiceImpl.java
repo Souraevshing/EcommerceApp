@@ -8,45 +8,40 @@ import com.ecommerce.app.mapper.UserMapper;
 import com.ecommerce.app.repository.UserRepository;
 import com.ecommerce.app.services.UserService;
 import lombok.RequiredArgsConstructor;
-import org.apache.catalina.User;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
-import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor
 public class UserServiceImpl implements UserService {
-
     private final UserRepository userRepository;
 
     @Override
     public ResponseDto<UserResponseDto> createUser(UserRequestDto userDto) {
-        Users user = UserMapper.toEntity(userDto);
-        Users savedUser = userRepository.save(user);
-        UserResponseDto userResponseDto = UserMapper.toDto(savedUser);
+        Users savedUser = userRepository.save(UserMapper.toEntity(userDto));
         return ResponseDto.success(
-                userResponseDto,
+                UserMapper.toDto(savedUser),
                 "User created successfully"
         );
     }
 
     @Override
     public ResponseDto<UserResponseDto> getUserById(Long id) {
-        Optional<Users> user = userRepository.findById(id);
-        if(user.isEmpty()) {
-            return ResponseDto.error("User not found");
-        }
-        return ResponseDto.success(
-                UserMapper.toDto(user.get()),
-                "User fetched successfully"
-        );
+        return userRepository
+                .findById(id)
+                .map(user -> ResponseDto.success(
+                        UserMapper.toDto(user),
+                        "User fetched successfully"
+                ))
+                .orElse(ResponseDto.error("User not found"));
     }
 
     @Override
     public ResponseDto<List<UserResponseDto>> getAllUsers() {
         List<Users> users = userRepository.findAll();
+
         if(users.isEmpty()) {
             return ResponseDto.error(
                     "No users found"
@@ -80,7 +75,6 @@ public class UserServiceImpl implements UserService {
             return ResponseDto.error("User not found");
         }
         userRepository.deleteById(id);
-        return ResponseDto.success(null, "User deleted successfully");
+        return ResponseDto.success("Deleted", "User deleted successfully");
     }
-
 }

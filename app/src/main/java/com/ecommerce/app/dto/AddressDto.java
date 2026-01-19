@@ -7,7 +7,6 @@ import lombok.Data;
 
 @Data
 public class AddressDto {
-
     @NotBlank(message = "Street is mandatory")
     @Size(min = 3, message = "Street must be at least 3 characters")
     private String street;

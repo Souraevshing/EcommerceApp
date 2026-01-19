@@ -3,7 +3,6 @@ package com.ecommerce.app.controllers;
 import com.ecommerce.app.dto.ResponseDto;
 import com.ecommerce.app.dto.UserRequestDto;
 import com.ecommerce.app.dto.UserResponseDto;
-import com.ecommerce.app.entities.Users;
 import com.ecommerce.app.services.impl.UserServiceImpl;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
@@ -17,7 +16,6 @@ import java.util.List;
 @RequestMapping("/api/v1/")
 @RequiredArgsConstructor
 public class UserController {
-
     private final UserServiceImpl userService;
 
     @GetMapping("/users")
@@ -68,5 +66,4 @@ public class UserController {
 
         return ResponseEntity.ok(response);
     }
-
 }

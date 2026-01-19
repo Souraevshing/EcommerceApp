@@ -6,18 +6,11 @@ import lombok.Data;
 
 @Data
 public class UserResponseDto {
-
-    @NotNull
     private Long id;
-
     private String firstName;
     private String lastName;
     private String email;
     private String phone;
-
-    @NotNull
     private UserRoles role;
-
-    @Valid
     private AddressDto address;
 }

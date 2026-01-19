@@ -10,7 +10,6 @@ import lombok.Data;
 
 @Data
 public class UserRequestDto {
-
     @NotBlank(message = "First name is mandatory")
     private String firstName;
 

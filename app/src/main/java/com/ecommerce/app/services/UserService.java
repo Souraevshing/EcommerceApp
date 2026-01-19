@@ -3,7 +3,6 @@ package com.ecommerce.app.services;
 import com.ecommerce.app.dto.ResponseDto;
 import com.ecommerce.app.dto.UserRequestDto;
 import com.ecommerce.app.dto.UserResponseDto;
-import com.ecommerce.app.entities.Users;
 
 import java.util.List;
 
