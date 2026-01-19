@@ -1,7 +1,10 @@
 package com.ecommerce.app.services.impl;
 
 import com.ecommerce.app.dto.ResponseDto;
+import com.ecommerce.app.dto.UserRequestDto;
+import com.ecommerce.app.dto.UserResponseDto;
 import com.ecommerce.app.entities.Users;
+import com.ecommerce.app.mapper.UserMapper;
 import com.ecommerce.app.repository.UserRepository;
 import com.ecommerce.app.services.UserService;
 import lombok.RequiredArgsConstructor;
@@ -17,10 +20,12 @@ public class UserServiceImpl implements UserService {
     private final UserRepository userRepository;
 
     @Override
-    public ResponseDto<Users> createUser(Users user) {
-        userRepository.save(user);
+    public ResponseDto<UserResponseDto> createUser(UserRequestDto userDto) {
+        Users user = UserMapper.toEntity(userDto);
+        Users savedUser = userRepository.save(user);
+        UserResponseDto userResponseDto = UserMapper.toDto(savedUser);
         return ResponseDto.success(
-                user,
+                userResponseDto,
                 "User created successfully"
         );
     }

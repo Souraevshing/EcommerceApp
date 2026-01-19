@@ -8,5 +8,6 @@ public class UserRequestDto {
     private String lastName;
     private String email;
     private String phone;
+    private UserRoles role;
     private AddressDto address;
 }

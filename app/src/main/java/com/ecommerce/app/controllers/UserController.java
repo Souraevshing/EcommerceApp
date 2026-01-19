@@ -1,6 +1,8 @@
 package com.ecommerce.app.controllers;
 
 import com.ecommerce.app.dto.ResponseDto;
+import com.ecommerce.app.dto.UserRequestDto;
+import com.ecommerce.app.dto.UserResponseDto;
 import com.ecommerce.app.entities.Users;
 import com.ecommerce.app.services.impl.UserServiceImpl;
 import lombok.RequiredArgsConstructor;
@@ -38,7 +40,7 @@ public class UserController {
     }
 
     @PostMapping("/users")
-    public ResponseEntity<ResponseDto<Users>> createUser(@RequestBody Users user){
+    public ResponseEntity<ResponseDto<UserResponseDto>> createUser(@RequestBody UserRequestDto user){
         return ResponseEntity
                 .status(HttpStatus.CREATED)
                 .body(userService.createUser(user));
