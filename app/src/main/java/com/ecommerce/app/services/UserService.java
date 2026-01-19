@@ -9,7 +9,7 @@ import java.util.List;
 
 public interface UserService {
     ResponseDto<UserResponseDto> createUser(UserRequestDto user);
-    ResponseDto<Users> getUserById(Long id);
+    ResponseDto<UserResponseDto> getUserById(Long id);
     ResponseDto<List<Users>> getAllUsers();
     ResponseDto<Users> updateUser(Users user, Long id);
     ResponseDto<String> deleteUser(Long id);

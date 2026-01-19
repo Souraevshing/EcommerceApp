@@ -31,8 +31,8 @@ public class UserController {
     }
 
     @GetMapping("/users/{id}")
-    public ResponseEntity<ResponseDto<Users>> getUserById(@PathVariable Long id){
-        ResponseDto<Users> response = userService.getUserById(id);
+    public ResponseEntity<ResponseDto<UserResponseDto>> getUserById(@PathVariable Long id){
+        ResponseDto<UserResponseDto> response = userService.getUserById(id);
         if(response.getData() != null){
             return ResponseEntity.ok(response);
         }

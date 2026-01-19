@@ -8,6 +8,7 @@ import com.ecommerce.app.mapper.UserMapper;
 import com.ecommerce.app.repository.UserRepository;
 import com.ecommerce.app.services.UserService;
 import lombok.RequiredArgsConstructor;
+import org.apache.catalina.User;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -31,9 +32,15 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public ResponseDto<Users> getUserById(Long id) {
-        Optional<Users> users = userRepository.findById(id);
-        return users.map(value -> ResponseDto.success(value, "User fetched successfully")).orElseGet(() -> ResponseDto.error(null, "No users found"));
+    public ResponseDto<UserResponseDto> getUserById(Long id) {
+        Optional<Users> user = userRepository.findById(id);
+        if(user.isEmpty()) {
+            return ResponseDto.error(null, "User not found");
+        }
+        return ResponseDto.success(
+                UserMapper.toDto(user.get()),
+                "User fetched successfully"
+        );
     }
 
     @Override
