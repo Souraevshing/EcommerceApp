@@ -36,7 +36,7 @@ public class UserServiceImpl implements UserService {
     public ResponseDto<UserResponseDto> getUserById(Long id) {
         Optional<Users> user = userRepository.findById(id);
         if(user.isEmpty()) {
-            return ResponseDto.error(null, "User not found");
+            return ResponseDto.error("User not found");
         }
         return ResponseDto.success(
                 UserMapper.toDto(user.get()),
@@ -49,7 +49,6 @@ public class UserServiceImpl implements UserService {
         List<Users> users = userRepository.findAll();
         if(users.isEmpty()) {
             return ResponseDto.error(
-                    null,
                     "No users found"
             );
         }
@@ -65,7 +64,7 @@ public class UserServiceImpl implements UserService {
         Users users = UserMapper.toEntity(user);
         Optional<Users> userFound = userRepository.findById(id);
         if(userFound.isEmpty()) {
-            return ResponseDto.error(null, "User not found");
+            return ResponseDto.error("User not found");
         }
         users.setFirstName(user.getFirstName());
         users.setLastName(user.getLastName());
@@ -78,7 +77,7 @@ public class UserServiceImpl implements UserService {
     public ResponseDto<String> deleteUser(Long id) {
         Optional<Users> users = userRepository.findById(id);
         if(users.isEmpty()) {
-            return ResponseDto.error(null, "User not found");
+            return ResponseDto.error("User not found");
         }
         userRepository.deleteById(id);
         return ResponseDto.success(null, "User deleted successfully");

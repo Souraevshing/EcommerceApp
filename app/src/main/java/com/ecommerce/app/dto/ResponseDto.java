@@ -9,6 +9,7 @@ public class ResponseDto<T> {
     private String message;
     private T data;
     private String error;
+    private Object details;
 
     public static <T> ResponseDto<T> success(T data, String message) {
         ResponseDto<T> responseDto = new ResponseDto<>();
@@ -17,10 +18,16 @@ public class ResponseDto<T> {
         return responseDto;
     }
 
-    public static <T> ResponseDto<T> error(T data, String error) {
+    public static <T> ResponseDto<T> error(String error) {
         ResponseDto<T> responseDto = new ResponseDto<>();
-        responseDto.setData(data);
         responseDto.setError(error);
+        return responseDto;
+    }
+
+    public static <T> ResponseDto<T> error(String error, Object details) {
+        ResponseDto<T> responseDto = new ResponseDto<>();
+        responseDto.setError(error);
+        responseDto.setDetails(details);
         return responseDto;
     }
 }
