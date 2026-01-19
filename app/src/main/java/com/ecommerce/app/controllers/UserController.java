@@ -5,6 +5,7 @@ import com.ecommerce.app.dto.UserRequestDto;
 import com.ecommerce.app.dto.UserResponseDto;
 import com.ecommerce.app.entities.Users;
 import com.ecommerce.app.services.impl.UserServiceImpl;
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -40,14 +41,14 @@ public class UserController {
     }
 
     @PostMapping("/users")
-    public ResponseEntity<ResponseDto<UserResponseDto>> createUser(@RequestBody UserRequestDto user){
+    public ResponseEntity<ResponseDto<UserResponseDto>> createUser(@Valid @RequestBody UserRequestDto user){
         return ResponseEntity
                 .status(HttpStatus.CREATED)
                 .body(userService.createUser(user));
     }
 
     @PutMapping("/users/{id}")
-    public ResponseEntity<ResponseDto<UserResponseDto>> updateUser(@RequestBody UserRequestDto user, @PathVariable Long id){
+    public ResponseEntity<ResponseDto<UserResponseDto>> updateUser(@Valid @RequestBody UserRequestDto user, @PathVariable Long id){
         ResponseDto<UserResponseDto> response = userService.updateUser(user, id);
 
         if (response.getError() != null) {
