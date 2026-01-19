@@ -13,6 +13,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor
@@ -44,7 +45,7 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public ResponseDto<List<Users>> getAllUsers() {
+    public ResponseDto<List<UserResponseDto>> getAllUsers() {
         List<Users> users = userRepository.findAll();
         if(users.isEmpty()) {
             return ResponseDto.error(
@@ -52,22 +53,24 @@ public class UserServiceImpl implements UserService {
                     "No users found"
             );
         }
+
         return ResponseDto.success(
-                users,
+                UserMapper.toDtoList(users),
                 "All users fetched successfully"
         );
     }
 
     @Override
-    public ResponseDto<Users> updateUser(Users user, Long id) {
-        Optional<Users> users = userRepository.findById(id);
-        if(users.isEmpty()) {
+    public ResponseDto<UserResponseDto> updateUser(UserRequestDto user, Long id) {
+        Users users = UserMapper.toEntity(user);
+        Optional<Users> userFound = userRepository.findById(id);
+        if(userFound.isEmpty()) {
             return ResponseDto.error(null, "User not found");
         }
-        Users updatedUser = new Users();
-        updatedUser.setFirstName(user.getFirstName());
-        updatedUser.setLastName(user.getLastName());
-        userRepository.save(updatedUser);
+        users.setFirstName(user.getFirstName());
+        users.setLastName(user.getLastName());
+        Users savedUser = userRepository.save(users);
+        UserResponseDto updatedUser = UserMapper.toDto(savedUser);
         return ResponseDto.success(updatedUser, "User updated successfully");
     }
 

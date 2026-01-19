@@ -6,6 +6,8 @@ import com.ecommerce.app.dto.UserResponseDto;
 import com.ecommerce.app.entities.Address;
 import com.ecommerce.app.entities.Users;
 
+import java.util.List;
+
 public class UserMapper {
 
     public static Users toEntity(UserRequestDto user) {
@@ -48,5 +50,12 @@ public class UserMapper {
         }
 
         return dto;
+    }
+
+    public static List<UserResponseDto> toDtoList(List<Users> users) {
+        return users
+                .stream()
+                .map(UserMapper::toDto)
+                .toList();
     }
 }

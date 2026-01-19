@@ -20,8 +20,8 @@ public class UserController {
     private final UserServiceImpl userService;
 
     @GetMapping("/users")
-    public ResponseEntity<ResponseDto<List<Users>>> getAllUsers(){
-        ResponseDto<List<Users>> users = userService.getAllUsers();
+    public ResponseEntity<ResponseDto<List<UserResponseDto>>> getAllUsers(){
+        ResponseDto<List<UserResponseDto>> users = userService.getAllUsers();
 
         if(users.getData() == null || users.getData().isEmpty()){
             return ResponseEntity.status(HttpStatus.NO_CONTENT).body(users);
@@ -47,8 +47,8 @@ public class UserController {
     }
 
     @PutMapping("/users/{id}")
-    public ResponseEntity<ResponseDto<Users>> updateUser(@RequestBody Users user, @PathVariable Long id){
-        ResponseDto<Users> response = userService.updateUser(user, id);
+    public ResponseEntity<ResponseDto<UserResponseDto>> updateUser(@RequestBody UserRequestDto user, @PathVariable Long id){
+        ResponseDto<UserResponseDto> response = userService.updateUser(user, id);
 
         if (response.getError() != null) {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body(response);
