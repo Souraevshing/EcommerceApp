@@ -7,4 +7,5 @@ import com.ecommerce.app.dto.ResponseDto;
 public interface ProductService {
     ResponseDto<ProductResponseDto> createProduct(ProductRequestDto productRequestDto);
     ResponseDto<ProductResponseDto> updateProduct(ProductRequestDto productRequestDto, Long id);
+    ResponseDto<ProductResponseDto> getProductById(Long id);
 }

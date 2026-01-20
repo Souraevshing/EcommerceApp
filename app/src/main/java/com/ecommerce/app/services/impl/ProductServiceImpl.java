@@ -39,4 +39,15 @@ public class ProductServiceImpl implements ProductService {
         Product savedProduct = productRepository.save(product);
         return ResponseDto.success(ProductMapper.toDto(savedProduct), "Product updated successfully");
     }
+
+    @Override
+    public ResponseDto<ProductResponseDto> getProductById(Long id) {
+        return productRepository
+                .findById(id)
+                .map(product -> ResponseDto.success(
+                        ProductMapper.toDto(product),
+                        "Product fetched successfully"
+                ))
+                .orElse(ResponseDto.error("Product not found"));
+    }
 }
