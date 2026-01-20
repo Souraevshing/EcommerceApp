@@ -31,13 +31,13 @@ public class UserMapper {
     }
 
     public static UserResponseDto toDto(Users user) {
-        UserResponseDto dto = new UserResponseDto();
-        dto.setId(user.getId());
-        dto.setFirstName(user.getFirstName());
-        dto.setLastName(user.getLastName());
-        dto.setEmail(user.getEmail());
-        dto.setPhone(user.getPhone());
-        dto.setRole(user.getRole());
+        UserResponseDto userResponseDto = new UserResponseDto();
+        userResponseDto.setId(user.getId());
+        userResponseDto.setFirstName(user.getFirstName());
+        userResponseDto.setLastName(user.getLastName());
+        userResponseDto.setEmail(user.getEmail());
+        userResponseDto.setPhone(user.getPhone());
+        userResponseDto.setRole(user.getRole());
 
         if (user.getAddress() != null) {
             AddressDto addressDto = new AddressDto();
@@ -46,10 +46,10 @@ public class UserMapper {
             addressDto.setState(user.getAddress().getState());
             addressDto.setZipCode(user.getAddress().getZipcode());
             addressDto.setCountry(user.getAddress().getCountry());
-            dto.setAddress(addressDto);
+            userResponseDto.setAddress(addressDto);
         }
 
-        return dto;
+        return userResponseDto;
     }
 
     public static List<UserResponseDto> toDtoList(List<Users> users) {

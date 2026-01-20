@@ -39,15 +39,15 @@ public class UserController {
     }
 
     @PostMapping("/users")
-    public ResponseEntity<ResponseDto<UserResponseDto>> createUser(@Valid @RequestBody UserRequestDto user){
+    public ResponseEntity<ResponseDto<UserResponseDto>> createUser(@Valid @RequestBody UserRequestDto userRequestDto){
         return ResponseEntity
                 .status(HttpStatus.CREATED)
-                .body(userService.createUser(user));
+                .body(userService.createUser(userRequestDto));
     }
 
     @PutMapping("/users/{id}")
-    public ResponseEntity<ResponseDto<UserResponseDto>> updateUser(@Valid @RequestBody UserRequestDto user, @PathVariable Long id){
-        ResponseDto<UserResponseDto> response = userService.updateUser(user, id);
+    public ResponseEntity<ResponseDto<UserResponseDto>> updateUser(@Valid @RequestBody UserRequestDto userRequestDto, @PathVariable Long id){
+        ResponseDto<UserResponseDto> response = userService.updateUser(userRequestDto, id);
 
         if (response.getError() != null) {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body(response);

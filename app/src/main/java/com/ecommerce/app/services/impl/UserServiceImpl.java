@@ -19,8 +19,8 @@ public class UserServiceImpl implements UserService {
     private final UserRepository userRepository;
 
     @Override
-    public ResponseDto<UserResponseDto> createUser(UserRequestDto userDto) {
-        Users savedUser = userRepository.save(UserMapper.toEntity(userDto));
+    public ResponseDto<UserResponseDto> createUser(UserRequestDto userRequestDto) {
+        Users savedUser = userRepository.save(UserMapper.toEntity(userRequestDto));
         return ResponseDto.success(
                 UserMapper.toDto(savedUser),
                 "User created successfully"
@@ -55,14 +55,14 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public ResponseDto<UserResponseDto> updateUser(UserRequestDto user, Long id) {
-        Users users = UserMapper.toEntity(user);
+    public ResponseDto<UserResponseDto> updateUser(UserRequestDto userRequestDto, Long id) {
+        Users users = UserMapper.toEntity(userRequestDto);
         Optional<Users> userFound = userRepository.findById(id);
         if(userFound.isEmpty()) {
             return ResponseDto.error("User not found");
         }
-        users.setFirstName(user.getFirstName());
-        users.setLastName(user.getLastName());
+        users.setFirstName(userRequestDto.getFirstName());
+        users.setLastName(userRequestDto.getLastName());
         Users savedUser = userRepository.save(users);
         UserResponseDto updatedUser = UserMapper.toDto(savedUser);
         return ResponseDto.success(updatedUser, "User updated successfully");
