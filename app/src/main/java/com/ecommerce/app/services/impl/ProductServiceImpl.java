@@ -74,4 +74,18 @@ public class ProductServiceImpl implements ProductService {
                 ProductMapper.toDtoList(allProducts),
                 "All products fetched successfully");
     }
+
+    @Override
+    public ResponseDto<List<ProductResponseDto>> searchProductByName(String name) {
+        List<Product> products = productRepository.searchProduct(name);
+
+        if(products.isEmpty()) {
+            return ResponseDto.error("No products found");
+        }
+
+        return ResponseDto.success(
+                ProductMapper.toDtoList(products),
+                "Products fetched successfully"
+        );
+    }
 }

@@ -12,4 +12,5 @@ public interface ProductService {
     ResponseDto<ProductResponseDto> getProductById(Long id);
     ResponseDto<String> deleteProduct(Long id);
     ResponseDto<List<ProductResponseDto>> getAllProducts();
+    ResponseDto<List<ProductResponseDto>> searchProductByName(String name);
 }

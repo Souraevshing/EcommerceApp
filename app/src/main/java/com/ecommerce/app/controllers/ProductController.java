@@ -66,4 +66,18 @@ public class ProductController {
 
         return ResponseEntity.ok(response);
     }
+
+    @GetMapping("/products/search")
+    public ResponseEntity<ResponseDto<List<ProductResponseDto>>> searchProduct(
+            @RequestParam String query) {
+
+        ResponseDto<List<ProductResponseDto>> response =
+                productService.searchProductByName(query);
+
+        if (response.getData() == null || response.getData().isEmpty()) {
+            return ResponseEntity.status(HttpStatus.NO_CONTENT).body(response);
+        }
+
+        return ResponseEntity.ok(response);
+    }
 }
