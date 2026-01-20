@@ -10,21 +10,21 @@ import com.ecommerce.app.entities.Users;
 import java.util.List;
 
 public class UserMapper {
-    public static Users toEntity(UserRequestDto user) {
+    public static Users toEntity(UserRequestDto userRequestDto) {
         Users users = new Users();
-        users.setFirstName(user.getFirstName());
-        users.setLastName(user.getLastName());
-        users.setEmail(user.getEmail());
-        users.setPhone(user.getPhone());
-        users.setRole(user.getRole() != null ? user.getRole() : UserRoles.CUSTOMER);
+        users.setFirstName(userRequestDto.getFirstName());
+        users.setLastName(userRequestDto.getLastName());
+        users.setEmail(userRequestDto.getEmail());
+        users.setPhone(userRequestDto.getPhone());
+        users.setRole(userRequestDto.getRole() != null ? userRequestDto.getRole() : UserRoles.CUSTOMER);
 
-        if(user.getAddress() != null) {
+        if(userRequestDto.getAddress() != null) {
             Address address = new Address();
-            address.setStreet(user.getAddress().getStreet());
-            address.setCity(user.getAddress().getCity());
-            address.setState(user.getAddress().getState());
-            address.setZipcode(user.getAddress().getZipCode());
-            address.setCountry(user.getAddress().getCountry());
+            address.setStreet(userRequestDto.getAddress().getStreet());
+            address.setCity(userRequestDto.getAddress().getCity());
+            address.setState(userRequestDto.getAddress().getState());
+            address.setZipcode(userRequestDto.getAddress().getZipCode());
+            address.setCountry(userRequestDto.getAddress().getCountry());
             users.setAddress(address);
         }
         return users;

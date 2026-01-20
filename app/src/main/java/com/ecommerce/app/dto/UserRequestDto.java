@@ -2,18 +2,17 @@ package com.ecommerce.app.dto;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.validation.Valid;
-import jakarta.validation.constraints.Email;
-import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.NotNull;
-import jakarta.validation.constraints.Pattern;
+import jakarta.validation.constraints.*;
 import lombok.Data;
 
 @Data
 public class UserRequestDto {
     @NotBlank(message = "First name is mandatory")
+    @Size(min = 3, message = "First name must be at least 3 characters")
     private String firstName;
 
     @NotBlank(message = "Last name is mandatory")
+    @Size(min = 3, message = "Last name must be at least 3 characters")
     private String lastName;
 
     @Email(message = "Invalid email")
