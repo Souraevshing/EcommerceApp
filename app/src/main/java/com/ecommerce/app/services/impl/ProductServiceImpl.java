@@ -10,6 +10,7 @@ import com.ecommerce.app.services.ProductService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.Optional;
 
 @Service
@@ -49,5 +50,28 @@ public class ProductServiceImpl implements ProductService {
                         "Product fetched successfully"
                 ))
                 .orElse(ResponseDto.error("Product not found"));
+    }
+
+    @Override
+    public ResponseDto<String> deleteProduct(Long id) {
+        Optional<Product> productFound = productRepository.findById(id);
+        if(productFound.isEmpty()) {
+            return ResponseDto.error("Product not found");
+        }
+        productRepository.deleteById(id);
+        return ResponseDto.success("Deleted", "Product deleted successfully");
+    }
+
+    @Override
+    public ResponseDto<List<ProductResponseDto>> getAllProducts() {
+        List<Product> allProducts = productRepository.findAll();
+
+        if(allProducts.isEmpty()) {
+            return ResponseDto.error("No products found");
+        }
+
+        return ResponseDto.success(
+                ProductMapper.toDtoList(allProducts),
+                "All products fetched successfully");
     }
 }

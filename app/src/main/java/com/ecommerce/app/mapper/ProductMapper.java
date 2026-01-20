@@ -4,6 +4,8 @@ import com.ecommerce.app.dto.ProductRequestDto;
 import com.ecommerce.app.dto.ProductResponseDto;
 import com.ecommerce.app.entities.Product;
 
+import java.util.List;
+
 public class ProductMapper {
     public static Product toEntity(ProductRequestDto productRequestDto) {
         Product product = new Product();
@@ -28,5 +30,12 @@ public class ProductMapper {
         productResponseDto.setCategory(product.getCategory());
         productResponseDto.setImageUrl(product.getImageUrl());
         return productResponseDto;
+    }
+
+    public static List<ProductResponseDto> toDtoList(List<Product> products) {
+        return products
+                .stream()
+                .map(ProductMapper::toDto)
+                .toList();
     }
 }
