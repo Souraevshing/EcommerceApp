@@ -11,6 +11,7 @@ import com.ecommerce.app.repository.CartItemRepository;
 import com.ecommerce.app.repository.ProductRepository;
 import com.ecommerce.app.repository.UserRepository;
 import com.ecommerce.app.services.CartItemService;
+import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -19,6 +20,7 @@ import java.util.Optional;
 
 @Service
 @RequiredArgsConstructor
+@Transactional
 public class CartItemServiceImpl implements CartItemService {
     private final CartItemRepository cartItemRepository;
     private final ProductRepository productRepository;
@@ -57,5 +59,27 @@ public class CartItemServiceImpl implements CartItemService {
             CartItem savedCartItems = cartItemRepository.save(cartItem);
             return ResponseDto.success(CartItemMapper.toDto(savedCartItems), "Cart item added successfully");
         }
+    }
+
+    @Override
+    public ResponseDto<String> removeFromCart(Long productId, Long userId) {
+        Users users = userRepository.findById(userId).orElse(null);
+        if(users == null) {
+            return ResponseDto.error("User not found");
+        }
+
+        Product product = productRepository.findById(productId).orElse(null);
+        if(product == null) {
+            return ResponseDto.error("Product not found");
+        }
+
+        CartItem cartItem = cartItemRepository.findByUserAndProduct(users, product);
+        if(cartItem == null) {
+            return ResponseDto.error("Cart item not found");
+        }
+
+        cartItemRepository.delete(cartItem);
+
+        return ResponseDto.success("Cart item removed successfully", null);
     }
 }

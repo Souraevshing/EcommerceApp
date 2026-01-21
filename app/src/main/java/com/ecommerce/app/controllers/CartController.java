@@ -4,6 +4,8 @@ import com.ecommerce.app.dto.CartItemRequestDto;
 import com.ecommerce.app.dto.CartItemResponseDto;
 import com.ecommerce.app.dto.ResponseDto;
 import com.ecommerce.app.services.impl.CartItemServiceImpl;
+import com.ecommerce.app.services.impl.ProductServiceImpl;
+import com.ecommerce.app.services.impl.UserServiceImpl;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -15,6 +17,8 @@ import org.springframework.web.bind.annotation.*;
 @RequiredArgsConstructor
 public class CartController {
     private final CartItemServiceImpl cartItemService;
+    private final UserServiceImpl userService;
+    private final ProductServiceImpl productService;
 
     @PostMapping("/cart")
     public ResponseEntity<ResponseDto<CartItemResponseDto>> addToCart(@Valid @RequestBody CartItemRequestDto cartItemRequestDto, @RequestHeader("X-User-ID") Long userId){
@@ -29,5 +33,17 @@ public class CartController {
         return ResponseEntity
                 .status(HttpStatus.CREATED)
                 .body(response);
+    }
+
+    @DeleteMapping("/cart/{productId}")
+    public ResponseEntity<ResponseDto<String>> removeFromCart(@RequestHeader("X-User-ID") Long userId, @PathVariable Long productId) {
+        ResponseDto<String> response = cartItemService.removeFromCart(productId, userId);
+        if(response.getError() != null) {
+            return ResponseEntity
+                    .status(HttpStatus.NOT_FOUND)
+                    .body(response);
+        }
+
+        return ResponseEntity.ok(response);
     }
 }

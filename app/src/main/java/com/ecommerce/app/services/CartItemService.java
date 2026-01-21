@@ -6,4 +6,5 @@ import com.ecommerce.app.dto.ResponseDto;
 
 public interface CartItemService {
     ResponseDto<CartItemResponseDto> addToCart(CartItemRequestDto cartItemRequestDto, Long userId);
+    ResponseDto<String> removeFromCart(Long productId, Long userId);
 }
