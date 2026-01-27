@@ -12,6 +12,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("/api/v1/")
 @RequiredArgsConstructor
@@ -38,6 +40,18 @@ public class CartController {
     @DeleteMapping("/cart/{productId}")
     public ResponseEntity<ResponseDto<String>> removeFromCart(@RequestHeader("X-User-ID") Long userId, @PathVariable Long productId) {
         ResponseDto<String> response = cartItemService.removeFromCart(productId, userId);
+        if(response.getError() != null) {
+            return ResponseEntity
+                    .status(HttpStatus.NOT_FOUND)
+                    .body(response);
+        }
+
+        return ResponseEntity.ok(response);
+    }
+
+    @GetMapping("/cart/items")
+    public ResponseEntity<ResponseDto<List<CartItemResponseDto>>> getCartItems(@RequestHeader("X-User-ID") Long userId) {
+        ResponseDto<List<CartItemResponseDto>> response = cartItemService.getCartItems(userId);
         if(response.getError() != null) {
             return ResponseEntity
                     .status(HttpStatus.NOT_FOUND)

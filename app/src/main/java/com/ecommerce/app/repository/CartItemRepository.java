@@ -1,7 +1,5 @@
 package com.ecommerce.app.repository;
 
-import com.ecommerce.app.dto.CartItemResponseDto;
-import com.ecommerce.app.dto.ResponseDto;
 import com.ecommerce.app.entities.CartItem;
 import com.ecommerce.app.entities.Product;
 import com.ecommerce.app.entities.Users;

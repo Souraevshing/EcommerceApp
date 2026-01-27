@@ -79,7 +79,7 @@ public class CartItemServiceImpl implements CartItemService {
             return ResponseDto.error("Cart item not found");
         }
 
-        cartItemRepository.delete(cartItem);
+        cartItemRepository.deleteByUserAndProduct(users, product);
 
         return ResponseDto.success("Cart item removed successfully", null);
     }
