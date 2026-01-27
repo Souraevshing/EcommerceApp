@@ -16,6 +16,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
+import java.util.List;
 import java.util.Optional;
 
 @Service
@@ -81,5 +82,21 @@ public class CartItemServiceImpl implements CartItemService {
         cartItemRepository.delete(cartItem);
 
         return ResponseDto.success("Cart item removed successfully", null);
+    }
+
+    @Override
+    public ResponseDto<List<CartItemResponseDto>> getCartItems(Long userId) {
+        Users users = userRepository.findById(userId).orElse(null);
+        if(users == null) {
+            return ResponseDto.error("User not found");
+        }
+
+        List<CartItem> cartItems = cartItemRepository.findByUser(users);
+        List<CartItemResponseDto> allCartItems = cartItems
+                .stream()
+                        .map(CartItemMapper::toDto)
+                                .toList();
+
+        return ResponseDto.success(allCartItems, "Cart items fetched successfully");
     }
 }
