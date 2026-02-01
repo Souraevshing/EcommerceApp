@@ -99,4 +99,23 @@ public class CartItemServiceImpl implements CartItemService {
 
         return ResponseDto.success(allCartItems, "Cart items fetched successfully");
     }
+
+    @Override
+    public ResponseDto<String> clearCart(Long userId) {
+        Users users = userRepository.findById(userId).orElse(null);
+        if(users == null) {
+            return ResponseDto.error("User not found");
+        }
+        List<CartItem> cartItems = cartItemRepository.findByUser(users);
+        if(cartItems.isEmpty()) {
+            return ResponseDto.error("Cart is empty");
+        }
+
+        cartItemRepository.deleteByUser(users);
+
+        return ResponseDto.success(
+                "Cart cleared successfully",
+                "All cart items removed successfully"
+        );
+    }
 }

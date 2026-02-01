@@ -10,4 +10,5 @@ public interface CartItemService {
     ResponseDto<CartItemResponseDto> addToCart(CartItemRequestDto cartItemRequestDto, Long userId);
     ResponseDto<String> removeFromCart(Long productId, Long userId);
     ResponseDto<List<CartItemResponseDto>> getCartItems(Long userId);
+    ResponseDto<String> clearCart(Long userId);
 }
