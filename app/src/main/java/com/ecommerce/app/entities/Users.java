@@ -23,7 +23,6 @@ public class Users {
     private String email;
     private String phone;
 
-    @Enumerated(EnumType.STRING)
     private UserRoles role = UserRoles.CUSTOMER;
 
     @OneToOne(cascade = CascadeType.ALL, orphanRemoval = true)
