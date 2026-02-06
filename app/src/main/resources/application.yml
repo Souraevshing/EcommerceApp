@@ -4,13 +4,14 @@ spring:
   application:
     name: app
   datasource:
-    url: jdbc:postgresql://localhost:5432/ecomm_db
+    url: jdbc:postgresql://postgres-db:5432/ecomm_db
     username: codey
     password: admin
 
   jpa:
     hibernate:
       ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
 
 info:
   app:
