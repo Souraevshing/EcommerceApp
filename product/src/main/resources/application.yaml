@@ -1,0 +1,47 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: product
+  datasource:
+    url: jdbc:postgresql://postgres-db:5432/ecomm_db
+    username: codey
+    password: admin
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+info:
+  app:
+    name: ${spring.application.name}
+    description: Ecommerce App REST API
+    version: 1.0.0
+
+server:
+  port: 8882
+
+management:
+  endpoints:
+    web:
+      base-path: /api/v1/actuator
+      exposure:
+        include: "*"
+
+  endpoint:
+    health:
+      show-details: always
+      probes:
+        enabled: true
+    shutdown:
+      enabled: true
+
+  info:
+    env:
+      enabled: true
+
+  metrics:
+    tags:
+      enabled: true
+      application: ${spring.application.name}

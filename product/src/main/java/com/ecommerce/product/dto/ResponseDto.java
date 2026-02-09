@@ -1,0 +1,33 @@
+package com.ecommerce.product.dto;
+
+import com.fasterxml.jackson.annotation.JsonInclude;
+import lombok.Data;
+
+@Data
+@JsonInclude(JsonInclude.Include.NON_NULL)
+public class ResponseDto<T> {
+    private String message;
+    private T data;
+    private String error;
+    private Object details;
+
+    public static <T> ResponseDto<T> success(T data, String message) {
+        ResponseDto<T> responseDto = new ResponseDto<>();
+        responseDto.setData(data);
+        responseDto.setMessage(message);
+        return responseDto;
+    }
+
+    public static <T> ResponseDto<T> error(String error) {
+        ResponseDto<T> responseDto = new ResponseDto<>();
+        responseDto.setError(error);
+        return responseDto;
+    }
+
+    public static <T> ResponseDto<T> error(String error, Object details) {
+        ResponseDto<T> responseDto = new ResponseDto<>();
+        responseDto.setError(error);
+        responseDto.setDetails(details);
+        return responseDto;
+    }
+}
