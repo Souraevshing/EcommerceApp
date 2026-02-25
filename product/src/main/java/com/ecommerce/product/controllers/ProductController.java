@@ -57,8 +57,8 @@ public class ProductController {
     }
 
     @DeleteMapping("/products/{id}")
-    public ResponseEntity<ResponseDto<String>> deleteProduct(@PathVariable Long id) {
-        ResponseDto<String> response = productService.deleteProduct(id);
+    public ResponseEntity<ResponseDto<Void>> deleteProduct(@PathVariable Long id) {
+        ResponseDto<Void> response = productService.deleteProduct(id);
 
         if (response.getError() != null) {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body(response);
@@ -70,7 +70,6 @@ public class ProductController {
     @GetMapping("/products/search")
     public ResponseEntity<ResponseDto<List<ProductResponseDto>>> searchProduct(
             @RequestParam String query) {
-
         ResponseDto<List<ProductResponseDto>> response =
                 productService.searchProductByName(query);
 

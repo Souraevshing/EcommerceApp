@@ -10,7 +10,7 @@ public interface ProductService {
     ResponseDto<ProductResponseDto> createProduct(ProductRequestDto productRequestDto);
     ResponseDto<ProductResponseDto> updateProduct(ProductRequestDto productRequestDto, Long id);
     ResponseDto<ProductResponseDto> getProductById(Long id);
-    ResponseDto<String> deleteProduct(Long id);
+    ResponseDto<Void> deleteProduct(Long id);
     ResponseDto<List<ProductResponseDto>> getAllProducts();
     ResponseDto<List<ProductResponseDto>> searchProductByName(String name);
 }

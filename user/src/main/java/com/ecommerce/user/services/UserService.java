@@ -11,5 +11,5 @@ public interface UserService {
     ResponseDto<UserResponseDto> getUserById(Long id);
     ResponseDto<List<UserResponseDto>> getAllUsers();
     ResponseDto<UserResponseDto> updateUser(UserRequestDto user, Long id);
-    ResponseDto<String> deleteUser(Long id);
+    ResponseDto<Void> deleteUser(Long id);
 }

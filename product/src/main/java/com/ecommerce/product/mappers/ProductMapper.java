@@ -32,6 +32,15 @@ public class ProductMapper {
         return productResponseDto;
     }
 
+    public static void updateEntity(Product product, ProductRequestDto dto) {
+        product.setName(dto.getName());
+        product.setDescription(dto.getDescription());
+        product.setPrice(dto.getPrice());
+        product.setStockQuantity(dto.getStockQuantity());
+        product.setCategory(dto.getCategory());
+        product.setImageUrl(dto.getImageUrl());
+    }
+
     public static List<ProductResponseDto> toDtoList(List<Product> products) {
         return products
                 .stream()

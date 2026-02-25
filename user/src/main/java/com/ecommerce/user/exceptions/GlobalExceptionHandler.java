@@ -1,7 +1,9 @@
 package com.ecommerce.user.exceptions;
 
 import com.ecommerce.user.dto.ResponseDto;
-import org.springframework.http.HttpStatus;
+import com.fasterxml.jackson.databind.JsonMappingException;
+import com.fasterxml.jackson.databind.exc.InvalidFormatException;
+import com.fasterxml.jackson.databind.exc.MismatchedInputException;
 import org.springframework.http.ResponseEntity;
 import org.springframework.http.converter.HttpMessageNotReadableException;
 import org.springframework.web.bind.MethodArgumentNotValidException;
@@ -14,33 +16,63 @@ import java.util.Map;
 @RestControllerAdvice
 public class GlobalExceptionHandler {
 
-    @ExceptionHandler(HttpMessageNotReadableException.class)
-    public ResponseEntity<ResponseDto<Void>> handleEnumErrors(HttpMessageNotReadableException httpMessageNotReadableException) {
-        String message = "Invalid request payload";
-
-        if (httpMessageNotReadableException.getMostSpecificCause() != null &&
-                httpMessageNotReadableException.getMostSpecificCause().getMessage().contains("UserRoles")) {
-            message = "Invalid role. Allowed values are ADMIN or CUSTOMER";
-        }
-
-        return ResponseEntity
-                .status(HttpStatus.BAD_REQUEST)
-                .body(ResponseDto.error(message));
-    }
-
     @ExceptionHandler(MethodArgumentNotValidException.class)
-    public ResponseEntity<ResponseDto<Map<String, String>>> handleValidationError(MethodArgumentNotValidException methodArgumentNotValidException) {
-        Map<String, String> errors = new HashMap<>();
+    public ResponseEntity<ResponseDto<Map<String, String>>> handleValidation(
+            MethodArgumentNotValidException ex) {
 
-        methodArgumentNotValidException
-                .getBindingResult()
+        Map<String, String> details = new HashMap<>();
+
+        ex.getBindingResult()
                 .getFieldErrors()
-                .forEach(error -> {
-                    errors.put(error.getField(), error.getDefaultMessage());
-                });
+                .forEach(err -> details.put(err.getField(), err.getDefaultMessage()));
 
         return ResponseEntity
                 .badRequest()
-                .body(ResponseDto.error("Validation errors", errors));
+                .body(ResponseDto.error("ValidationError", details));
+    }
+
+    @ExceptionHandler(HttpMessageNotReadableException.class)
+    public ResponseEntity<ResponseDto<Map<String, String>>> handleDeserialization(
+            HttpMessageNotReadableException ex) {
+
+        Map<String, String> details = new HashMap<>();
+        Throwable cause = ex.getMostSpecificCause();
+
+        if (cause instanceof InvalidFormatException ife) {
+            String field = extractFieldName(ife);
+            details.put(field, "Invalid value");
+            return bad(details, "DeserializationError");
+        }
+
+        if (cause instanceof MismatchedInputException mie) {
+            String field = extractFieldName(mie);
+            details.put(field, "Invalid structure");
+            return bad(details, "DeserializationError");
+        }
+
+        if (cause instanceof JsonMappingException jme) {
+            String field = extractFieldName(jme);
+            details.put(field, "Invalid field format");
+            return bad(details, "DeserializationError");
+        }
+
+        details.put("request", "Malformed JSON");
+        return bad(details, "MalformedJson");
+    }
+
+    private String extractFieldName(JsonMappingException ex) {
+        if (ex.getPath() != null && !ex.getPath().isEmpty()) {
+            return ex.getPath().get(0).getFieldName();
+        }
+        return "request";
+    }
+
+    private ResponseEntity<ResponseDto<Map<String, String>>> bad(
+            Map<String, String> details,
+            String error) {
+
+        return ResponseEntity
+                .badRequest()
+                .body(ResponseDto.error(error, details));
     }
 }

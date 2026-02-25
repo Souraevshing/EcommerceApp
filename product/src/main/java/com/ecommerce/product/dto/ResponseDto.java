@@ -18,6 +18,18 @@ public class ResponseDto<T> {
         return responseDto;
     }
 
+    public static <T> ResponseDto<T> success(T data) {
+        ResponseDto<T> responseDto = new ResponseDto<>();
+        responseDto.setData(data);
+        return responseDto;
+    }
+
+    public static <T> ResponseDto<Void> success(String message) {
+        ResponseDto<Void> responseDto = new ResponseDto<>();
+        responseDto.setMessage(message);
+        return responseDto;
+    }
+
     public static <T> ResponseDto<T> error(String error) {
         ResponseDto<T> responseDto = new ResponseDto<>();
         responseDto.setError(error);

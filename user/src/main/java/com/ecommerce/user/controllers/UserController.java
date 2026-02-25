@@ -57,8 +57,8 @@ public class UserController {
     }
 
     @DeleteMapping("/users/{id}")
-    public ResponseEntity<ResponseDto<String>> deleteUser(@PathVariable Long id){
-        ResponseDto<String> response = userService.deleteUser(id);
+    public ResponseEntity<ResponseDto<Void>> deleteUser(@PathVariable Long id){
+        ResponseDto<Void> response = userService.deleteUser(id);
 
         if (response.getError() != null) {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body(response);

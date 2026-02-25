@@ -26,19 +26,21 @@ public class ProductServiceImpl implements ProductService {
 
     @Override
     public ResponseDto<ProductResponseDto> updateProduct(ProductRequestDto productRequestDto, Long id) {
-        Product product = new Product();
         Optional<Product> productFound = productRepository.findById(id);
+
         if(productFound.isEmpty()) {
             return ResponseDto.error("Product not found");
         }
-        product.setName(productRequestDto.getName());
-        product.setDescription(productRequestDto.getDescription());
-        product.setPrice(productRequestDto.getPrice());
-        product.setStockQuantity(productRequestDto.getStockQuantity());
-        product.setCategory(productRequestDto.getCategory());
-        product.setImageUrl(productRequestDto.getImageUrl());
+
+        Product product = productFound.get();
+
+        ProductMapper.updateEntity(product, productRequestDto);
+
         Product savedProduct = productRepository.save(product);
-        return ResponseDto.success(ProductMapper.toDto(savedProduct), "Product updated successfully");
+        return ResponseDto.success(ProductMapper
+                .toDto(savedProduct),
+                "Product updated successfully"
+        );
     }
 
     @Override
@@ -53,13 +55,13 @@ public class ProductServiceImpl implements ProductService {
     }
 
     @Override
-    public ResponseDto<String> deleteProduct(Long id) {
+    public ResponseDto<Void> deleteProduct(Long id) {
         Optional<Product> productFound = productRepository.findById(id);
         if(productFound.isEmpty()) {
             return ResponseDto.error("Product not found");
         }
         productRepository.deleteById(id);
-        return ResponseDto.success("Deleted", "Product deleted successfully");
+        return ResponseDto.success("Product deleted successfully");
     }
 
     @Override

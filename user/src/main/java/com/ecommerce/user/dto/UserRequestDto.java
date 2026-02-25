@@ -20,7 +20,10 @@ public class UserRequestDto {
     private String email;
 
     @NotBlank(message = "Phone is mandatory")
-    @Pattern(regexp = "^[0-9]{10}$", message = "Phone must be 10 digits")
+    @Pattern(
+            regexp = "^\\+?[0-9]{1,3}[- ]?[0-9]{10}$",
+            message = "Phone must include country code (e.g. +919876543210)"
+    )
     private String phone;
 
     @JsonFormat(shape = JsonFormat.Shape.STRING)

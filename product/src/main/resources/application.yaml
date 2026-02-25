@@ -20,7 +20,7 @@ info:
     version: 1.0.0
 
 server:
-  port: 8882
+  port: 8883
 
 management:
   endpoints:

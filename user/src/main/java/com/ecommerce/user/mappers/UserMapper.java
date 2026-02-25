@@ -52,6 +52,27 @@ public class UserMapper {
         return userResponseDto;
     }
 
+    public static Address toAddress(AddressDto dto) {
+        if (dto == null) return null;
+
+        Address address = new Address();
+        address.setStreet(dto.getStreet());
+        address.setCity(dto.getCity());
+        address.setState(dto.getState());
+        address.setZipcode(dto.getZipCode());
+        address.setCountry(dto.getCountry());
+        return address;
+    }
+
+    public static void  updateEntity(Users user, UserRequestDto userRequestDto) {
+        user.setFirstName(userRequestDto.getFirstName());
+        user.setLastName(userRequestDto.getLastName());
+        user.setEmail(userRequestDto.getEmail());
+        user.setPhone(userRequestDto.getPhone());
+        user.setRole(userRequestDto.getRole());
+        user.setAddress(toAddress(userRequestDto.getAddress()));
+    }
+
     public static List<UserResponseDto> toDtoList(List<Users> users) {
         return users
                 .stream()

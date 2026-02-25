@@ -56,25 +56,29 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public ResponseDto<UserResponseDto> updateUser(UserRequestDto userRequestDto, Long id) {
-        Users users = UserMapper.toEntity(userRequestDto);
         Optional<Users> userFound = userRepository.findById(id);
         if(userFound.isEmpty()) {
             return ResponseDto.error("User not found");
         }
-        users.setFirstName(userRequestDto.getFirstName());
-        users.setLastName(userRequestDto.getLastName());
-        Users savedUser = userRepository.save(users);
-        UserResponseDto updatedUser = UserMapper.toDto(savedUser);
-        return ResponseDto.success(updatedUser, "User updated successfully");
+
+        Users user = userFound.get();
+        UserMapper.updateEntity(user, userRequestDto);
+        Users savedUser = userRepository.save(user);
+
+        return ResponseDto.
+                success(
+                        UserMapper.toDto(savedUser),
+                        "User updated successfully"
+                );
     }
 
     @Override
-    public ResponseDto<String> deleteUser(Long id) {
+    public ResponseDto<Void> deleteUser(Long id) {
         Optional<Users> users = userRepository.findById(id);
         if(users.isEmpty()) {
             return ResponseDto.error("User not found");
         }
         userRepository.deleteById(id);
-        return ResponseDto.success("Deleted", "User deleted successfully");
+        return ResponseDto.success("User deleted successfully");
     }
 }
