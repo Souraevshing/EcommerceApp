@@ -32,7 +32,7 @@ public class UserMapper {
 
     public static UserResponseDto toDto(Users user) {
         UserResponseDto userResponseDto = new UserResponseDto();
-        userResponseDto.setId(user.getId());
+        userResponseDto.setId(Long.valueOf(user.getId()));
         userResponseDto.setFirstName(user.getFirstName());
         userResponseDto.setLastName(user.getLastName());
         userResponseDto.setEmail(user.getEmail());
