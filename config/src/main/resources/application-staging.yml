@@ -1,0 +1,5 @@
+build:
+  id: 101
+  version: 1.0.0
+  name: "Staging-Build-Ecommerce-App"
+  type: "Staging Build"
