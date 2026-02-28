@@ -10,20 +10,20 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/v1/config")
 @RequiredArgsConstructor
 public class BuildInfoController {
-    @Value("${build.id}")
+    @Value("${build.id:default_id}")
     private String buildId;
 
-    @Value("${build.version}")
+    @Value("${build.version:0.0.1}")
     private String buildVersion;
 
-    @Value("${build.name}")
+    @Value("${build.name:Config-Build}")
     private String buildName;
 
     @GetMapping("/build-info")
     public String getBuildInfo() {
         return
-                "Build Id: " + buildId + "\n"
-                        + ", Build Version: " + buildVersion + "\n"
-                        + ", Build Name: " + buildName;
+                "Build Id: " + buildId
+                        + "\n Build Version: " + buildVersion
+                        + "\n Build Name: " + buildName;
     }
 }
