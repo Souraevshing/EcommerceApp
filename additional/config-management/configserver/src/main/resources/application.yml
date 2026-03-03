@@ -1,0 +1,13 @@
+server:
+  port: 8881
+
+spring:
+  application:
+    name: configserver
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: ${GITHUB_URI}
+          privateKey: ${GITHUB_PRIVATE_KEY_PATH}

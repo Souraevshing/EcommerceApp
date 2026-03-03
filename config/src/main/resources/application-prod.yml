@@ -1,5 +1,0 @@
-build:
-  id: 101
-  version: 1.0.0
-  name: "Prod-Build-Ecommerce-App"
-  type: "Production Build"
