@@ -1,2 +1,16 @@
-server:
-  port: 8888
+spring:
+  application:
+    name: ecommerceconfiguration
+  config:
+    import: configserver:http://localhost:8881
+  cloud:
+    refresh:
+      refreshable: none
+  profiles:
+    active: dev
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
