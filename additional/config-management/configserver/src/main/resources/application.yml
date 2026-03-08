@@ -37,5 +37,12 @@ management:
       exposure:
         include: refresh
 
+# Encrypt the configuration using AES encryption
+#encrypt:
+#  key: "0EW12EA6YUIATRUVONIN"
+
 encrypt:
-  key: "0EW12EA6YUIATRUVONIN"
+  key-store:
+    location: ${KEY_STORE_PATH}
+    password: ${KEY_STORE_PASSWORD}
+    alias: ${KEY_STORE_ALIAS}
