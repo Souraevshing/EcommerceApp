@@ -3,23 +3,39 @@ server:
 
 spring:
   profiles:
-    active: default
+    active: jdbc
+  datasource:
+    url: jdbc:postgresql://localhost:5432/config_db
+    username: codey
+    password: admin
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
   application:
     name: configserver
-
+  # Fetch configuration from a database
   cloud:
     config:
       server:
-        git:
-          uri: ${GITHUB_URI}
-          privateKey: ${GITHUB_PRIVATE_KEY_PATH}
-          clone-on-start: true
+        jdbc:
+          sql: "SELECT PROP_KEY, PROP_VALUE from PROPERTIES where APPLICATION = ? and PROFILE = ? and LABEL = ?;"
           default-label: main
-          skip-ssl-validation: false
-          timeout: 10
+
+# Fetch configuration dynamically directly from a private GitHub repository using git
+#  cloud:
+#    config:
+#      server:
+#        git:
+#          uri: ${GITHUB_URI}
+#          privateKey: ${GITHUB_PRIVATE_KEY_PATH}
+#          clone-on-start: true
+#          default-label: main
+#          skip-ssl-validation: false
+#          timeout: 10
 
 management:
   endpoints:
     web:
       exposure:
         include: refresh
+
+encrypt:
+  key: "0EW12EA6YUIATRUVONIN"
