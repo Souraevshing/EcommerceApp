@@ -10,7 +10,7 @@ spring:
     config:
       server:
         native:
-          search-locations: classpath:/shared/config
+          search-locations: file:///Users/codey/Desktop/my-apps/Spring_Ecommerce_App/additional/config-management/configserver/src/main/resources/shared/config
 
 ## Set active profile to jdbc to fetch configuration from a database
 #  profiles:
@@ -40,11 +40,17 @@ spring:
 #          skip-ssl-validation: false
 #          timeout: 10
 
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
 management:
   endpoints:
     web:
       exposure:
-        include: refresh
+        include: "*"
 
 # Encrypt the configuration using AES encryption
 #encrypt:

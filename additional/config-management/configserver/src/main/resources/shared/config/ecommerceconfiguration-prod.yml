@@ -1,5 +1,18 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
 build:
   id: 1
   version: 1.0.0
   name: "Config-Prod-Server"
   type: "Git-Configuration"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
