@@ -5,13 +5,22 @@ spring:
   application:
     name: configserver
   profiles:
-    active: jdbc
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: classpath:/shared/config
+
+## Set active profile to jdbc to fetch configuration from a database
+#  profiles:
+#    active: jdbc
 #  datasource:
 #    url: jdbc:postgresql://localhost:5432/config_db
 #    username: codey
 #    password: admin
 #    database-platform: org.hibernate.dialect.PostgreSQLDialect
-#  Fetch configuration from a database
+##  Fetch configuration from a database
 #  cloud:
 #    config:
 #      server:
@@ -19,17 +28,17 @@ spring:
 #          sql: "SELECT PROP_KEY, PROP_VALUE from PROPERTIES where APPLICATION = ? and PROFILE = ? and LABEL = ?;"
 #          default-label: main
 
-# Fetch configuration dynamically directly from a private GitHub repository using git
-  cloud:
-    config:
-      server:
-        git:
-          uri: ${GITHUB_URI}
-          privateKey: ${GITHUB_PRIVATE_KEY_PATH}
-          clone-on-start: true
-          default-label: main
-          skip-ssl-validation: false
-          timeout: 10
+## Fetch configuration dynamically directly from a private GitHub repository using git
+#  cloud:
+#    config:
+#      server:
+#        git:
+#          uri: ${GITHUB_URI}
+#          privateKey: ${GITHUB_PRIVATE_KEY_PATH}
+#          clone-on-start: true
+#          default-label: main
+#          skip-ssl-validation: false
+#          timeout: 10
 
 management:
   endpoints:
