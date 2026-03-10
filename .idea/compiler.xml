@@ -20,7 +20,6 @@
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar" />
         </processorPath>
-        <module name="app" />
         <module name="product" />
         <module name="config" />
         <module name="order" />
@@ -32,6 +31,9 @@
         <module name="configserver" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="app" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
