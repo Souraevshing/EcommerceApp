@@ -1,52 +1,17 @@
 spring:
-  datasource:
-    url: jdbc:postgresql://localhost:5432/ecomm_db
-    username: codey
-    password: admin
-
   jpa:
     show-sql: false
-    properties:
-      hibernate:
-        format_sql: false
-    hibernate:
-      ddl-auto: update
-    database-platform: org.hibernate.dialect.PostgreSQLDialect
 
-server:
-  port: 8883
-
-info:
-  app:
-    name: product
-    description: Product service for ecommerce app
-    version: 1.0.0
+logging:
+  level:
+    root: INFO
+    org.hibernate.SQL: OFF
 
 management:
-  endpoints:
-    web:
-      base-path: /api/v1/actuator
-      exposure:
-        include: "*"
-
   endpoint:
-    health:
-      show-details: always
-      probes:
-        enabled: false
     shutdown:
       enabled: false
 
   info:
     env:
       enabled: false
-
-  metrics:
-    tags:
-      enabled: false
-      application: product
-
-logging:
-  level:
-    org.hibernate.SQL: OFF
-    org.hibernate.orm.jdbc.bind: OFF
