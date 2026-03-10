@@ -14,12 +14,12 @@ spring:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
 
 server:
-  port: 8883
+  port: 8882
 
 info:
   app:
-    name: product
-    description: Product service for ecommerce app
+    name: user
+    description: User service for ecommerce app
     version: 1.0.0
 
 management:
@@ -44,7 +44,7 @@ management:
   metrics:
     tags:
       enabled: true
-      application: product
+      application: user
 
 logging:
   level:

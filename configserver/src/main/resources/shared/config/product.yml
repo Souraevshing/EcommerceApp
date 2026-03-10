@@ -19,7 +19,7 @@ server:
 info:
   app:
     name: product
-    description: Ecommerce App REST API
+    description: Product service for ecommerce app
     version: 1.0.0
 
 management:

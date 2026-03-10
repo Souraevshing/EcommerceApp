@@ -5,21 +5,21 @@ spring:
     password: admin
 
   jpa:
-    show-sql: true
+    show-sql: false
     properties:
       hibernate:
-        format_sql: true
+        format_sql: false
     hibernate:
       ddl-auto: update
     database-platform: org.hibernate.dialect.PostgreSQLDialect
 
 server:
-  port: 8883
+  port: 8882
 
 info:
   app:
-    name: product
-    description: Product service for ecommerce app
+    name: user
+    description: User service for ecommerce app
     version: 1.0.0
 
 management:
@@ -33,20 +33,20 @@ management:
     health:
       show-details: always
       probes:
-        enabled: true
+        enabled: false
     shutdown:
-      enabled: true
+      enabled: false
 
   info:
     env:
-      enabled: true
+      enabled: false
 
   metrics:
     tags:
       enabled: true
-      application: product
+      application: user
 
 logging:
   level:
-    org.hibernate.SQL: DEBUG
-    org.hibernate.orm.jdbc.bind: TRACE
+    org.hibernate.SQL: OFF
+    org.hibernate.orm.jdbc.bind: OFF
