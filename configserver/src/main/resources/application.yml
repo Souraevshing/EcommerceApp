@@ -10,7 +10,13 @@ spring:
     config:
       server:
         native:
-          search-locations: classpath:/shared/config
+          search-locations: file:///Users/codey/Desktop/my-apps/Spring_Ecommerce_App/configserver/src/main/resources/shared/config
+
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
 
 management:
   endpoints:
