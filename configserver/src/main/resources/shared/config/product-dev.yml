@@ -6,6 +6,9 @@ spring:
         format_sql: true
 
 management:
+  info:
+    env:
+      enabled: true
   endpoint:
     shutdown:
       enabled: true

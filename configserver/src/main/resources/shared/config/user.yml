@@ -14,6 +14,20 @@ server:
 
 info:
   app:
-    name: product
-    description: Product service for ecommerce app
+    name: user
+    description: User service for ecommerce app
     version: 1.0.0
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+  endpoint:
+    health:
+      show-details: always
+
+  info:
+    env:
+      enabled: true
