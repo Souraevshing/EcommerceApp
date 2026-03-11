@@ -12,6 +12,8 @@
         <option value="$PROJECT_DIR$/additional/config-management/config/pom.xml" />
         <option value="$PROJECT_DIR$/additional/config-management/configserver/pom.xml" />
         <option value="$PROJECT_DIR$/configserver/pom.xml" />
+        <option value="$PROJECT_DIR$/additional/interservice-communication/consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/additional/interservice-communication/provider/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

@@ -1,3 +1,10 @@
-# Spring Cloud Configuration Management
+# Additional infrastructure-related configurations
 
-## Demo project to showcase spring cloud server and client to fetch configuration from git repo server to client.
+## Services Used
+
+- Spring Cloud Server
+- Spring Cloud Config Server
+- Spring Cloud Eureka
+- Spring Cloud Stream
+- RabbitMQ
+- Inter-Service Communication
