@@ -66,7 +66,7 @@ public class ProductServiceImpl implements ProductService {
 
     @Override
     public ResponseDto<List<ProductResponseDto>> getAllProducts() {
-        List<Product> allProducts = productRepository.findAll();
+        List<Product> allProducts = productRepository.findByActiveTrue();
 
         if(allProducts.isEmpty()) {
             return ResponseDto.error("No products found");

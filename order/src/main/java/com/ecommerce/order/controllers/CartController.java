@@ -18,7 +18,7 @@ import java.util.List;
 public class CartController {
     private final CartItemServiceImpl cartItemService;
 
-    @PostMapping("/cart")
+    @PostMapping("/cart/add")
     public ResponseEntity<ResponseDto<CartItemResponseDto>> addToCart(@Valid @RequestBody CartItemRequestDto cartItemRequestDto, @RequestHeader("X-User-ID") Long userId){
         ResponseDto<CartItemResponseDto> response = cartItemService.addToCart(cartItemRequestDto, userId);
 

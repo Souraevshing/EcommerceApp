@@ -1,7 +1,9 @@
 package com.ecommerce.order.services.impl;
 
+import com.ecommerce.order.clients.ProductServiceClient;
 import com.ecommerce.order.dto.CartItemRequestDto;
 import com.ecommerce.order.dto.CartItemResponseDto;
+import com.ecommerce.order.dto.ProductResponseDto;
 import com.ecommerce.order.dto.ResponseDto;
 import com.ecommerce.order.entities.CartItem;
 import com.ecommerce.order.mappers.CartItemMapper;
@@ -19,9 +21,22 @@ import java.util.List;
 @Transactional
 public class CartItemServiceImpl implements CartItemService {
     private final CartItemRepository cartItemRepository;
+    private final ProductServiceClient productServiceClient;
 
     @Override
     public ResponseDto<CartItemResponseDto> addToCart(CartItemRequestDto cartItemRequestDto, Long userId) {
+        ProductResponseDto productDetails =  productServiceClient
+                .getProductDetails(cartItemRequestDto.getProductId())
+                .getData();
+
+        if(productDetails == null) {
+            return ResponseDto.error("No product found with the given id");
+        }
+
+        if(productDetails.getStockQuantity() < cartItemRequestDto.getQuantity()) {
+            return ResponseDto.error("Product out of stock");
+        }
+
         CartItem existingItems = cartItemRepository.findByUserIdAndProductId(userId, cartItemRequestDto.getProductId());
         if(existingItems != null) {
             existingItems.setQuantity(existingItems.getQuantity());

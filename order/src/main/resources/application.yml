@@ -7,6 +7,11 @@ spring:
   profiles:
     active: dev
 
+  cloud:
+    loadbalancer:
+      eager-load:
+        clients: product
+
   rabbitmq:
     host: localhost
     port: 5672
