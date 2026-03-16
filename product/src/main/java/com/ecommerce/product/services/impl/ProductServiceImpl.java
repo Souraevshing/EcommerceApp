@@ -46,7 +46,7 @@ public class ProductServiceImpl implements ProductService {
     @Override
     public ResponseDto<ProductResponseDto> getProductById(Long id) {
         return productRepository
-                .findById(id)
+                .findByIdAndActiveTrue(id)
                 .map(product -> ResponseDto.success(
                         ProductMapper.toDto(product),
                         "Product fetched successfully"
@@ -66,14 +66,14 @@ public class ProductServiceImpl implements ProductService {
 
     @Override
     public ResponseDto<List<ProductResponseDto>> getAllProducts() {
-        List<Product> allProducts = productRepository.findByActiveTrue();
+        List<Product> products = productRepository.findAllByActiveTrue();
 
-        if(allProducts.isEmpty()) {
+        if(products.isEmpty()) {
             return ResponseDto.error("No products found");
         }
 
         return ResponseDto.success(
-                ProductMapper.toDtoList(allProducts),
+                ProductMapper.toDtoList(products),
                 "All products fetched successfully");
     }
 

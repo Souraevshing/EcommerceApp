@@ -6,6 +6,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
 import java.util.List;
+import java.util.Optional;
 
 public interface ProductRepository extends JpaRepository<Product, Long> {
     @Query("""
@@ -16,5 +17,7 @@ public interface ProductRepository extends JpaRepository<Product, Long> {
        """)
     List<Product> searchProduct(@Param("query") String query);
 
-    List<Product> findByActiveTrue();
+    Optional<Product> findByIdAndActiveTrue(Long id);
+
+    List<Product> findAllByActiveTrue();
 }

@@ -37,7 +37,7 @@ public class ProductController {
     }
 
     @GetMapping("/products/{id}")
-    public ResponseEntity<ResponseDto<ProductResponseDto>> getUserById(@PathVariable Long id){
+    public ResponseEntity<ResponseDto<ProductResponseDto>> getProductById(@PathVariable Long id){
         ResponseDto<ProductResponseDto> response = productService.getProductById(id);
         if(response.getData() != null){
             return ResponseEntity.ok(response);
