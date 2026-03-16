@@ -1,10 +1,8 @@
 package com.ecommerce.order.services.impl;
 
 import com.ecommerce.order.clients.ProductServiceClient;
-import com.ecommerce.order.dto.CartItemRequestDto;
-import com.ecommerce.order.dto.CartItemResponseDto;
-import com.ecommerce.order.dto.ProductResponseDto;
-import com.ecommerce.order.dto.ResponseDto;
+import com.ecommerce.order.clients.UserServiceClient;
+import com.ecommerce.order.dto.*;
 import com.ecommerce.order.entities.CartItem;
 import com.ecommerce.order.mappers.CartItemMapper;
 import com.ecommerce.order.repositories.CartItemRepository;
@@ -22,12 +20,24 @@ import java.util.List;
 public class CartItemServiceImpl implements CartItemService {
     private final CartItemRepository cartItemRepository;
     private final ProductServiceClient productServiceClient;
+    private final UserServiceClient userServiceClient;
 
     @Override
     public ResponseDto<CartItemResponseDto> addToCart(CartItemRequestDto cartItemRequestDto, Long userId) {
         ProductResponseDto productDetails =  productServiceClient
                 .getProductDetails(cartItemRequestDto.getProductId())
                 .getData();
+
+        UserResponseDto userDetails = userServiceClient
+                .getUserDetails(userId)
+                .getData();
+
+        System.out.println("product details: "+productDetails);
+        System.out.println("user details: "+userDetails);
+
+        if(userDetails == null) {
+            return ResponseDto.error("User not found");
+        }
 
         if(productDetails == null) {
             return ResponseDto.error("No product found with the given id");
