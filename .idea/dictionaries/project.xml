@@ -3,6 +3,7 @@
     <words>
       <w>configserver</w>
       <w>postgre</w>
+      <w>rollingpolicy</w>
     </words>
   </dictionary>
 </component>

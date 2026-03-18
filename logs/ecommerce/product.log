@@ -1,0 +1,200 @@
+2026-03-18 15:39:18.936 INFO  [restartedMain] c.ecommerce.product.ProductApplication   : Starting ProductApplication using Java 17.0.17 with PID 60129 (/Users/codey/Desktop/my-apps/Spring_Ecommerce_App/product/target/classes started by codey in /Users/codey/Desktop/my-apps/Spring_Ecommerce_App)
+2026-03-18 15:39:18.937 DEBUG [restartedMain] c.ecommerce.product.ProductApplication   : Running with Spring Boot v4.0.2, Spring v7.0.3
+2026-03-18 15:39:18.938 INFO  [restartedMain] c.ecommerce.product.ProductApplication   : The following 1 profile is active: "dev"
+2026-03-18 15:39:18.968 INFO  [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2026-03-18 15:39:18.968 INFO  [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=product, profiles=[default], label=null, version=null, state=null
+2026-03-18 15:39:18.968 INFO  [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2026-03-18 15:39:18.969 INFO  [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=product, profiles=[dev], label=null, version=null, state=null
+2026-03-18 15:39:18.970 INFO  [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-18 15:39:18.970 INFO  [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-18 15:39:19.888 INFO  [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-18 15:39:19.978 INFO  [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84 ms. Found 1 JPA repository interface.
+2026-03-18 15:39:20.251 INFO  [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2026-03-18 15:39:20.259 INFO  [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2026-03-18 15:39:20.303 INFO  [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=54785d3e-7ebb-389c-bfdd-07e7be3a1ae6
+2026-03-18 15:39:20.694 INFO  [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8883 (http)
+2026-03-18 15:39:20.702 INFO  [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-18 15:39:20.703 INFO  [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-18 15:39:20.733 INFO  [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1762 ms
+2026-03-18 15:39:20.972 INFO  [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-18 15:39:21.013 INFO  [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.1.Final
+2026-03-18 15:39:21.295 INFO  [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-18 15:39:21.318 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-18 15:39:21.491 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2a3737a6
+2026-03-18 15:39:21.492 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-18 15:39:21.559 WARN  [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-18 15:39:21.587 INFO  [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/ecomm_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.11
+	Default catalog/schema: ecomm_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-18 15:39:22.191 INFO  [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-18 15:39:22.299 INFO  [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-18 15:39:22.370 INFO  [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-18 15:39:23.391 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-18 15:39:23.730 INFO  [restartedMain] o.s.c.s.m.DirectWithAttributesChannel    : Channel 'product.springCloudBusInput' has 1 subscriber(s).
+2026-03-18 15:39:24.199 INFO  [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestClient.
+2026-03-18 15:39:24.226 WARN  [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-03-18 15:39:24.230 INFO  [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 25 endpoints beneath base path '/actuator'
+2026-03-18 15:39:24.305 INFO  [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2026-03-18 15:39:24.305 INFO  [restartedMain] o.s.i.channel.PublishSubscribeChannel    : Channel 'product.errorChannel' has 1 subscriber(s).
+2026-03-18 15:39:24.305 INFO  [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : started bean '_org.springframework.integration.errorLogger'
+2026-03-18 15:39:24.319 INFO  [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-03-18 15:39:24.333 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-03-18 15:39:24.335 INFO  [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 15:39:24.339 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-03-18 15:39:24.339 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-03-18 15:39:24.339 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-03-18 15:39:24.339 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-03-18 15:39:24.340 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-03-18 15:39:24.340 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2026-03-18 15:39:24.340 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-03-18 15:39:24.560 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-03-18 15:39:24.562 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2026-03-18 15:39:24.563 INFO  [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-03-18 15:39:24.563 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1773828564563 with initial instances count: 3
+2026-03-18 15:39:24.566 INFO  [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application PRODUCT with eureka with status UP
+2026-03-18 15:39:24.567 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1773828564567, current=UP, previous=STARTING]
+2026-03-18 15:39:24.567 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT/192.168.1.9:product:8883: registering service...
+2026-03-18 15:39:24.568 INFO  [restartedMain] o.s.c.s.binder.DefaultBinderFactory      : Creating binder: rabbit
+2026-03-18 15:39:24.568 INFO  [restartedMain] o.s.c.s.binder.DefaultBinderFactory      : Constructing binder child context for rabbit
+2026-03-18 15:39:24.598 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT/192.168.1.9:product:8883 - registration status: 204
+2026-03-18 15:39:24.628 INFO  [restartedMain] o.s.c.s.binder.DefaultBinderFactory      : Caching the binder: rabbit
+2026-03-18 15:39:24.634 INFO  [restartedMain] c.s.b.r.p.RabbitExchangeQueueProvisioner : declaring queue for inbound: springCloudBus.anonymous.T7-0NEF7QqSTV3SivxVfHQ, bound to: springCloudBus
+2026-03-18 15:39:24.636 INFO  [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-03-18 15:39:24.692 INFO  [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#5163af90:0/SimpleConnection@70dd0441 [delegate=amqp://guest@127.0.0.1:5672/, localPort=60643]
+2026-03-18 15:39:24.745 INFO  [restartedMain] o.s.c.stream.binder.BinderErrorChannel   : Channel 'rabbit-1883250011.springCloudBusInput.errors' has 1 subscriber(s).
+2026-03-18 15:39:24.745 INFO  [restartedMain] o.s.c.stream.binder.BinderErrorChannel   : Channel 'rabbit-1883250011.springCloudBusInput.errors' has 2 subscriber(s).
+2026-03-18 15:39:24.757 INFO  [restartedMain] o.s.i.a.i.AmqpInboundChannelAdapter      : started bean 'inbound.springCloudBus.anonymous.T7-0NEF7QqSTV3SivxVfHQ'
+2026-03-18 15:39:24.778 INFO  [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8883 (http) with context path '/'
+2026-03-18 15:39:24.779 INFO  [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8883
+2026-03-18 15:39:24.835 INFO  [restartedMain] c.ecommerce.product.ProductApplication   : Started ProductApplication in 7.647 seconds (process running for 8.578)
+2026-03-18 15:40:39.932 INFO  [http-nio-8883-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-18 15:40:39.964 INFO  [http-nio-8883-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-18 15:40:40.144 INFO  [http-nio-8883-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 175 ms
+2026-03-18 15:40:40.491 INFO  [http-nio-8883-exec-1] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-18 15:40:41.062 DEBUG [http-nio-8883-exec-1] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-18 15:40:42.099 INFO  [http-nio-8883-exec-1] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-18 15:44:24.356 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 15:49:24.390 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 15:52:46.497 INFO  [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application PRODUCT with eureka with status DOWN
+2026-03-18 15:52:46.514 INFO  [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1773829366514, current=DOWN, previous=UP]
+2026-03-18 15:52:46.517 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT/192.168.1.9:product:8883: registering service...
+2026-03-18 15:52:46.579 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT/192.168.1.9:product:8883 - registration status: 204
+2026-03-18 15:52:46.822 INFO  [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-18 15:52:48.873 INFO  [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-18 15:52:48.972 INFO  [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2026-03-18 15:52:49.214 INFO  [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2026-03-18 15:52:49.223 INFO  [SpringApplicationShutdownHook] o.s.i.a.i.AmqpInboundChannelAdapter      : stopped bean 'inbound.springCloudBus.anonymous.T7-0NEF7QqSTV3SivxVfHQ'
+2026-03-18 15:52:49.301 INFO  [SpringApplicationShutdownHook] o.s.c.stream.binder.BinderErrorChannel   : Channel 'product.rabbit-1883250011.springCloudBusInput.errors' has 1 subscriber(s).
+2026-03-18 15:52:49.303 INFO  [SpringApplicationShutdownHook] o.s.c.stream.binder.BinderErrorChannel   : Channel 'product.rabbit-1883250011.springCloudBusInput.errors' has 0 subscriber(s).
+2026-03-18 15:52:49.434 INFO  [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2026-03-18 15:52:49.434 INFO  [SpringApplicationShutdownHook] o.s.i.channel.PublishSubscribeChannel    : Channel 'product.errorChannel' has 0 subscriber(s).
+2026-03-18 15:52:49.434 INFO  [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean '_org.springframework.integration.errorLogger'
+2026-03-18 15:52:49.477 INFO  [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-18 15:52:49.528 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-18 15:52:49.534 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-03-18 15:52:49.540 INFO  [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2026-03-18 15:52:52.551 INFO  [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2026-03-18 15:52:52.604 INFO  [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT/192.168.1.9:product:8883 - deregister  status: 200
+2026-03-18 15:52:52.605 INFO  [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2026-03-18 15:52:55.949 INFO  [restartedMain] c.ecommerce.product.ProductApplication   : Starting ProductApplication using Java 17.0.17 with PID 60495 (/Users/codey/Desktop/my-apps/Spring_Ecommerce_App/product/target/classes started by codey in /Users/codey/Desktop/my-apps/Spring_Ecommerce_App)
+2026-03-18 15:52:55.950 DEBUG [restartedMain] c.ecommerce.product.ProductApplication   : Running with Spring Boot v4.0.2, Spring v7.0.3
+2026-03-18 15:52:55.951 INFO  [restartedMain] c.ecommerce.product.ProductApplication   : The following 1 profile is active: "dev"
+2026-03-18 15:52:55.983 INFO  [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2026-03-18 15:52:55.983 INFO  [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=product, profiles=[default], label=null, version=null, state=null
+2026-03-18 15:52:55.984 INFO  [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2026-03-18 15:52:55.984 INFO  [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=product, profiles=[dev], label=null, version=null, state=null
+2026-03-18 15:52:55.986 INFO  [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-18 15:52:55.986 INFO  [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-18 15:52:57.770 INFO  [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-18 15:52:57.876 INFO  [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 96 ms. Found 1 JPA repository interface.
+2026-03-18 15:52:58.152 INFO  [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2026-03-18 15:52:58.157 INFO  [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2026-03-18 15:52:58.202 INFO  [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=54785d3e-7ebb-389c-bfdd-07e7be3a1ae6
+2026-03-18 15:52:58.708 INFO  [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8883 (http)
+2026-03-18 15:52:58.719 INFO  [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-18 15:52:58.719 INFO  [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-18 15:52:58.756 INFO  [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2770 ms
+2026-03-18 15:52:59.212 INFO  [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-18 15:52:59.263 INFO  [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.1.Final
+2026-03-18 15:52:59.551 INFO  [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-18 15:52:59.593 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-18 15:52:59.814 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@214b520c
+2026-03-18 15:52:59.816 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-18 15:52:59.873 WARN  [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-18 15:52:59.904 INFO  [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/ecomm_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.11
+	Default catalog/schema: ecomm_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-18 15:53:00.700 INFO  [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-18 15:53:00.761 INFO  [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-18 15:53:00.850 INFO  [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-18 15:53:01.966 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-18 15:53:02.390 INFO  [restartedMain] o.s.c.s.m.DirectWithAttributesChannel    : Channel 'product.springCloudBusInput' has 1 subscriber(s).
+2026-03-18 15:53:03.324 INFO  [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestClient.
+2026-03-18 15:53:03.363 WARN  [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-03-18 15:53:03.368 INFO  [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 25 endpoints beneath base path '/actuator'
+2026-03-18 15:53:03.500 INFO  [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2026-03-18 15:53:03.500 INFO  [restartedMain] o.s.i.channel.PublishSubscribeChannel    : Channel 'product.errorChannel' has 1 subscriber(s).
+2026-03-18 15:53:03.500 INFO  [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : started bean '_org.springframework.integration.errorLogger'
+2026-03-18 15:53:03.516 INFO  [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-03-18 15:53:03.535 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-03-18 15:53:03.539 INFO  [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 15:53:03.544 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-03-18 15:53:03.545 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-03-18 15:53:03.545 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-03-18 15:53:03.545 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-03-18 15:53:03.545 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-03-18 15:53:03.545 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2026-03-18 15:53:03.545 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-03-18 15:53:03.813 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-03-18 15:53:03.815 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2026-03-18 15:53:03.816 INFO  [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-03-18 15:53:03.818 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1773829383817 with initial instances count: 2
+2026-03-18 15:53:03.822 INFO  [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application PRODUCT with eureka with status UP
+2026-03-18 15:53:03.822 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1773829383822, current=UP, previous=STARTING]
+2026-03-18 15:53:03.823 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT/192.168.1.9:product:8883: registering service...
+2026-03-18 15:53:03.824 INFO  [restartedMain] o.s.c.s.binder.DefaultBinderFactory      : Creating binder: rabbit
+2026-03-18 15:53:03.825 INFO  [restartedMain] o.s.c.s.binder.DefaultBinderFactory      : Constructing binder child context for rabbit
+2026-03-18 15:53:03.870 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT/192.168.1.9:product:8883 - registration status: 204
+2026-03-18 15:53:03.920 INFO  [restartedMain] o.s.c.s.binder.DefaultBinderFactory      : Caching the binder: rabbit
+2026-03-18 15:53:03.945 INFO  [restartedMain] c.s.b.r.p.RabbitExchangeQueueProvisioner : declaring queue for inbound: springCloudBus.anonymous.uqpJswdHRhOjbqBEcrJYBg, bound to: springCloudBus
+2026-03-18 15:53:03.949 INFO  [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-03-18 15:53:04.035 INFO  [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#37a661ad:0/SimpleConnection@4943588d [delegate=amqp://guest@127.0.0.1:5672/, localPort=61224]
+2026-03-18 15:53:04.140 INFO  [restartedMain] o.s.c.stream.binder.BinderErrorChannel   : Channel 'rabbit-1506833584.springCloudBusInput.errors' has 1 subscriber(s).
+2026-03-18 15:53:04.141 INFO  [restartedMain] o.s.c.stream.binder.BinderErrorChannel   : Channel 'rabbit-1506833584.springCloudBusInput.errors' has 2 subscriber(s).
+2026-03-18 15:53:04.159 INFO  [restartedMain] o.s.i.a.i.AmqpInboundChannelAdapter      : started bean 'inbound.springCloudBus.anonymous.uqpJswdHRhOjbqBEcrJYBg'
+2026-03-18 15:53:04.181 INFO  [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8883 (http) with context path '/'
+2026-03-18 15:53:04.182 INFO  [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8883
+2026-03-18 15:53:04.232 INFO  [restartedMain] c.ecommerce.product.ProductApplication   : Started ProductApplication in 9.188 seconds (process running for 10.311)

@@ -3,5 +3,16 @@ spring:
     show-sql: false
 
 logging:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss.SSS} %clr(%-5level) %clr([%thread]){blue} %clr(%-40.40logger{39}){cyan} : %msg%n"
+    file: "%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] %-40.40logger{39} : %msg%n"
+  file:
+    name: logs/ecommerce/product.log
+  logback:
+    rollingpolicy:
+      max-file-size: 5MB
+      max-history: 7
   level:
-    org.hibernate.SQL: ERROR
+    root: INFO
+    com.ecommerce.product: INFO
+    org.hibernate.SQL: OFF
