@@ -177,3 +177,263 @@
 2026-03-18 15:51:58.723 INFO  [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8881 (http) with context path '/'
 2026-03-18 15:51:58.725 INFO  [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8881
 2026-03-18 15:51:58.792 INFO  [restartedMain] com.ecommerce.order.OrderApplication     : Started OrderApplication in 6.956 seconds (process running for 8.665)
+2026-03-18 15:56:58.391 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 16:01:58.567 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 16:06:58.607 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 16:11:58.634 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 16:16:58.647 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 16:21:58.669 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 16:26:58.699 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 16:31:58.733 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 16:36:58.771 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 16:41:58.823 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 16:46:58.867 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 16:51:58.898 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 16:56:58.945 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 17:01:58.977 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 17:06:59.004 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 17:11:59.030 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 17:33:38.155 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m41s293ms).
+2026-03-18 19:01:44.025 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h27m35s821ms).
+2026-03-18 19:08:30.043 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m46s24ms).
+2026-03-18 19:08:32.134 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 19:13:40.659 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m10s460ms).
+2026-03-18 19:18:12.570 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 19:23:12.635 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 19:28:12.690 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 19:33:12.751 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 19:38:12.812 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 19:43:12.871 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 19:48:12.920 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 19:53:12.955 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 19:58:12.996 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 20:03:13.044 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 20:08:13.086 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 20:13:13.134 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 20:18:13.195 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 20:23:13.234 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 20:28:13.280 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 20:33:13.332 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 20:38:13.371 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 20:40:55.785 INFO  [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ORDER with eureka with status DOWN
+2026-03-18 20:40:55.799 INFO  [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1773846655798, current=DOWN, previous=UP]
+2026-03-18 20:40:55.802 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881: registering service...
+2026-03-18 20:40:55.927 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881 - registration status: 204
+2026-03-18 20:40:56.292 INFO  [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-18 20:40:58.376 INFO  [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-18 20:40:58.496 INFO  [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2026-03-18 20:40:58.915 INFO  [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2026-03-18 20:40:58.922 INFO  [SpringApplicationShutdownHook] o.s.i.a.i.AmqpInboundChannelAdapter      : stopped bean 'inbound.springCloudBus.anonymous.WoBOEPM7QKK_MmHMWwV1dQ'
+2026-03-18 20:40:59.011 INFO  [SpringApplicationShutdownHook] o.s.c.stream.binder.BinderErrorChannel   : Channel 'order.rabbit-2076990743.springCloudBusInput.errors' has 1 subscriber(s).
+2026-03-18 20:40:59.016 INFO  [SpringApplicationShutdownHook] o.s.c.stream.binder.BinderErrorChannel   : Channel 'order.rabbit-2076990743.springCloudBusInput.errors' has 0 subscriber(s).
+2026-03-18 20:40:59.193 INFO  [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2026-03-18 20:40:59.193 INFO  [SpringApplicationShutdownHook] o.s.i.channel.PublishSubscribeChannel    : Channel 'order.errorChannel' has 0 subscriber(s).
+2026-03-18 20:40:59.193 INFO  [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean '_org.springframework.integration.errorLogger'
+2026-03-18 20:40:59.256 INFO  [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-18 20:40:59.347 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-18 20:40:59.367 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-03-18 20:40:59.370 INFO  [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2026-03-18 20:41:02.394 INFO  [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2026-03-18 20:41:02.451 INFO  [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881 - deregister  status: 200
+2026-03-18 20:41:02.452 INFO  [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2026-03-18 20:41:07.047 INFO  [restartedMain] com.ecommerce.order.OrderApplication     : Starting OrderApplication using Java 17.0.17 with PID 76010 (/Users/codey/Desktop/my-apps/Spring_Ecommerce_App/order/target/classes started by codey in /Users/codey/Desktop/my-apps/Spring_Ecommerce_App)
+2026-03-18 20:41:07.048 DEBUG [restartedMain] com.ecommerce.order.OrderApplication     : Running with Spring Boot v4.0.2, Spring v7.0.3
+2026-03-18 20:41:07.049 INFO  [restartedMain] com.ecommerce.order.OrderApplication     : The following 1 profile is active: "dev"
+2026-03-18 20:41:07.072 INFO  [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2026-03-18 20:41:07.072 INFO  [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=order, profiles=[default], label=null, version=null, state=null
+2026-03-18 20:41:07.073 INFO  [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2026-03-18 20:41:07.073 INFO  [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=order, profiles=[dev], label=null, version=null, state=null
+2026-03-18 20:41:07.075 INFO  [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-18 20:41:07.075 INFO  [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-18 20:41:08.044 INFO  [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-18 20:41:08.137 INFO  [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 86 ms. Found 2 JPA repository interfaces.
+2026-03-18 20:41:08.385 INFO  [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2026-03-18 20:41:08.389 INFO  [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2026-03-18 20:41:08.467 INFO  [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ef814018-fd4e-37c9-b868-3543b841768a
+2026-03-18 20:41:08.945 INFO  [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8881 (http)
+2026-03-18 20:41:08.953 INFO  [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-18 20:41:08.954 INFO  [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-18 20:41:08.993 INFO  [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1917 ms
+2026-03-18 20:41:09.225 INFO  [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-18 20:41:09.257 INFO  [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.1.Final
+2026-03-18 20:41:09.486 INFO  [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-18 20:41:09.505 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-18 20:41:09.662 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@26d84ee2
+2026-03-18 20:41:09.663 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-18 20:41:09.706 WARN  [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-18 20:41:09.729 INFO  [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/ecomm_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.11
+	Default catalog/schema: ecomm_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-18 20:41:10.374 INFO  [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-18 20:41:10.480 INFO  [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-18 20:41:10.557 INFO  [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-18 20:41:10.936 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-18 20:41:11.427 INFO  [restartedMain] o.s.c.s.m.DirectWithAttributesChannel    : Channel 'order.springCloudBusInput' has 1 subscriber(s).
+2026-03-18 20:41:11.832 INFO  [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestClient.
+2026-03-18 20:41:11.862 WARN  [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-03-18 20:41:11.867 INFO  [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 25 endpoints beneath base path '/actuator'
+2026-03-18 20:41:11.966 INFO  [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2026-03-18 20:41:11.967 INFO  [restartedMain] o.s.i.channel.PublishSubscribeChannel    : Channel 'order.errorChannel' has 1 subscriber(s).
+2026-03-18 20:41:11.967 INFO  [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : started bean '_org.springframework.integration.errorLogger'
+2026-03-18 20:41:11.996 INFO  [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-03-18 20:41:12.024 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-03-18 20:41:12.027 INFO  [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 20:41:12.033 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-03-18 20:41:12.034 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-03-18 20:41:12.034 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-03-18 20:41:12.034 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-03-18 20:41:12.034 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-03-18 20:41:12.034 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2026-03-18 20:41:12.034 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-03-18 20:41:12.204 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-03-18 20:41:12.205 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2026-03-18 20:41:12.206 INFO  [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-03-18 20:41:12.207 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1773846672207 with initial instances count: 2
+2026-03-18 20:41:12.210 INFO  [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ORDER with eureka with status UP
+2026-03-18 20:41:12.211 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1773846672211, current=UP, previous=STARTING]
+2026-03-18 20:41:12.211 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881: registering service...
+2026-03-18 20:41:12.213 INFO  [restartedMain] o.s.c.s.binder.DefaultBinderFactory      : Creating binder: rabbit
+2026-03-18 20:41:12.213 INFO  [restartedMain] o.s.c.s.binder.DefaultBinderFactory      : Constructing binder child context for rabbit
+2026-03-18 20:41:12.274 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881 - registration status: 204
+2026-03-18 20:41:12.318 INFO  [restartedMain] o.s.c.s.binder.DefaultBinderFactory      : Caching the binder: rabbit
+2026-03-18 20:41:12.326 INFO  [restartedMain] c.s.b.r.p.RabbitExchangeQueueProvisioner : declaring queue for inbound: springCloudBus.anonymous.utVPhUf6QICt9Vdo9CNFjw, bound to: springCloudBus
+2026-03-18 20:41:12.330 INFO  [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-03-18 20:41:12.378 INFO  [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#6efd6b97:0/SimpleConnection@54d31985 [delegate=amqp://guest@127.0.0.1:5672/, localPort=51435]
+2026-03-18 20:41:12.427 INFO  [restartedMain] o.s.c.stream.binder.BinderErrorChannel   : Channel 'rabbit-1554368564.springCloudBusInput.errors' has 1 subscriber(s).
+2026-03-18 20:41:12.428 INFO  [restartedMain] o.s.c.stream.binder.BinderErrorChannel   : Channel 'rabbit-1554368564.springCloudBusInput.errors' has 2 subscriber(s).
+2026-03-18 20:41:12.440 INFO  [restartedMain] o.s.i.a.i.AmqpInboundChannelAdapter      : started bean 'inbound.springCloudBus.anonymous.utVPhUf6QICt9Vdo9CNFjw'
+2026-03-18 20:41:12.458 INFO  [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8881 (http) with context path '/'
+2026-03-18 20:41:12.459 INFO  [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8881
+2026-03-18 20:41:12.518 INFO  [restartedMain] com.ecommerce.order.OrderApplication     : Started OrderApplication in 6.711 seconds (process running for 7.725)
+2026-03-18 20:46:12.052 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 21:03:14.565 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m34s572ms).
+2026-03-18 21:03:16.668 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 21:08:16.748 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 21:13:16.899 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 21:18:17.064 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 21:23:17.106 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 21:28:17.139 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 21:33:17.169 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 21:38:17.208 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 21:43:17.248 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 21:48:17.284 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 21:53:17.309 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 21:58:17.336 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 22:03:17.367 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 22:08:17.424 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 22:08:24.404 INFO  [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ORDER with eureka with status DOWN
+2026-03-18 22:08:24.408 INFO  [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1773851904408, current=DOWN, previous=UP]
+2026-03-18 22:08:24.410 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881: registering service...
+2026-03-18 22:08:24.691 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881 - registration status: 204
+2026-03-18 22:08:24.728 INFO  [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-18 22:08:26.796 INFO  [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-18 22:08:26.966 INFO  [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2026-03-18 22:08:27.404 INFO  [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2026-03-18 22:08:27.406 INFO  [SpringApplicationShutdownHook] o.s.i.a.i.AmqpInboundChannelAdapter      : stopped bean 'inbound.springCloudBus.anonymous.utVPhUf6QICt9Vdo9CNFjw'
+2026-03-18 22:08:27.453 INFO  [SpringApplicationShutdownHook] o.s.c.stream.binder.BinderErrorChannel   : Channel 'order.rabbit-1554368564.springCloudBusInput.errors' has 1 subscriber(s).
+2026-03-18 22:08:27.456 INFO  [SpringApplicationShutdownHook] o.s.c.stream.binder.BinderErrorChannel   : Channel 'order.rabbit-1554368564.springCloudBusInput.errors' has 0 subscriber(s).
+2026-03-18 22:08:27.568 INFO  [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2026-03-18 22:08:27.568 INFO  [SpringApplicationShutdownHook] o.s.i.channel.PublishSubscribeChannel    : Channel 'order.errorChannel' has 0 subscriber(s).
+2026-03-18 22:08:27.570 INFO  [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean '_org.springframework.integration.errorLogger'
+2026-03-18 22:08:27.627 INFO  [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-18 22:08:27.674 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-18 22:08:27.678 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-03-18 22:08:27.692 INFO  [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2026-03-18 22:08:30.706 INFO  [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2026-03-18 22:08:30.839 INFO  [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881 - deregister  status: 200
+2026-03-18 22:08:30.842 INFO  [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2026-03-18 22:08:39.149 INFO  [restartedMain] com.ecommerce.order.OrderApplication     : Starting OrderApplication using Java 17.0.17 with PID 79393 (/Users/codey/Desktop/my-apps/Spring_Ecommerce_App/order/target/classes started by codey in /Users/codey/Desktop/my-apps/Spring_Ecommerce_App)
+2026-03-18 22:08:39.151 DEBUG [restartedMain] com.ecommerce.order.OrderApplication     : Running with Spring Boot v4.0.2, Spring v7.0.3
+2026-03-18 22:08:39.151 INFO  [restartedMain] com.ecommerce.order.OrderApplication     : The following 1 profile is active: "dev"
+2026-03-18 22:08:39.191 INFO  [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2026-03-18 22:08:39.191 INFO  [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=order, profiles=[default], label=null, version=null, state=null
+2026-03-18 22:08:39.192 INFO  [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2026-03-18 22:08:39.192 INFO  [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=order, profiles=[dev], label=null, version=null, state=null
+2026-03-18 22:08:39.193 INFO  [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-18 22:08:39.194 INFO  [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-18 22:08:40.188 INFO  [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-18 22:08:40.289 INFO  [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 95 ms. Found 2 JPA repository interfaces.
+2026-03-18 22:08:40.521 INFO  [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2026-03-18 22:08:40.525 INFO  [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2026-03-18 22:08:40.629 INFO  [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ef814018-fd4e-37c9-b868-3543b841768a
+2026-03-18 22:08:41.129 INFO  [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8881 (http)
+2026-03-18 22:08:41.138 INFO  [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-18 22:08:41.138 INFO  [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-18 22:08:41.169 INFO  [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1974 ms
+2026-03-18 22:08:41.385 INFO  [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-18 22:08:41.431 INFO  [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.1.Final
+2026-03-18 22:08:41.715 INFO  [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-18 22:08:41.736 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-18 22:08:41.952 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@d0fc89b
+2026-03-18 22:08:41.953 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-18 22:08:42.010 WARN  [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-18 22:08:42.050 INFO  [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/ecomm_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.11
+	Default catalog/schema: ecomm_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-18 22:08:42.781 INFO  [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-18 22:08:43.089 INFO  [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-18 22:08:43.201 INFO  [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-18 22:08:43.736 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-18 22:08:44.142 INFO  [restartedMain] o.s.c.s.m.DirectWithAttributesChannel    : Channel 'order.springCloudBusInput' has 1 subscriber(s).
+2026-03-18 22:08:44.505 INFO  [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestClient.
+2026-03-18 22:08:44.530 WARN  [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-03-18 22:08:44.535 INFO  [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 25 endpoints beneath base path '/actuator'
+2026-03-18 22:08:44.637 INFO  [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2026-03-18 22:08:44.637 INFO  [restartedMain] o.s.i.channel.PublishSubscribeChannel    : Channel 'order.errorChannel' has 1 subscriber(s).
+2026-03-18 22:08:44.637 INFO  [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : started bean '_org.springframework.integration.errorLogger'
+2026-03-18 22:08:44.653 INFO  [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-03-18 22:08:44.670 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-03-18 22:08:44.673 INFO  [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 22:08:44.682 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-03-18 22:08:44.682 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-03-18 22:08:44.682 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-03-18 22:08:44.683 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-03-18 22:08:44.683 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-03-18 22:08:44.683 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2026-03-18 22:08:44.683 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-03-18 22:08:44.894 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-03-18 22:08:44.895 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2026-03-18 22:08:44.896 INFO  [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-03-18 22:08:44.897 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1773851924896 with initial instances count: 3
+2026-03-18 22:08:44.900 INFO  [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ORDER with eureka with status UP
+2026-03-18 22:08:44.900 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1773851924900, current=UP, previous=STARTING]
+2026-03-18 22:08:44.901 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881: registering service...
+2026-03-18 22:08:44.902 INFO  [restartedMain] o.s.c.s.binder.DefaultBinderFactory      : Creating binder: rabbit
+2026-03-18 22:08:44.902 INFO  [restartedMain] o.s.c.s.binder.DefaultBinderFactory      : Constructing binder child context for rabbit
+2026-03-18 22:08:44.967 INFO  [restartedMain] o.s.c.s.binder.DefaultBinderFactory      : Caching the binder: rabbit
+2026-03-18 22:08:44.972 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881 - registration status: 204
+2026-03-18 22:08:44.974 INFO  [restartedMain] c.s.b.r.p.RabbitExchangeQueueProvisioner : declaring queue for inbound: springCloudBus.anonymous.qsyeujMHT5u9INcGXrU5Hw, bound to: springCloudBus
+2026-03-18 22:08:44.977 INFO  [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-03-18 22:08:45.088 INFO  [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#1665e181:0/SimpleConnection@45266dcf [delegate=amqp://guest@127.0.0.1:5672/, localPort=54263]
+2026-03-18 22:08:45.213 INFO  [restartedMain] o.s.c.stream.binder.BinderErrorChannel   : Channel 'rabbit-915570032.springCloudBusInput.errors' has 1 subscriber(s).
+2026-03-18 22:08:45.214 INFO  [restartedMain] o.s.c.stream.binder.BinderErrorChannel   : Channel 'rabbit-915570032.springCloudBusInput.errors' has 2 subscriber(s).
+2026-03-18 22:08:45.228 INFO  [restartedMain] o.s.i.a.i.AmqpInboundChannelAdapter      : started bean 'inbound.springCloudBus.anonymous.qsyeujMHT5u9INcGXrU5Hw'
+2026-03-18 22:08:45.244 INFO  [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8881 (http) with context path '/'
+2026-03-18 22:08:45.245 INFO  [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8881
+2026-03-18 22:08:45.285 INFO  [restartedMain] com.ecommerce.order.OrderApplication     : Started OrderApplication in 7.7 seconds (process running for 9.365)
+2026-03-18 22:13:44.699 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 22:18:44.776 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 22:23:44.823 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 22:28:44.885 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 22:33:44.945 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 22:38:44.994 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 22:43:45.033 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-18 22:48:45.072 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
