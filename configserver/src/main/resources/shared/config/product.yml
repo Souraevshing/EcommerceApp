@@ -24,6 +24,15 @@ management:
       exposure:
         include: "*"
 
+  tracing:
+    sampling:
+      probability: 1.0
+
+  metrics:
+    export:
+      prometheus:
+        enabled: true
+
   endpoint:
     health:
       show-details: always
