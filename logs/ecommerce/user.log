@@ -232,3 +232,134 @@ Caused by: java.io.EOFException: EOF reached while reading
 2026-03-20 01:55:09.831 TRACE [http-nio-8882-exec-7] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
 2026-03-20 01:55:09.993 INFO  [http-nio-8882-exec-7] c.e.user.controllers.UserController      : Successfully fetched 1 users
 2026-03-20 01:55:27.806 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-20 02:00:01.993 INFO  [http-nio-8882-exec-8] c.e.user.controllers.UserController      : Request received to fetch all users
+2026-03-20 02:00:02.650 DEBUG [http-nio-8882-exec-8] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.address_id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.phone,
+        u1_0.role,
+        u1_0.updated_at 
+    from
+        users_tab u1_0
+2026-03-20 02:00:02.837 DEBUG [http-nio-8882-exec-8] org.hibernate.SQL                        : 
+    select
+        a1_0.id,
+        a1_0.city,
+        a1_0.country,
+        a1_0.state,
+        a1_0.street,
+        a1_0.zipcode 
+    from
+        address_tab a1_0 
+    where
+        a1_0.id=?
+2026-03-20 02:00:02.945 TRACE [http-nio-8882-exec-8] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-03-20 02:00:03.029 INFO  [http-nio-8882-exec-8] c.e.user.controllers.UserController      : Successfully fetched 1 users
+2026-03-20 02:00:17.248 INFO  [http-nio-8882-exec-4] c.e.user.controllers.UserController      : Request received to fetch all users
+2026-03-20 02:00:17.296 DEBUG [http-nio-8882-exec-4] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.address_id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.phone,
+        u1_0.role,
+        u1_0.updated_at 
+    from
+        users_tab u1_0
+2026-03-20 02:00:17.317 DEBUG [http-nio-8882-exec-4] org.hibernate.SQL                        : 
+    select
+        a1_0.id,
+        a1_0.city,
+        a1_0.country,
+        a1_0.state,
+        a1_0.street,
+        a1_0.zipcode 
+    from
+        address_tab a1_0 
+    where
+        a1_0.id=?
+2026-03-20 02:00:17.319 TRACE [http-nio-8882-exec-4] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-03-20 02:00:17.334 INFO  [http-nio-8882-exec-4] c.e.user.controllers.UserController      : Successfully fetched 1 users
+2026-03-20 02:00:27.816 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-20 02:03:19.492 INFO  [http-nio-8882-exec-6] c.e.user.controllers.UserController      : Request received to fetch all users
+2026-03-20 02:03:19.904 DEBUG [http-nio-8882-exec-6] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.address_id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.phone,
+        u1_0.role,
+        u1_0.updated_at 
+    from
+        users_tab u1_0
+2026-03-20 02:03:19.979 DEBUG [http-nio-8882-exec-6] org.hibernate.SQL                        : 
+    select
+        a1_0.id,
+        a1_0.city,
+        a1_0.country,
+        a1_0.state,
+        a1_0.street,
+        a1_0.zipcode 
+    from
+        address_tab a1_0 
+    where
+        a1_0.id=?
+2026-03-20 02:03:19.985 TRACE [http-nio-8882-exec-6] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-03-20 02:03:20.034 INFO  [http-nio-8882-exec-6] c.e.user.controllers.UserController      : Successfully fetched 1 users
+2026-03-20 02:05:27.830 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-20 02:06:53.787 INFO  [http-nio-8882-exec-9] c.e.user.controllers.UserController      : Request received to fetch all users
+2026-03-20 02:06:54.010 DEBUG [http-nio-8882-exec-9] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.address_id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.phone,
+        u1_0.role,
+        u1_0.updated_at 
+    from
+        users_tab u1_0
+2026-03-20 02:06:54.280 DEBUG [http-nio-8882-exec-9] org.hibernate.SQL                        : 
+    select
+        a1_0.id,
+        a1_0.city,
+        a1_0.country,
+        a1_0.state,
+        a1_0.street,
+        a1_0.zipcode 
+    from
+        address_tab a1_0 
+    where
+        a1_0.id=?
+2026-03-20 02:06:54.284 TRACE [http-nio-8882-exec-9] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-03-20 02:06:54.383 INFO  [http-nio-8882-exec-9] c.e.user.controllers.UserController      : Successfully fetched 1 users
+2026-03-20 02:10:27.861 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-20 02:15:27.901 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-20 02:20:27.931 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-20 02:25:27.955 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-20 02:45:42.075 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m15s954ms).
+2026-03-20 05:29:48.916 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h44m6s847ms).
+2026-03-20 07:16:21.575 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h46m32s662ms).
+2026-03-20 07:55:35.809 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=39m14s234ms).
+2026-03-20 08:44:18.796 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=48m42s989ms).
+2026-03-20 08:49:56.941 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m38s127ms).
+2026-03-20 08:49:58.680 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-20 08:54:58.714 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-20 08:59:58.754 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-20 09:04:58.825 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-20 09:09:58.939 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-20 09:14:58.968 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-20 09:19:58.994 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
