@@ -3,6 +3,7 @@
     <words>
       <w>aarch</w>
       <w>addr</w>
+      <w>circuitbreakers</w>
       <w>configserver</w>
       <w>datasources</w>
       <w>postgre</w>

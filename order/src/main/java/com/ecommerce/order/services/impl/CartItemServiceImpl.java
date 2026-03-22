@@ -7,6 +7,8 @@ import com.ecommerce.order.entities.CartItem;
 import com.ecommerce.order.mappers.CartItemMapper;
 import com.ecommerce.order.repositories.CartItemRepository;
 import com.ecommerce.order.services.CartItemService;
+import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
+import io.github.resilience4j.retry.annotation.Retry;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -23,6 +25,8 @@ public class CartItemServiceImpl implements CartItemService {
     private final UserServiceClient userServiceClient;
 
     @Override
+    @CircuitBreaker(name = "product", fallbackMethod = "addToCartFallback")
+    @Retry(name = "product", fallbackMethod = "addToCartFallback")
     public ResponseDto<CartItemResponseDto> addToCart(CartItemRequestDto cartItemRequestDto, Long userId) {
         ProductResponseDto productDetails =  productServiceClient
                 .getProductDetails(cartItemRequestDto.getProductId())
@@ -31,9 +35,6 @@ public class CartItemServiceImpl implements CartItemService {
         UserResponseDto userDetails = userServiceClient
                 .getUserDetails(userId)
                 .getData();
-
-        System.out.println("product details: "+productDetails);
-        System.out.println("user details: "+userDetails);
 
         if(userDetails == null) {
             return ResponseDto.error("User not found");
@@ -64,7 +65,14 @@ public class CartItemServiceImpl implements CartItemService {
         }
     }
 
+    public ResponseDto<CartItemResponseDto> addToCartFallback(CartItemRequestDto cartItemRequestDto, Long userId, Throwable throwable) {
+        throwable.printStackTrace();
+        return ResponseDto.error("Failed to add product to cart for user " + userId);
+    }
+
     @Override
+    @CircuitBreaker(name = "product", fallbackMethod = "removeFromCartFallback")
+    @Retry(name = "product")
     public ResponseDto<Void> removeFromCart(Long productId, Long userId) {
         CartItem cartItem = cartItemRepository.findByUserIdAndProductId(userId, productId);
 
@@ -74,6 +82,11 @@ public class CartItemServiceImpl implements CartItemService {
 
         cartItemRepository.delete(cartItem);
         return ResponseDto.success("Cart item removed successfully");
+    }
+
+    public ResponseDto<Void> removeFromCartFallback(Long productId, Long userId, Throwable throwable) {
+        throwable.printStackTrace();
+        return ResponseDto.error("Failed to remove product from cart for user " + userId);
     }
 
     @Override

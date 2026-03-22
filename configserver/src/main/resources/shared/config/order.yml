@@ -24,6 +24,14 @@ management:
       exposure:
         include: "*"
 
+  endpoint:
+    health:
+      show-details: always
+
+  health:
+    circuitbreakers:
+      enabled: true
+
   tracing:
     sampling:
       probability: 1.0
@@ -33,10 +41,43 @@ management:
       prometheus:
         enabled: true
 
-  endpoint:
-    health:
-      show-details: always
-
   info:
     env:
       enabled: true
+
+resilience4j:
+  circuitbreaker:
+    instances:
+      product:
+        registerHealthIndicator: true
+        slidingWindowSize: 10
+        minimumNumberOfCalls: 5
+        permittedNumberOfCallsInHalfOpenState: 3
+        waitDurationInOpenState: 10s
+        failureRateThreshold: 50
+        automaticTransitionFromOpenToHalfOpenEnabled: true
+        slidingWindowType: COUNT_BASED
+      user:
+        registerHealthIndicator: true
+        slidingWindowSize: 10
+        minimumNumberOfCalls: 5
+        permittedNumberOfCallsInHalfOpenState: 3
+        waitDurationInOpenState: 10s
+        failureRateThreshold: 50
+        automaticTransitionFromOpenToHalfOpenEnabled: true
+        slidingWindowType: COUNT_BASED
+
+  retry:
+    instances:
+      product:
+        maxAttempts: 3
+        waitDuration: 2s
+        retryExceptions:
+          - java.io.IOException
+          - java.util.concurrent.TimeoutException
+      user:
+        maxAttempts: 3
+        waitDuration: 2s
+        retryExceptions:
+          - java.io.IOException
+          - java.util.concurrent.TimeoutException
