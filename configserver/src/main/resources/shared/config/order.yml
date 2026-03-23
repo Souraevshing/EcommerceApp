@@ -41,6 +41,10 @@ management:
       prometheus:
         enabled: true
 
+    distribution:
+      enabled:
+        resilience4j: true
+
   info:
     env:
       enabled: true
@@ -81,3 +85,14 @@ resilience4j:
         retryExceptions:
           - java.io.IOException
           - java.util.concurrent.TimeoutException
+
+  ratelimiter:
+    instances:
+      product:
+        timeout-duration: 0
+        limit-for-period: 2
+        limit-refresh-period: 4s
+      user:
+        timeout-duration: 0
+        limit-for-period: 2
+        limit-refresh-period: 4

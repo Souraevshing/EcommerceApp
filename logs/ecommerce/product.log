@@ -1,137 +1,29 @@
-2026-03-22 00:10:22.038 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h45s288ms).
-2026-03-22 00:10:29.905 INFO  [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT/192.168.1.9:product:8883 - Re-registering apps/PRODUCT
-2026-03-22 00:10:29.907 INFO  [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT/192.168.1.9:product:8883: registering service...
-2026-03-22 00:10:29.983 INFO  [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT/192.168.1.9:product:8883 - registration status: 204
-2026-03-22 01:11:07.343 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h45s295ms).
-2026-03-22 02:39:44.153 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h28m6s743ms).
-2026-03-22 04:08:19.262 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h28m5s87ms).
-2026-03-22 05:01:46.142 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53m26s882ms).
-2026-03-22 05:30:27.417 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=28m11s240ms).
-2026-03-22 05:38:16.713 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m49s287ms).
-2026-03-22 05:38:20.332 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 07:02:58.999 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h24m12s263ms).
-2026-03-22 07:18:40.147 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m41s147ms).
-2026-03-22 07:18:48.613 INFO  [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT/192.168.1.9:product:8883 - Re-registering apps/PRODUCT
-2026-03-22 07:18:48.618 INFO  [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT/192.168.1.9:product:8883: registering service...
-2026-03-22 07:18:48.668 INFO  [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT/192.168.1.9:product:8883 - registration status: 204
-2026-03-22 08:03:57.436 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=44m47s259ms).
-2026-03-22 09:04:41.410 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h43s987ms).
-2026-03-22 09:06:35.650 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m24s171ms).
-2026-03-22 09:07:39.081 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 09:12:39.126 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 09:31:56.969 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m51s139ms).
-2026-03-22 09:33:00.330 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 09:38:00.513 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 09:43:00.582 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 09:48:00.624 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 09:53:00.716 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 09:58:00.817 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 10:03:00.914 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 10:08:00.986 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 10:13:01.084 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 10:18:01.138 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 10:23:01.197 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 10:23:30.722 INFO  [http-nio-8883-exec-1] c.e.p.controllers.ProductController      : Request received to fetch product with id 1
-2026-03-22 10:23:30.890 DEBUG [http-nio-8883-exec-1] org.hibernate.SQL                        : 
-    select
-        p1_0.id,
-        p1_0.active,
-        p1_0.category,
-        p1_0.created_at,
-        p1_0.description,
-        p1_0.image_url,
-        p1_0.name,
-        p1_0.price,
-        p1_0.stock_quantity,
-        p1_0.updated_at 
-    from
-        products_tab p1_0 
-    where
-        p1_0.id=? 
-        and p1_0.active=true
-2026-03-22 10:23:30.959 TRACE [http-nio-8883-exec-1] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
-2026-03-22 10:23:31.162 INFO  [http-nio-8883-exec-1] c.e.p.controllers.ProductController      : Successfully fetched product with id: 1
-2026-03-22 10:28:01.295 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 10:33:01.406 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 10:38:01.455 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 10:43:01.526 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 10:44:09.191 INFO  [http-nio-8883-exec-6] c.e.p.controllers.ProductController      : Request received to fetch product with id 1
-2026-03-22 10:44:09.449 DEBUG [http-nio-8883-exec-6] org.hibernate.SQL                        : 
-    select
-        p1_0.id,
-        p1_0.active,
-        p1_0.category,
-        p1_0.created_at,
-        p1_0.description,
-        p1_0.image_url,
-        p1_0.name,
-        p1_0.price,
-        p1_0.stock_quantity,
-        p1_0.updated_at 
-    from
-        products_tab p1_0 
-    where
-        p1_0.id=? 
-        and p1_0.active=true
-2026-03-22 10:44:09.495 TRACE [http-nio-8883-exec-6] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
-2026-03-22 10:44:09.761 INFO  [http-nio-8883-exec-6] c.e.p.controllers.ProductController      : Successfully fetched product with id: 1
-2026-03-22 10:48:01.682 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 10:50:16.857 INFO  [http-nio-8883-exec-10] c.e.p.controllers.ProductController      : Request received to fetch product with id 1
-2026-03-22 10:50:18.065 DEBUG [http-nio-8883-exec-10] org.hibernate.SQL                        : 
-    select
-        p1_0.id,
-        p1_0.active,
-        p1_0.category,
-        p1_0.created_at,
-        p1_0.description,
-        p1_0.image_url,
-        p1_0.name,
-        p1_0.price,
-        p1_0.stock_quantity,
-        p1_0.updated_at 
-    from
-        products_tab p1_0 
-    where
-        p1_0.id=? 
-        and p1_0.active=true
-2026-03-22 10:50:18.350 TRACE [http-nio-8883-exec-10] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
-2026-03-22 10:50:18.829 INFO  [http-nio-8883-exec-10] c.e.p.controllers.ProductController      : Successfully fetched product with id: 1
-2026-03-22 10:53:01.873 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 10:58:01.937 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 11:03:02.015 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 11:08:02.069 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 11:13:02.093 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 11:18:02.222 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 11:23:02.417 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 11:28:02.709 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 11:33:02.916 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 11:38:03.196 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 11:43:03.236 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 11:48:03.279 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 11:53:03.325 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 11:58:03.397 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 12:03:03.635 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 12:08:04.070 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 12:13:04.153 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 12:18:04.247 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 12:23:04.549 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 12:28:04.818 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 12:33:04.880 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 12:38:04.945 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 13:00:16.977 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 13:13:38.488 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=30m38s453ms).
-2026-03-22 13:18:13.536 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 13:23:13.644 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 13:28:13.698 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 13:33:13.758 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 13:38:13.805 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 13:43:13.850 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 13:48:13.929 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 13:53:13.970 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 13:58:14.016 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 14:03:14.063 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 14:06:03.036 INFO  [http-nio-8883-exec-3] c.e.p.controllers.ProductController      : Request received to fetch all products
-2026-03-22 14:06:03.247 DEBUG [http-nio-8883-exec-3] org.hibernate.SQL                        : 
+2026-03-23 01:26:57.105 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h29m36s599ms).
+2026-03-23 02:05:11.139 INFO  [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT/192.168.1.9:product:8883 - Re-registering apps/PRODUCT
+2026-03-23 02:05:11.141 INFO  [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT/192.168.1.9:product:8883: registering service...
+2026-03-23 02:05:11.174 INFO  [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT/192.168.1.9:product:8883 - registration status: 204
+2026-03-23 02:05:23.796 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=37m56s570ms).
+2026-03-23 03:06:08.148 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h44s351ms).
+2026-03-23 03:06:39.720 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-23 04:07:22.431 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h44s270ms).
+2026-03-23 05:08:06.820 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h44s382ms).
+2026-03-23 05:18:05.773 INFO  [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT/192.168.1.9:product:8883 - Re-registering apps/PRODUCT
+2026-03-23 05:18:05.776 INFO  [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT/192.168.1.9:product:8883: registering service...
+2026-03-23 05:18:05.806 INFO  [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT/192.168.1.9:product:8883 - registration status: 204
+2026-03-23 05:18:18.257 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m41s431ms).
+2026-03-23 05:20:29.722 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m11s466ms).
+2026-03-23 06:09:14.810 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=48m15s78ms).
+2026-03-23 07:10:29.241 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h44s417ms).
+2026-03-23 08:04:04.217 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53m34s978ms).
+2026-03-23 08:04:05.688 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-23 08:11:27.996 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m53s774ms).
+2026-03-23 08:22:10.011 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m42s13ms).
+2026-03-23 08:25:41.481 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-23 08:30:41.523 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-23 08:35:41.532 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-23 08:40:41.561 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-23 08:40:57.837 INFO  [http-nio-8883-exec-10] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 08:40:57.928 DEBUG [http-nio-8883-exec-10] org.hibernate.SQL                        : 
     select
         p1_0.id,
         p1_0.active,
@@ -147,250 +39,1545 @@
         products_tab p1_0 
     where
         p1_0.active=true
-2026-03-22 14:06:03.463 INFO  [http-nio-8883-exec-3] c.e.p.controllers.ProductController      : Successfully fetched 2 products
-2026-03-22 14:08:14.101 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 14:13:14.152 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 14:18:14.231 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 14:23:14.277 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 14:40:39.398 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m29s497ms).
-2026-03-22 14:43:13.896 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 14:48:14.058 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 15:04:38.618 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m29s67ms).
-2026-03-22 15:07:57.851 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m19s189ms).
-2026-03-22 16:26:04.754 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h17m36s885ms).
-2026-03-22 16:48:47.690 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=22m42s922ms).
-2026-03-22 16:49:22.204 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 16:54:22.700 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 16:59:22.816 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 17:04:22.848 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 17:09:22.901 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 17:14:22.959 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 17:19:23.012 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 17:24:23.085 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 17:29:23.158 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 17:34:23.188 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 17:39:23.217 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 17:44:23.262 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 17:49:23.292 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 17:54:23.352 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-22 17:55:11.754 INFO  [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application PRODUCT with eureka with status DOWN
-2026-03-22 17:55:11.781 INFO  [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1774182311776, current=DOWN, previous=UP]
-2026-03-22 17:55:11.792 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT/192.168.1.9:product:8883: registering service...
-2026-03-22 17:55:12.152 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT/192.168.1.9:product:8883 - registration status: 204
-2026-03-22 17:55:12.992 INFO  [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-03-22 17:55:13.113 INFO  [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-03-22 17:55:13.787 INFO  [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
-2026-03-22 17:55:13.881 INFO  [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
-2026-03-22 17:55:13.907 INFO  [SpringApplicationShutdownHook] o.s.i.a.i.AmqpInboundChannelAdapter      : stopped bean 'inbound.springCloudBus.anonymous.ks0OIWkSQPOWJc5Bw46P2A'
-2026-03-22 17:55:14.047 INFO  [SpringApplicationShutdownHook] o.s.c.stream.binder.BinderErrorChannel   : Channel 'product.rabbit-251455897.springCloudBusInput.errors' has 1 subscriber(s).
-2026-03-22 17:55:14.066 INFO  [SpringApplicationShutdownHook] o.s.c.stream.binder.BinderErrorChannel   : Channel 'product.rabbit-251455897.springCloudBusInput.errors' has 0 subscriber(s).
-2026-03-22 17:55:14.981 INFO  [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
-2026-03-22 17:55:14.984 INFO  [SpringApplicationShutdownHook] o.s.i.channel.PublishSubscribeChannel    : Channel 'product.errorChannel' has 0 subscriber(s).
-2026-03-22 17:55:14.992 INFO  [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean '_org.springframework.integration.errorLogger'
-2026-03-22 17:55:15.168 INFO  [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-03-22 17:55:15.415 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-03-22 17:55:15.471 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-03-22 17:55:16.445 INFO  [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
-2026-03-22 17:55:19.457 INFO  [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
-2026-03-22 17:55:19.576 INFO  [SpringApplicationShutdownHook] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on DELETE request for "http://localhost:8761/eureka/apps/PRODUCT/192.168.1.9:product:8883": Connect to http://localhost:8761 failed: Connection refused stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8761/eureka/apps/PRODUCT/192.168.1.9:product:8883": Connect to http://localhost:8761 failed: Connection refused
-	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.createResourceAccessException(DefaultRestClient.java:763)
-	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchangeInternal(DefaultRestClient.java:615)
-	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchange(DefaultRestClient.java:567)
-	at org.springframework.web.client.RestClient$RequestHeadersSpec.exchange(RestClient.java:750)
-	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.executeAndExtract(DefaultRestClient.java:896)
-	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.toBodilessEntity(DefaultRestClient.java:860)
-	at org.springframework.cloud.netflix.eureka.http.RestClientEurekaHttpClient.cancel(RestClientEurekaHttpClient.java:73)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
-	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
-	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
-	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
-	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:919)
-	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:900)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:453)
-	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:411)
-	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:237)
-	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200)
-	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:193)
-	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:387)
-	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:134)
-	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:209)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:795)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:745)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1500)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:704)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1493)
-	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1225)
-	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1186)
-	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:176)
-	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1132)
-	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:147)
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
-	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:116)
-	at java.base/java.lang.Thread.run(Thread.java:840)
-Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 failed: Connection refused
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:554)
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602)
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
-	at java.base/java.net.Socket.connect(Socket.java:633)
-	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:226)
-	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:497)
-	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164)
-	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174)
-	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:144)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:195)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:168)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:112)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:185)
-	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
-	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
-	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
-	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99)
-	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:87)
-	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:80)
-	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeWithRequest(AbstractBufferingClientHttpRequest.java:89)
-	at org.springframework.http.client.InterceptingClientHttpRequest$EndOfChainRequestExecution.execute(InterceptingClientHttpRequest.java:102)
-	at org.springframework.cloud.netflix.eureka.http.RestClientTransportClientFactory.lambda$newClient$2(RestClientTransportClientFactory.java:98)
-	at org.springframework.http.client.ClientHttpRequestInterceptor.lambda$apply$0(ClientHttpRequestInterceptor.java:89)
-	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:73)
-	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:50)
-	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:80)
-	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchangeInternal(DefaultRestClient.java:609)
-	... 41 more
-
-2026-03-22 17:55:19.580 WARN  [SpringApplicationShutdownHook] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on DELETE request for "http://localhost:8761/eureka/apps/PRODUCT/192.168.1.9:product:8883": Connect to http://localhost:8761 failed: Connection refused
-2026-03-22 17:55:19.637 INFO  [SpringApplicationShutdownHook] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on DELETE request for "http://localhost:8761/eureka/apps/PRODUCT/192.168.1.9:product:8883": Connect to http://localhost:8761 failed: Connection refused stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8761/eureka/apps/PRODUCT/192.168.1.9:product:8883": Connect to http://localhost:8761 failed: Connection refused
-	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.createResourceAccessException(DefaultRestClient.java:763)
-	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchangeInternal(DefaultRestClient.java:615)
-	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchange(DefaultRestClient.java:567)
-	at org.springframework.web.client.RestClient$RequestHeadersSpec.exchange(RestClient.java:750)
-	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.executeAndExtract(DefaultRestClient.java:896)
-	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.toBodilessEntity(DefaultRestClient.java:860)
-	at org.springframework.cloud.netflix.eureka.http.RestClientEurekaHttpClient.cancel(RestClientEurekaHttpClient.java:73)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
-	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
-	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
-	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
-	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
-	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:919)
-	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:900)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:453)
-	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:411)
-	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:237)
-	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200)
-	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:193)
-	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:387)
-	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:134)
-	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:209)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:795)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:745)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1500)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:704)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1493)
-	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1225)
-	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1186)
-	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:176)
-	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1132)
-	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:147)
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
-	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:116)
-	at java.base/java.lang.Thread.run(Thread.java:840)
-Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 failed: Connection refused
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:554)
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602)
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
-	at java.base/java.net.Socket.connect(Socket.java:633)
-	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:226)
-	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:497)
-	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164)
-	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174)
-	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:144)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:195)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:168)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:112)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:185)
-	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
-	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
-	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
-	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99)
-	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:87)
-	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:80)
-	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeWithRequest(AbstractBufferingClientHttpRequest.java:89)
-	at org.springframework.http.client.InterceptingClientHttpRequest$EndOfChainRequestExecution.execute(InterceptingClientHttpRequest.java:102)
-	at org.springframework.cloud.netflix.eureka.http.RestClientTransportClientFactory.lambda$newClient$2(RestClientTransportClientFactory.java:98)
-	at org.springframework.http.client.ClientHttpRequestInterceptor.lambda$apply$0(ClientHttpRequestInterceptor.java:89)
-	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:73)
-	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:50)
-	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:80)
-	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchangeInternal(DefaultRestClient.java:609)
-	... 42 more
-
-2026-03-22 17:55:19.639 WARN  [SpringApplicationShutdownHook] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on DELETE request for "http://localhost:8761/eureka/apps/PRODUCT/192.168.1.9:product:8883": Connect to http://localhost:8761 failed: Connection refused
-2026-03-22 17:55:19.641 ERROR [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT/192.168.1.9:product:8883 - de-registration failedCannot execute request on any known server
-com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
-	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
-	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
-	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:919)
-	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:900)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:453)
-	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:411)
-	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:237)
-	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200)
-	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:193)
-	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:387)
-	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:134)
-	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:209)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:795)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:745)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1500)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:704)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1493)
-	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1225)
-	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1186)
-	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:176)
-	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1132)
-	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:147)
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
-	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:116)
-	at java.base/java.lang.Thread.run(Thread.java:840)
-2026-03-22 17:55:19.650 INFO  [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2026-03-23 08:40:58.093 INFO  [http-nio-8883-exec-10] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 08:41:00.221 INFO  [http-nio-8883-exec-2] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 08:41:00.230 DEBUG [http-nio-8883-exec-2] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 08:41:00.242 INFO  [http-nio-8883-exec-2] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 08:41:01.253 INFO  [http-nio-8883-exec-3] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 08:41:01.254 DEBUG [http-nio-8883-exec-3] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 08:41:01.257 INFO  [http-nio-8883-exec-3] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 08:41:01.988 INFO  [http-nio-8883-exec-5] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 08:41:01.990 DEBUG [http-nio-8883-exec-5] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 08:41:02.000 INFO  [http-nio-8883-exec-5] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 08:41:02.668 INFO  [http-nio-8883-exec-4] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 08:41:02.670 DEBUG [http-nio-8883-exec-4] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 08:41:02.679 INFO  [http-nio-8883-exec-4] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 08:41:03.304 INFO  [http-nio-8883-exec-7] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 08:41:03.304 DEBUG [http-nio-8883-exec-7] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 08:41:03.310 INFO  [http-nio-8883-exec-7] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 08:41:06.620 INFO  [http-nio-8883-exec-9] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 08:41:06.627 DEBUG [http-nio-8883-exec-9] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 08:41:06.638 INFO  [http-nio-8883-exec-9] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 08:41:07.636 INFO  [http-nio-8883-exec-10] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 08:41:07.637 DEBUG [http-nio-8883-exec-10] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 08:41:07.642 INFO  [http-nio-8883-exec-10] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 08:41:08.679 INFO  [http-nio-8883-exec-1] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 08:41:08.681 DEBUG [http-nio-8883-exec-1] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 08:41:08.687 INFO  [http-nio-8883-exec-1] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 08:41:11.002 INFO  [http-nio-8883-exec-3] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 08:41:11.012 DEBUG [http-nio-8883-exec-3] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 08:41:11.036 INFO  [http-nio-8883-exec-3] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 08:41:11.622 INFO  [http-nio-8883-exec-5] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 08:41:11.623 DEBUG [http-nio-8883-exec-5] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 08:41:11.626 INFO  [http-nio-8883-exec-5] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 08:41:12.389 INFO  [http-nio-8883-exec-6] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 08:41:12.390 DEBUG [http-nio-8883-exec-6] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 08:41:12.394 INFO  [http-nio-8883-exec-6] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 08:41:13.164 INFO  [http-nio-8883-exec-7] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 08:41:13.165 DEBUG [http-nio-8883-exec-7] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 08:41:13.168 INFO  [http-nio-8883-exec-7] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 08:41:13.572 INFO  [http-nio-8883-exec-8] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 08:41:13.587 DEBUG [http-nio-8883-exec-8] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 08:41:13.605 INFO  [http-nio-8883-exec-8] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 08:41:15.234 INFO  [http-nio-8883-exec-10] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 08:41:15.235 DEBUG [http-nio-8883-exec-10] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 08:41:15.242 INFO  [http-nio-8883-exec-10] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 08:41:19.369 INFO  [http-nio-8883-exec-2] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 08:41:19.370 DEBUG [http-nio-8883-exec-2] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 08:41:19.380 INFO  [http-nio-8883-exec-2] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 08:41:21.115 INFO  [http-nio-8883-exec-5] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 08:41:21.116 DEBUG [http-nio-8883-exec-5] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 08:41:21.119 INFO  [http-nio-8883-exec-5] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 08:41:21.809 INFO  [http-nio-8883-exec-4] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 08:41:21.810 DEBUG [http-nio-8883-exec-4] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 08:41:21.817 INFO  [http-nio-8883-exec-4] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 08:41:22.250 INFO  [http-nio-8883-exec-6] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 08:41:22.250 DEBUG [http-nio-8883-exec-6] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 08:41:22.253 INFO  [http-nio-8883-exec-6] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 08:41:24.063 INFO  [http-nio-8883-exec-8] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 08:41:24.064 DEBUG [http-nio-8883-exec-8] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 08:41:24.068 INFO  [http-nio-8883-exec-8] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 08:41:25.001 INFO  [http-nio-8883-exec-9] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 08:41:25.006 DEBUG [http-nio-8883-exec-9] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 08:41:25.026 INFO  [http-nio-8883-exec-9] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 08:41:25.529 INFO  [http-nio-8883-exec-10] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 08:41:25.531 DEBUG [http-nio-8883-exec-10] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 08:41:25.535 INFO  [http-nio-8883-exec-10] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 08:41:26.342 INFO  [http-nio-8883-exec-1] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 08:41:26.346 DEBUG [http-nio-8883-exec-1] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 08:41:26.352 INFO  [http-nio-8883-exec-1] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 08:41:27.721 INFO  [http-nio-8883-exec-3] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 08:41:27.725 DEBUG [http-nio-8883-exec-3] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 08:41:27.734 INFO  [http-nio-8883-exec-3] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 08:41:28.517 INFO  [http-nio-8883-exec-5] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 08:41:28.519 DEBUG [http-nio-8883-exec-5] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 08:41:28.523 INFO  [http-nio-8883-exec-5] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 08:41:29.090 INFO  [http-nio-8883-exec-4] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 08:41:29.091 DEBUG [http-nio-8883-exec-4] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 08:41:29.096 INFO  [http-nio-8883-exec-4] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 08:41:31.650 INFO  [http-nio-8883-exec-7] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 08:41:31.658 DEBUG [http-nio-8883-exec-7] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 08:41:31.668 INFO  [http-nio-8883-exec-7] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 08:41:32.233 INFO  [http-nio-8883-exec-8] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 08:41:32.234 DEBUG [http-nio-8883-exec-8] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 08:41:32.241 INFO  [http-nio-8883-exec-8] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 08:41:32.544 INFO  [http-nio-8883-exec-9] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 08:41:32.545 DEBUG [http-nio-8883-exec-9] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 08:41:32.558 INFO  [http-nio-8883-exec-9] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 08:41:33.217 INFO  [http-nio-8883-exec-1] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 08:41:33.218 DEBUG [http-nio-8883-exec-1] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 08:41:33.221 INFO  [http-nio-8883-exec-1] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 08:41:36.788 INFO  [http-nio-8883-exec-3] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 08:41:36.798 DEBUG [http-nio-8883-exec-3] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 08:41:36.818 INFO  [http-nio-8883-exec-3] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 08:41:37.733 INFO  [http-nio-8883-exec-5] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 08:41:37.734 DEBUG [http-nio-8883-exec-5] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 08:41:37.738 INFO  [http-nio-8883-exec-5] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 08:41:38.117 INFO  [http-nio-8883-exec-4] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 08:41:38.118 DEBUG [http-nio-8883-exec-4] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 08:41:38.121 INFO  [http-nio-8883-exec-4] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 08:41:39.801 INFO  [http-nio-8883-exec-7] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 08:41:39.817 DEBUG [http-nio-8883-exec-7] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 08:41:39.846 INFO  [http-nio-8883-exec-7] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 08:41:41.070 INFO  [http-nio-8883-exec-8] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 08:41:41.121 DEBUG [http-nio-8883-exec-8] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 08:41:41.268 INFO  [http-nio-8883-exec-8] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 08:43:06.098 INFO  [http-nio-8883-exec-9] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 08:43:06.104 DEBUG [http-nio-8883-exec-9] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 08:43:06.128 INFO  [http-nio-8883-exec-9] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 08:43:07.014 INFO  [http-nio-8883-exec-10] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 08:43:07.017 DEBUG [http-nio-8883-exec-10] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 08:43:07.029 INFO  [http-nio-8883-exec-10] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 08:43:18.338 INFO  [http-nio-8883-exec-4] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 08:43:18.352 DEBUG [http-nio-8883-exec-4] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 08:43:18.364 INFO  [http-nio-8883-exec-4] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 08:43:18.730 INFO  [http-nio-8883-exec-6] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 08:43:18.731 DEBUG [http-nio-8883-exec-6] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 08:43:18.739 INFO  [http-nio-8883-exec-6] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 08:45:41.591 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-23 08:50:41.605 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-23 08:55:41.624 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-23 09:00:41.636 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-23 09:05:41.654 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-23 09:10:41.673 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-23 09:15:41.702 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-23 09:20:41.711 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-23 09:25:48.798 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m8s258ms).
+2026-03-23 09:29:03.736 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m14s913ms).
+2026-03-23 09:29:04.879 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-23 09:34:09.929 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m6s158ms).
+2026-03-23 09:35:41.041 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-23 09:43:00.879 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m50s922ms).
+2026-03-23 09:47:01.982 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-23 09:52:02.017 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-23 10:09:54.598 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m23s651ms).
+2026-03-23 10:09:55.678 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-23 10:11:35.613 INFO  [http-nio-8883-exec-4] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 10:11:35.670 DEBUG [http-nio-8883-exec-4] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 10:11:35.770 INFO  [http-nio-8883-exec-4] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 10:11:48.887 INFO  [http-nio-8883-exec-10] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 10:11:48.893 DEBUG [http-nio-8883-exec-10] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 10:11:48.917 INFO  [http-nio-8883-exec-10] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 10:12:30.184 INFO  [http-nio-8883-exec-7] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 10:12:30.192 DEBUG [http-nio-8883-exec-7] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 10:12:30.204 INFO  [http-nio-8883-exec-7] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 10:12:31.121 INFO  [http-nio-8883-exec-8] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 10:12:31.122 DEBUG [http-nio-8883-exec-8] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 10:12:31.128 INFO  [http-nio-8883-exec-8] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 10:12:31.892 INFO  [http-nio-8883-exec-10] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 10:12:31.893 DEBUG [http-nio-8883-exec-10] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 10:12:31.899 INFO  [http-nio-8883-exec-10] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 10:12:32.629 INFO  [http-nio-8883-exec-1] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 10:12:32.630 DEBUG [http-nio-8883-exec-1] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 10:12:32.633 INFO  [http-nio-8883-exec-1] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 10:12:33.326 INFO  [http-nio-8883-exec-2] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 10:12:33.327 DEBUG [http-nio-8883-exec-2] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 10:12:33.333 INFO  [http-nio-8883-exec-2] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 10:12:34.028 INFO  [http-nio-8883-exec-3] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 10:12:34.029 DEBUG [http-nio-8883-exec-3] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 10:12:34.035 INFO  [http-nio-8883-exec-3] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 10:14:55.687 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-23 10:19:55.697 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-23 10:24:55.707 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-23 10:35:19.762 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m55s32ms).
+2026-03-23 10:53:49.331 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m29s563ms).
+2026-03-23 11:01:30.492 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m41s166ms).
+2026-03-23 11:03:46.722 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m16s231ms).
+2026-03-23 11:15:57.164 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m10s441ms).
+2026-03-23 11:31:16.108 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-23 11:34:59.273 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m2s108ms).
+2026-03-23 12:17:09.696 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=41m10s410ms).
+2026-03-23 12:34:11.368 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m1s668ms).
+2026-03-23 12:51:53.706 INFO  [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT/192.168.1.9:product:8883 - Re-registering apps/PRODUCT
+2026-03-23 12:51:53.708 INFO  [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT/192.168.1.9:product:8883: registering service...
+2026-03-23 12:51:53.773 INFO  [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PRODUCT/192.168.1.9:product:8883 - registration status: 204
+2026-03-23 12:51:55.347 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m43s983ms).
+2026-03-23 14:35:08.488 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h41m43s117ms).
+2026-03-23 14:35:09.366 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-23 16:35:22.580 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h14s91ms).
+2026-03-23 16:39:06.199 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m43s620ms).
+2026-03-23 17:39:28.708 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h22s508ms).
+2026-03-23 18:39:15.664 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59m46s955ms).
+2026-03-23 20:08:14.850 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h28m59s184ms).
+2026-03-23 20:10:45.678 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-23 20:15:14.776 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m29s901ms).
+2026-03-23 20:18:45.590 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-23 20:23:45.601 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-23 20:28:45.621 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-23 20:33:45.640 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-23 20:38:50.005 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-23 20:46:14.459 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m25s129ms).
+2026-03-23 20:47:45.135 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-23 20:53:46.820 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m2s339ms).
+2026-03-23 20:54:09.850 INFO  [http-nio-8883-exec-8] c.e.p.controllers.ProductController      : Request received to fetch product with id 1
+2026-03-23 20:54:10.379 DEBUG [http-nio-8883-exec-8] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.id=? 
+        and p1_0.active=true
+2026-03-23 20:54:10.398 TRACE [http-nio-8883-exec-8] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-03-23 20:54:10.511 INFO  [http-nio-8883-exec-8] c.e.p.controllers.ProductController      : Successfully fetched product with id: 1
+2026-03-23 20:54:13.239 INFO  [http-nio-8883-exec-10] c.e.p.controllers.ProductController      : Request received to fetch product with id 1
+2026-03-23 20:54:13.245 DEBUG [http-nio-8883-exec-10] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.id=? 
+        and p1_0.active=true
+2026-03-23 20:54:13.250 TRACE [http-nio-8883-exec-10] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-03-23 20:54:13.257 INFO  [http-nio-8883-exec-10] c.e.p.controllers.ProductController      : Successfully fetched product with id: 1
+2026-03-23 20:54:14.809 INFO  [http-nio-8883-exec-2] c.e.p.controllers.ProductController      : Request received to fetch product with id 1
+2026-03-23 20:54:14.813 DEBUG [http-nio-8883-exec-2] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.id=? 
+        and p1_0.active=true
+2026-03-23 20:54:14.822 TRACE [http-nio-8883-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-03-23 20:54:14.830 INFO  [http-nio-8883-exec-2] c.e.p.controllers.ProductController      : Successfully fetched product with id: 1
+2026-03-23 20:55:20.821 INFO  [http-nio-8883-exec-6] c.e.p.controllers.ProductController      : Request received to fetch product with id 1
+2026-03-23 20:55:20.832 DEBUG [http-nio-8883-exec-6] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.id=? 
+        and p1_0.active=true
+2026-03-23 20:55:20.841 TRACE [http-nio-8883-exec-6] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-03-23 20:55:20.944 INFO  [http-nio-8883-exec-6] c.e.p.controllers.ProductController      : Successfully fetched product with id: 1
+2026-03-23 20:58:01.658 INFO  [http-nio-8883-exec-1] c.e.p.controllers.ProductController      : Request received to fetch product with id 1
+2026-03-23 20:58:01.672 DEBUG [http-nio-8883-exec-1] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.id=? 
+        and p1_0.active=true
+2026-03-23 20:58:01.678 TRACE [http-nio-8883-exec-1] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-03-23 20:58:01.730 INFO  [http-nio-8883-exec-1] c.e.p.controllers.ProductController      : Successfully fetched product with id: 1
+2026-03-23 20:58:17.489 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-23 20:59:56.694 INFO  [http-nio-8883-exec-2] c.e.p.controllers.ProductController      : Request received to fetch product with id 1
+2026-03-23 20:59:56.699 DEBUG [http-nio-8883-exec-2] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.id=? 
+        and p1_0.active=true
+2026-03-23 20:59:56.704 TRACE [http-nio-8883-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-03-23 20:59:56.713 INFO  [http-nio-8883-exec-2] c.e.p.controllers.ProductController      : Successfully fetched product with id: 1
+2026-03-23 21:01:15.234 INFO  [http-nio-8883-exec-10] c.e.p.controllers.ProductController      : Request received to fetch product with id 1
+2026-03-23 21:01:15.254 DEBUG [http-nio-8883-exec-10] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.id=? 
+        and p1_0.active=true
+2026-03-23 21:01:15.280 TRACE [http-nio-8883-exec-10] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-03-23 21:01:15.304 INFO  [http-nio-8883-exec-10] c.e.p.controllers.ProductController      : Successfully fetched product with id: 1
+2026-03-23 21:01:48.830 INFO  [http-nio-8883-exec-2] c.e.p.controllers.ProductController      : Request received to fetch product with id 1
+2026-03-23 21:01:48.838 DEBUG [http-nio-8883-exec-2] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.id=? 
+        and p1_0.active=true
+2026-03-23 21:01:48.843 TRACE [http-nio-8883-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-03-23 21:01:48.854 INFO  [http-nio-8883-exec-2] c.e.p.controllers.ProductController      : Successfully fetched product with id: 1
+2026-03-23 21:01:50.825 INFO  [http-nio-8883-exec-5] c.e.p.controllers.ProductController      : Request received to fetch product with id 1
+2026-03-23 21:01:50.827 DEBUG [http-nio-8883-exec-5] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.id=? 
+        and p1_0.active=true
+2026-03-23 21:01:50.831 TRACE [http-nio-8883-exec-5] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-03-23 21:01:50.834 INFO  [http-nio-8883-exec-5] c.e.p.controllers.ProductController      : Successfully fetched product with id: 1
+2026-03-23 21:01:52.624 INFO  [http-nio-8883-exec-4] c.e.p.controllers.ProductController      : Request received to fetch product with id 1
+2026-03-23 21:01:52.629 DEBUG [http-nio-8883-exec-4] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.id=? 
+        and p1_0.active=true
+2026-03-23 21:01:52.633 TRACE [http-nio-8883-exec-4] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-03-23 21:01:52.638 INFO  [http-nio-8883-exec-4] c.e.p.controllers.ProductController      : Successfully fetched product with id: 1
+2026-03-23 21:03:17.500 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-23 21:08:59.132 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m12s202ms).
+2026-03-23 21:09:57.464 INFO  [http-nio-8883-exec-6] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 21:09:57.487 DEBUG [http-nio-8883-exec-6] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 21:09:57.516 INFO  [http-nio-8883-exec-6] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 21:09:57.555 INFO  [http-nio-8883-exec-7] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 21:09:57.556 DEBUG [http-nio-8883-exec-7] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 21:09:57.560 INFO  [http-nio-8883-exec-7] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 21:10:07.706 INFO  [http-nio-8883-exec-1] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 21:10:07.714 DEBUG [http-nio-8883-exec-1] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 21:10:07.723 INFO  [http-nio-8883-exec-1] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 21:10:07.759 INFO  [http-nio-8883-exec-2] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 21:10:07.760 DEBUG [http-nio-8883-exec-2] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 21:10:07.762 INFO  [http-nio-8883-exec-2] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 21:10:10.127 INFO  [http-nio-8883-exec-5] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 21:10:10.137 DEBUG [http-nio-8883-exec-5] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 21:10:10.152 INFO  [http-nio-8883-exec-5] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 21:10:10.202 INFO  [http-nio-8883-exec-4] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 21:10:10.203 DEBUG [http-nio-8883-exec-4] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 21:10:10.206 INFO  [http-nio-8883-exec-4] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 21:10:11.311 INFO  [http-nio-8883-exec-6] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 21:10:11.312 DEBUG [http-nio-8883-exec-6] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 21:10:11.316 INFO  [http-nio-8883-exec-6] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 21:10:12.530 INFO  [http-nio-8883-exec-8] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 21:10:12.531 DEBUG [http-nio-8883-exec-8] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 21:10:12.533 INFO  [http-nio-8883-exec-8] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 21:10:13.485 INFO  [http-nio-8883-exec-9] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 21:10:13.493 DEBUG [http-nio-8883-exec-9] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 21:10:13.502 INFO  [http-nio-8883-exec-9] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 21:10:14.259 INFO  [http-nio-8883-exec-10] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 21:10:14.260 DEBUG [http-nio-8883-exec-10] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 21:10:14.263 INFO  [http-nio-8883-exec-10] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 21:10:16.272 INFO  [http-nio-8883-exec-2] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 21:10:16.286 DEBUG [http-nio-8883-exec-2] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 21:10:16.307 INFO  [http-nio-8883-exec-2] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 21:10:16.362 INFO  [http-nio-8883-exec-3] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 21:10:16.364 DEBUG [http-nio-8883-exec-3] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 21:10:16.367 INFO  [http-nio-8883-exec-3] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 21:10:17.730 INFO  [http-nio-8883-exec-4] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 21:10:17.746 DEBUG [http-nio-8883-exec-4] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 21:10:17.763 INFO  [http-nio-8883-exec-4] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 21:10:22.539 INFO  [http-nio-8883-exec-7] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 21:10:22.551 DEBUG [http-nio-8883-exec-7] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 21:10:22.565 INFO  [http-nio-8883-exec-7] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 21:10:23.581 INFO  [http-nio-8883-exec-8] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 21:10:23.582 DEBUG [http-nio-8883-exec-8] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 21:10:23.587 INFO  [http-nio-8883-exec-8] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 21:10:24.349 INFO  [http-nio-8883-exec-10] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 21:10:24.350 DEBUG [http-nio-8883-exec-10] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 21:10:24.355 INFO  [http-nio-8883-exec-10] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 21:10:25.198 INFO  [http-nio-8883-exec-1] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 21:10:25.202 DEBUG [http-nio-8883-exec-1] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 21:10:25.226 INFO  [http-nio-8883-exec-1] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 21:10:26.422 INFO  [http-nio-8883-exec-2] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 21:10:26.429 DEBUG [http-nio-8883-exec-2] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 21:10:26.438 INFO  [http-nio-8883-exec-2] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 21:10:27.477 INFO  [http-nio-8883-exec-5] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 21:10:27.478 DEBUG [http-nio-8883-exec-5] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 21:10:27.482 INFO  [http-nio-8883-exec-5] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 21:10:28.774 INFO  [http-nio-8883-exec-4] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 21:10:28.776 DEBUG [http-nio-8883-exec-4] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 21:10:28.781 INFO  [http-nio-8883-exec-4] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 21:10:30.122 INFO  [http-nio-8883-exec-7] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 21:10:30.122 DEBUG [http-nio-8883-exec-7] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 21:10:30.125 INFO  [http-nio-8883-exec-7] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 21:10:31.400 INFO  [http-nio-8883-exec-8] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 21:10:31.401 DEBUG [http-nio-8883-exec-8] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 21:10:31.406 INFO  [http-nio-8883-exec-8] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 21:10:36.231 INFO  [http-nio-8883-exec-1] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 21:10:36.237 DEBUG [http-nio-8883-exec-1] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 21:10:36.246 INFO  [http-nio-8883-exec-1] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 21:10:36.268 INFO  [http-nio-8883-exec-2] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 21:10:36.269 DEBUG [http-nio-8883-exec-2] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 21:10:36.271 INFO  [http-nio-8883-exec-2] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 21:10:37.002 INFO  [http-nio-8883-exec-3] c.e.p.controllers.ProductController      : Request received to fetch all products
+2026-03-23 21:10:37.003 DEBUG [http-nio-8883-exec-3] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.active,
+        p1_0.category,
+        p1_0.created_at,
+        p1_0.description,
+        p1_0.image_url,
+        p1_0.name,
+        p1_0.price,
+        p1_0.stock_quantity,
+        p1_0.updated_at 
+    from
+        products_tab p1_0 
+    where
+        p1_0.active=true
+2026-03-23 21:10:37.006 INFO  [http-nio-8883-exec-3] c.e.p.controllers.ProductController      : Successfully fetched 2 products
+2026-03-23 21:10:59.711 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-23 21:15:59.734 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-23 21:20:59.748 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-23 21:25:59.759 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-23 21:38:29.314 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m29s997ms).
+2026-03-23 22:58:51.296 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h20m21s974ms).
+2026-03-23 22:58:51.727 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-23 23:03:51.748 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-23 23:08:51.765 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
