@@ -1,98 +1,898 @@
-2026-03-23 01:26:57.808 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h29m36s599ms).
-2026-03-23 02:05:24.557 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=37m56s564ms).
-2026-03-23 03:06:08.911 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h44s356ms).
-2026-03-23 03:06:41.512 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-23 04:07:23.194 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h44s267ms).
-2026-03-23 05:08:07.574 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h44s388ms).
-2026-03-23 05:17:57.129 INFO  [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881 - Re-registering apps/ORDER
-2026-03-23 05:17:57.131 INFO  [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881: registering service...
-2026-03-23 05:17:57.173 INFO  [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881 - registration status: 204
-2026-03-23 05:18:19.021 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m41s436ms).
-2026-03-23 05:20:30.478 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m11s458ms).
-2026-03-23 06:09:15.566 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=48m15s72ms).
-2026-03-23 06:09:23.788 INFO  [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881 - Re-registering apps/ORDER
-2026-03-23 06:09:23.789 INFO  [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881: registering service...
-2026-03-23 06:09:23.802 INFO  [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881 - registration status: 204
-2026-03-23 07:10:00.022 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h44s458ms).
-2026-03-23 08:04:04.987 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53m34s962ms).
-2026-03-23 08:04:07.469 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-23 08:11:07.192 INFO  [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881 - Re-registering apps/ORDER
-2026-03-23 08:11:07.197 INFO  [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881: registering service...
-2026-03-23 08:11:07.215 INFO  [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881 - registration status: 204
-2026-03-23 08:11:28.759 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m53s770ms).
-2026-03-23 08:22:10.763 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m41s999ms).
-2026-03-23 08:22:19.350 INFO  [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881 - Re-registering apps/ORDER
-2026-03-23 08:22:19.352 INFO  [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881: registering service...
-2026-03-23 08:22:19.381 INFO  [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881 - registration status: 204
-2026-03-23 08:25:43.255 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-23 08:30:43.275 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-23 08:35:43.293 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-23 08:40:43.308 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-23 08:45:43.325 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-23 08:50:43.344 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-23 08:55:43.361 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-23 09:00:43.381 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-23 09:05:43.390 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-23 09:10:43.409 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-23 09:15:43.420 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-23 09:20:43.428 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-23 09:25:49.585 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m8s256ms).
-2026-03-23 09:29:04.523 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m14s909ms).
-2026-03-23 09:29:06.598 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-23 09:34:10.717 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m6s155ms).
-2026-03-23 09:35:42.760 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-23 09:43:01.672 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m50s921ms).
-2026-03-23 09:47:03.686 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-23 09:52:03.698 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-23 10:09:55.431 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m23s649ms).
-2026-03-23 10:09:57.353 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-23 10:14:57.366 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-23 10:19:57.385 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-23 10:24:57.401 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-23 10:35:20.706 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m55s37ms).
-2026-03-23 10:53:50.340 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m29s710ms).
-2026-03-23 11:01:31.514 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m41s169ms).
-2026-03-23 11:06:49.431 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m17s916ms).
-2026-03-23 11:31:16.211 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=24m26s785ms).
-2026-03-23 11:31:17.809 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-23 11:35:00.344 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m44s125ms).
-2026-03-23 12:17:10.791 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=41m10s418ms).
-2026-03-23 12:51:16.520 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=34m5s725ms).
-2026-03-23 14:35:09.593 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h41m43s119ms).
-2026-03-23 14:35:11.093 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-23 16:35:23.697 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h14s105ms).
-2026-03-23 16:37:12.200 INFO  [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881 - Re-registering apps/ORDER
-2026-03-23 16:37:12.201 INFO  [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881: registering service...
-2026-03-23 16:37:12.235 INFO  [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881 - registration status: 204
-2026-03-23 17:38:08.102 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h2m44s406ms).
-2026-03-23 17:39:29.854 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m21s754ms).
-2026-03-23 18:39:16.802 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59m46s945ms).
-2026-03-23 20:08:15.998 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h28m59s197ms).
-2026-03-23 20:10:47.408 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-23 20:15:15.947 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m29s917ms).
-2026-03-23 20:18:47.323 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-23 20:23:47.343 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-23 20:28:47.361 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-23 20:33:47.376 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-23 20:38:51.713 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-23 20:46:15.660 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m25s131ms).
-2026-03-23 20:46:33.482 INFO  [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881 - Re-registering apps/ORDER
-2026-03-23 20:46:33.491 INFO  [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881: registering service...
-2026-03-23 20:46:33.664 INFO  [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881 - registration status: 204
-2026-03-23 20:47:46.842 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-23 20:53:48.022 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m2s336ms).
-2026-03-23 20:58:19.189 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-23 21:03:19.201 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-23 21:09:00.315 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m12s201ms).
-2026-03-23 21:11:01.421 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-23 21:16:01.437 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-23 21:21:01.444 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-23 21:26:01.462 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-23 21:38:30.502 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m29s997ms).
-2026-03-23 22:58:42.647 INFO  [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881 - Re-registering apps/ORDER
-2026-03-23 22:58:42.652 INFO  [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881: registering service...
-2026-03-23 22:58:42.979 INFO  [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881 - registration status: 204
-2026-03-23 22:58:52.482 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h20m21s984ms).
-2026-03-23 22:58:53.424 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-23 23:03:53.437 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2026-03-23 23:08:53.460 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-24 00:00:57.974 INFO  [http-nio-8881-exec-9] c.e.order.controllers.OrderController    : Request received to create order
+2026-03-24 00:00:58.780 DEBUG [http-nio-8881-exec-9] org.hibernate.SQL                        : 
+    select
+        ci1_0.id,
+        ci1_0.created_at,
+        ci1_0.price,
+        ci1_0.product_id,
+        ci1_0.quantity,
+        ci1_0.updated_at,
+        ci1_0.user_id 
+    from
+        cart_tab ci1_0 
+    where
+        ci1_0.user_id=?
+2026-03-24 00:00:58.786 TRACE [http-nio-8881-exec-9] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-03-24 00:00:58.905 DEBUG [http-nio-8881-exec-9] org.hibernate.SQL                        : 
+    insert 
+    into
+        orders_tab
+        (created_at, status, total_amount, updated_at, user_id) 
+    values
+        (?, ?, ?, ?, ?)
+2026-03-24 00:00:58.907 TRACE [http-nio-8881-exec-9] org.hibernate.orm.jdbc.bind              : binding parameter (1:TIMESTAMP) <- [2026-03-24T00:00:58.895977]
+2026-03-24 00:00:58.908 TRACE [http-nio-8881-exec-9] org.hibernate.orm.jdbc.bind              : binding parameter (2:VARCHAR) <- [CONFIRMED]
+2026-03-24 00:00:58.908 TRACE [http-nio-8881-exec-9] org.hibernate.orm.jdbc.bind              : binding parameter (3:NUMERIC) <- [10000.00]
+2026-03-24 00:00:58.911 TRACE [http-nio-8881-exec-9] org.hibernate.orm.jdbc.bind              : binding parameter (4:TIMESTAMP) <- [2026-03-24T00:00:58.896047]
+2026-03-24 00:00:58.911 TRACE [http-nio-8881-exec-9] org.hibernate.orm.jdbc.bind              : binding parameter (5:BIGINT) <- [1]
+2026-03-24 00:00:58.949 DEBUG [http-nio-8881-exec-9] org.hibernate.SQL                        : 
+    insert 
+    into
+        order_items_tab
+        (order_id, price, product_id, quantity) 
+    values
+        (?, ?, ?, ?)
+2026-03-24 00:00:58.949 TRACE [http-nio-8881-exec-9] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [2]
+2026-03-24 00:00:58.950 TRACE [http-nio-8881-exec-9] org.hibernate.orm.jdbc.bind              : binding parameter (2:NUMERIC) <- [1000.00]
+2026-03-24 00:00:58.950 TRACE [http-nio-8881-exec-9] org.hibernate.orm.jdbc.bind              : binding parameter (3:BIGINT) <- [1]
+2026-03-24 00:00:58.950 TRACE [http-nio-8881-exec-9] org.hibernate.orm.jdbc.bind              : binding parameter (4:INTEGER) <- [10]
+2026-03-24 00:00:58.975 DEBUG [http-nio-8881-exec-9] org.hibernate.SQL                        : 
+    select
+        ci1_0.id,
+        ci1_0.created_at,
+        ci1_0.price,
+        ci1_0.product_id,
+        ci1_0.quantity,
+        ci1_0.updated_at,
+        ci1_0.user_id 
+    from
+        cart_tab ci1_0 
+    where
+        ci1_0.user_id=?
+2026-03-24 00:00:58.976 TRACE [http-nio-8881-exec-9] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-03-24 00:00:58.985 DEBUG [http-nio-8881-exec-9] org.hibernate.SQL                        : 
+    delete 
+    from
+        cart_tab 
+    where
+        id=?
+2026-03-24 00:00:58.986 TRACE [http-nio-8881-exec-9] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [2]
+2026-03-24 00:00:59.070 INFO  [http-nio-8881-exec-9] c.e.order.controllers.OrderController    : Successfully created order
+2026-03-24 01:26:26.944 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h22m57s65ms).
+2026-03-24 01:26:30.520 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-24 02:05:29.180 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=38m32s91ms).
+2026-03-24 02:09:32.614 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-24 02:14:32.631 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-24 02:19:32.646 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-24 02:24:32.683 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-24 02:29:32.699 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-24 02:34:32.708 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-24 02:39:32.718 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-24 02:44:32.732 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-24 02:49:32.750 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-24 02:54:32.784 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-24 02:59:32.796 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-24 03:04:32.806 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-24 05:28:21.426 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h23m21s428ms).
+2026-03-24 07:19:13.823 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h50m52s395ms).
+2026-03-24 07:19:21.793 INFO  [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881 - Re-registering apps/ORDER
+2026-03-24 07:19:21.794 INFO  [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881: registering service...
+2026-03-24 07:19:21.840 INFO  [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881 - registration status: 204
+2026-03-24 07:23:21.641 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m7s820ms).
+2026-03-24 08:40:35.609 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h17m13s965ms).
+2026-03-24 09:55:02.803 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h14m27s177ms).
+2026-03-24 09:57:05.520 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-24 10:02:05.538 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-24 10:07:05.548 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-24 10:12:05.557 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-24 10:14:31.249 INFO  [http-nio-8881-exec-10] c.e.order.controllers.OrderController    : Request received to create order
+2026-03-24 10:14:31.473 DEBUG [http-nio-8881-exec-10] org.hibernate.SQL                        : 
+    select
+        ci1_0.id,
+        ci1_0.created_at,
+        ci1_0.price,
+        ci1_0.product_id,
+        ci1_0.quantity,
+        ci1_0.updated_at,
+        ci1_0.user_id 
+    from
+        cart_tab ci1_0 
+    where
+        ci1_0.user_id=?
+2026-03-24 10:14:31.484 TRACE [http-nio-8881-exec-10] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-03-24 10:14:31.578 WARN  [http-nio-8881-exec-10] c.e.order.controllers.OrderController    : Failed to create order - Cart is empty
+2026-03-24 10:14:40.718 INFO  [http-nio-8881-exec-3] c.e.order.controllers.OrderController    : Request received to create order
+2026-03-24 10:14:40.736 DEBUG [http-nio-8881-exec-3] org.hibernate.SQL                        : 
+    select
+        ci1_0.id,
+        ci1_0.created_at,
+        ci1_0.price,
+        ci1_0.product_id,
+        ci1_0.quantity,
+        ci1_0.updated_at,
+        ci1_0.user_id 
+    from
+        cart_tab ci1_0 
+    where
+        ci1_0.user_id=?
+2026-03-24 10:14:40.737 TRACE [http-nio-8881-exec-3] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-03-24 10:14:40.748 WARN  [http-nio-8881-exec-3] c.e.order.controllers.OrderController    : Failed to create order - Cart is empty
+2026-03-24 10:14:42.724 INFO  [http-nio-8881-exec-5] c.e.order.controllers.OrderController    : Request received to create order
+2026-03-24 10:14:42.737 DEBUG [http-nio-8881-exec-5] org.hibernate.SQL                        : 
+    select
+        ci1_0.id,
+        ci1_0.created_at,
+        ci1_0.price,
+        ci1_0.product_id,
+        ci1_0.quantity,
+        ci1_0.updated_at,
+        ci1_0.user_id 
+    from
+        cart_tab ci1_0 
+    where
+        ci1_0.user_id=?
+2026-03-24 10:14:42.737 TRACE [http-nio-8881-exec-5] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-03-24 10:14:42.741 WARN  [http-nio-8881-exec-5] c.e.order.controllers.OrderController    : Failed to create order - Cart is empty
+2026-03-24 10:14:44.194 INFO  [http-nio-8881-exec-6] c.e.order.controllers.OrderController    : Request received to create order
+2026-03-24 10:14:44.208 DEBUG [http-nio-8881-exec-6] org.hibernate.SQL                        : 
+    select
+        ci1_0.id,
+        ci1_0.created_at,
+        ci1_0.price,
+        ci1_0.product_id,
+        ci1_0.quantity,
+        ci1_0.updated_at,
+        ci1_0.user_id 
+    from
+        cart_tab ci1_0 
+    where
+        ci1_0.user_id=?
+2026-03-24 10:14:44.209 TRACE [http-nio-8881-exec-6] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-03-24 10:14:44.217 WARN  [http-nio-8881-exec-6] c.e.order.controllers.OrderController    : Failed to create order - Cart is empty
+2026-03-24 10:14:45.491 INFO  [http-nio-8881-exec-8] c.e.order.controllers.OrderController    : Request received to create order
+2026-03-24 10:14:45.498 DEBUG [http-nio-8881-exec-8] org.hibernate.SQL                        : 
+    select
+        ci1_0.id,
+        ci1_0.created_at,
+        ci1_0.price,
+        ci1_0.product_id,
+        ci1_0.quantity,
+        ci1_0.updated_at,
+        ci1_0.user_id 
+    from
+        cart_tab ci1_0 
+    where
+        ci1_0.user_id=?
+2026-03-24 10:14:45.499 TRACE [http-nio-8881-exec-8] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-03-24 10:14:45.503 WARN  [http-nio-8881-exec-8] c.e.order.controllers.OrderController    : Failed to create order - Cart is empty
+2026-03-24 10:15:42.086 INFO  [http-nio-8881-exec-8] c.e.order.controllers.CartController     : Request received to fetch cart items
+2026-03-24 10:15:42.108 DEBUG [http-nio-8881-exec-8] org.hibernate.SQL                        : 
+    select
+        ci1_0.id,
+        ci1_0.created_at,
+        ci1_0.price,
+        ci1_0.product_id,
+        ci1_0.quantity,
+        ci1_0.updated_at,
+        ci1_0.user_id 
+    from
+        cart_tab ci1_0 
+    where
+        ci1_0.user_id=?
+2026-03-24 10:15:42.109 TRACE [http-nio-8881-exec-8] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-03-24 10:15:42.122 WARN  [http-nio-8881-exec-8] c.e.order.controllers.CartController     : Failed to fetch cart items - Cart is empty
+2026-03-24 10:16:02.097 INFO  [http-nio-8881-exec-5] c.e.order.controllers.OrderController    : Request received to create order
+2026-03-24 10:16:02.109 DEBUG [http-nio-8881-exec-5] org.hibernate.SQL                        : 
+    select
+        ci1_0.id,
+        ci1_0.created_at,
+        ci1_0.price,
+        ci1_0.product_id,
+        ci1_0.quantity,
+        ci1_0.updated_at,
+        ci1_0.user_id 
+    from
+        cart_tab ci1_0 
+    where
+        ci1_0.user_id=?
+2026-03-24 10:16:02.109 TRACE [http-nio-8881-exec-5] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-03-24 10:16:02.125 WARN  [http-nio-8881-exec-5] c.e.order.controllers.OrderController    : Failed to create order - Cart is empty
+2026-03-24 10:16:19.009 INFO  [http-nio-8881-exec-2] c.e.order.controllers.OrderController    : Request received to create order
+2026-03-24 10:16:19.036 DEBUG [http-nio-8881-exec-2] org.hibernate.SQL                        : 
+    select
+        ci1_0.id,
+        ci1_0.created_at,
+        ci1_0.price,
+        ci1_0.product_id,
+        ci1_0.quantity,
+        ci1_0.updated_at,
+        ci1_0.user_id 
+    from
+        cart_tab ci1_0 
+    where
+        ci1_0.user_id=?
+2026-03-24 10:16:19.037 TRACE [http-nio-8881-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-03-24 10:16:19.043 WARN  [http-nio-8881-exec-2] c.e.order.controllers.OrderController    : Failed to create order - Cart is empty
+2026-03-24 10:16:50.005 INFO  [http-nio-8881-exec-3] c.e.order.controllers.OrderController    : Request received to create order
+2026-03-24 10:16:50.050 DEBUG [http-nio-8881-exec-3] org.hibernate.SQL                        : 
+    select
+        ci1_0.id,
+        ci1_0.created_at,
+        ci1_0.price,
+        ci1_0.product_id,
+        ci1_0.quantity,
+        ci1_0.updated_at,
+        ci1_0.user_id 
+    from
+        cart_tab ci1_0 
+    where
+        ci1_0.user_id=?
+2026-03-24 10:16:50.053 TRACE [http-nio-8881-exec-3] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-03-24 10:16:50.072 WARN  [http-nio-8881-exec-3] c.e.order.controllers.OrderController    : Failed to create order - Cart is empty
+2026-03-24 10:16:58.267 INFO  [http-nio-8881-exec-7] c.e.order.controllers.CartController     : Request received to fetch cart items
+2026-03-24 10:16:58.280 DEBUG [http-nio-8881-exec-7] org.hibernate.SQL                        : 
+    select
+        ci1_0.id,
+        ci1_0.created_at,
+        ci1_0.price,
+        ci1_0.product_id,
+        ci1_0.quantity,
+        ci1_0.updated_at,
+        ci1_0.user_id 
+    from
+        cart_tab ci1_0 
+    where
+        ci1_0.user_id=?
+2026-03-24 10:16:58.281 TRACE [http-nio-8881-exec-7] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-03-24 10:16:58.288 WARN  [http-nio-8881-exec-7] c.e.order.controllers.CartController     : Failed to fetch cart items - Cart is empty
+2026-03-24 10:17:05.588 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-24 10:17:43.895 INFO  [http-nio-8881-exec-3] c.e.order.controllers.OrderController    : Request received to create order
+2026-03-24 10:17:43.909 DEBUG [http-nio-8881-exec-3] org.hibernate.SQL                        : 
+    select
+        ci1_0.id,
+        ci1_0.created_at,
+        ci1_0.price,
+        ci1_0.product_id,
+        ci1_0.quantity,
+        ci1_0.updated_at,
+        ci1_0.user_id 
+    from
+        cart_tab ci1_0 
+    where
+        ci1_0.user_id=?
+2026-03-24 10:17:43.910 TRACE [http-nio-8881-exec-3] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-03-24 10:17:43.917 WARN  [http-nio-8881-exec-3] c.e.order.controllers.OrderController    : Failed to create order - Cart is empty
+2026-03-24 10:20:11.413 WARN  [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m8s375ms).
+2026-03-24 10:20:28.253 INFO  [http-nio-8881-exec-6] c.e.order.controllers.CartController     : Request received to fetch cart items
+2026-03-24 10:20:28.340 DEBUG [http-nio-8881-exec-6] org.hibernate.SQL                        : 
+    select
+        ci1_0.id,
+        ci1_0.created_at,
+        ci1_0.price,
+        ci1_0.product_id,
+        ci1_0.quantity,
+        ci1_0.updated_at,
+        ci1_0.user_id 
+    from
+        cart_tab ci1_0 
+    where
+        ci1_0.user_id=?
+2026-03-24 10:20:28.346 TRACE [http-nio-8881-exec-6] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-03-24 10:20:28.368 WARN  [http-nio-8881-exec-6] c.e.order.controllers.CartController     : Failed to fetch cart items - Cart is empty
+2026-03-24 10:21:44.527 INFO  [http-nio-8881-exec-4] c.e.order.controllers.OrderController    : Request received to create order
+2026-03-24 10:21:44.592 DEBUG [http-nio-8881-exec-4] org.hibernate.SQL                        : 
+    select
+        ci1_0.id,
+        ci1_0.created_at,
+        ci1_0.price,
+        ci1_0.product_id,
+        ci1_0.quantity,
+        ci1_0.updated_at,
+        ci1_0.user_id 
+    from
+        cart_tab ci1_0 
+    where
+        ci1_0.user_id=?
+2026-03-24 10:21:44.593 TRACE [http-nio-8881-exec-4] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-03-24 10:21:44.600 WARN  [http-nio-8881-exec-4] c.e.order.controllers.OrderController    : Failed to create order - Cart is empty
+2026-03-24 10:21:48.796 INFO  [http-nio-8881-exec-6] c.e.order.controllers.OrderController    : Request received to create order
+2026-03-24 10:21:48.814 DEBUG [http-nio-8881-exec-6] org.hibernate.SQL                        : 
+    select
+        ci1_0.id,
+        ci1_0.created_at,
+        ci1_0.price,
+        ci1_0.product_id,
+        ci1_0.quantity,
+        ci1_0.updated_at,
+        ci1_0.user_id 
+    from
+        cart_tab ci1_0 
+    where
+        ci1_0.user_id=?
+2026-03-24 10:21:48.815 TRACE [http-nio-8881-exec-6] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-03-24 10:21:48.823 WARN  [http-nio-8881-exec-6] c.e.order.controllers.OrderController    : Failed to create order - Cart is empty
+2026-03-24 10:22:07.578 INFO  [http-nio-8881-exec-4] c.e.order.controllers.OrderController    : Request received to create order
+2026-03-24 10:22:07.662 DEBUG [http-nio-8881-exec-4] org.hibernate.SQL                        : 
+    select
+        ci1_0.id,
+        ci1_0.created_at,
+        ci1_0.price,
+        ci1_0.product_id,
+        ci1_0.quantity,
+        ci1_0.updated_at,
+        ci1_0.user_id 
+    from
+        cart_tab ci1_0 
+    where
+        ci1_0.user_id=?
+2026-03-24 10:22:07.667 TRACE [http-nio-8881-exec-4] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-03-24 10:22:07.691 WARN  [http-nio-8881-exec-4] c.e.order.controllers.OrderController    : Failed to create order - Cart is empty
+2026-03-24 10:22:43.975 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-24 10:23:33.724 INFO  [http-nio-8881-exec-4] c.e.order.controllers.OrderController    : Request received to create order
+2026-03-24 10:23:33.825 DEBUG [http-nio-8881-exec-4] org.hibernate.SQL                        : 
+    select
+        ci1_0.id,
+        ci1_0.created_at,
+        ci1_0.price,
+        ci1_0.product_id,
+        ci1_0.quantity,
+        ci1_0.updated_at,
+        ci1_0.user_id 
+    from
+        cart_tab ci1_0 
+    where
+        ci1_0.user_id=?
+2026-03-24 10:23:33.829 TRACE [http-nio-8881-exec-4] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-03-24 10:23:33.861 WARN  [http-nio-8881-exec-4] c.e.order.controllers.OrderController    : Failed to create order - Cart is empty
+2026-03-24 10:27:32.238 INFO  [http-nio-8881-exec-5] c.e.order.controllers.OrderController    : Request received to create order
+2026-03-24 10:27:32.304 DEBUG [http-nio-8881-exec-5] org.hibernate.SQL                        : 
+    select
+        ci1_0.id,
+        ci1_0.created_at,
+        ci1_0.price,
+        ci1_0.product_id,
+        ci1_0.quantity,
+        ci1_0.updated_at,
+        ci1_0.user_id 
+    from
+        cart_tab ci1_0 
+    where
+        ci1_0.user_id=?
+2026-03-24 10:27:32.316 TRACE [http-nio-8881-exec-5] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-03-24 10:27:32.391 WARN  [http-nio-8881-exec-5] c.e.order.controllers.OrderController    : Failed to create order - Cart is empty
+2026-03-24 10:27:43.989 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-24 10:30:19.250 INFO  [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ORDER with eureka with status DOWN
+2026-03-24 10:30:19.260 INFO  [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1774328419260, current=DOWN, previous=UP]
+2026-03-24 10:30:19.261 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881: registering service...
+2026-03-24 10:30:19.441 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881 - registration status: 204
+2026-03-24 10:30:19.655 INFO  [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-24 10:30:19.958 INFO  [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-24 10:30:20.117 INFO  [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2026-03-24 10:30:20.312 INFO  [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2026-03-24 10:30:20.320 INFO  [SpringApplicationShutdownHook] o.s.i.a.i.AmqpInboundChannelAdapter      : stopped bean 'inbound.springCloudBus.anonymous.NvbwrHrAQCirb-UN27capg'
+2026-03-24 10:30:20.350 INFO  [SpringApplicationShutdownHook] o.s.c.stream.binder.BinderErrorChannel   : Channel 'order.rabbit-770710973.springCloudBusInput.errors' has 1 subscriber(s).
+2026-03-24 10:30:20.357 INFO  [SpringApplicationShutdownHook] o.s.c.stream.binder.BinderErrorChannel   : Channel 'order.rabbit-770710973.springCloudBusInput.errors' has 0 subscriber(s).
+2026-03-24 10:30:20.684 INFO  [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2026-03-24 10:30:20.684 INFO  [SpringApplicationShutdownHook] o.s.i.channel.PublishSubscribeChannel    : Channel 'order.errorChannel' has 0 subscriber(s).
+2026-03-24 10:30:20.685 INFO  [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean '_org.springframework.integration.errorLogger'
+2026-03-24 10:30:20.915 INFO  [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-24 10:30:21.011 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-24 10:30:21.016 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-03-24 10:30:21.701 INFO  [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2026-03-24 10:30:24.709 INFO  [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2026-03-24 10:30:24.712 WARN  [DiscoveryClient-%d] c.netflix.discovery.TimedSupervisorTask  : task supervisor shutting down, can't accept the task
+2026-03-24 10:30:24.742 INFO  [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881 - deregister  status: 200
+2026-03-24 10:30:24.742 INFO  [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2026-03-24 10:30:32.685 INFO  [restartedMain] com.ecommerce.order.OrderApplication     : Starting OrderApplication using Java 17.0.17 with PID 26353 (/Users/codey/Desktop/my-apps/Spring_Ecommerce_App/order/target/classes started by codey in /Users/codey/Desktop/my-apps/Spring_Ecommerce_App)
+2026-03-24 10:30:32.687 DEBUG [restartedMain] com.ecommerce.order.OrderApplication     : Running with Spring Boot v4.0.2, Spring v7.0.3
+2026-03-24 10:30:32.687 INFO  [restartedMain] com.ecommerce.order.OrderApplication     : The following 1 profile is active: "dev"
+2026-03-24 10:30:32.721 INFO  [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2026-03-24 10:30:32.721 INFO  [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=order, profiles=[default], label=null, version=null, state=null
+2026-03-24 10:30:32.722 INFO  [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2026-03-24 10:30:32.722 INFO  [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=order, profiles=[dev], label=null, version=null, state=null
+2026-03-24 10:30:32.723 INFO  [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-24 10:30:32.723 INFO  [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-24 10:30:33.746 INFO  [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-24 10:30:33.839 INFO  [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 87 ms. Found 2 JPA repository interfaces.
+2026-03-24 10:30:34.081 INFO  [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2026-03-24 10:30:34.085 INFO  [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2026-03-24 10:30:34.206 INFO  [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=fd3d7652-91c4-3601-b363-ca519c7bd3d9
+2026-03-24 10:30:34.852 INFO  [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8881 (http)
+2026-03-24 10:30:34.864 INFO  [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-24 10:30:34.864 INFO  [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-24 10:30:34.896 INFO  [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2172 ms
+2026-03-24 10:30:35.538 INFO  [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-24 10:30:35.592 INFO  [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.1.Final
+2026-03-24 10:30:35.912 INFO  [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-24 10:30:35.971 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-24 10:30:36.358 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@e1385d5
+2026-03-24 10:30:36.359 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-24 10:30:36.406 WARN  [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-24 10:30:36.430 INFO  [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/ecomm_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.11
+	Default catalog/schema: ecomm_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-24 10:30:37.714 INFO  [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-24 10:30:37.887 INFO  [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-24 10:30:38.056 INFO  [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-24 10:30:38.835 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-24 10:30:39.416 INFO  [restartedMain] o.s.c.s.m.DirectWithAttributesChannel    : Channel 'order.springCloudBusInput' has 1 subscriber(s).
+2026-03-24 10:30:40.053 INFO  [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestClient.
+2026-03-24 10:30:40.118 WARN  [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-03-24 10:30:40.137 INFO  [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 36 endpoints beneath base path '/actuator'
+2026-03-24 10:30:40.335 INFO  [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2026-03-24 10:30:40.335 INFO  [restartedMain] o.s.i.channel.PublishSubscribeChannel    : Channel 'order.errorChannel' has 1 subscriber(s).
+2026-03-24 10:30:40.335 INFO  [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : started bean '_org.springframework.integration.errorLogger'
+2026-03-24 10:30:40.355 INFO  [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-03-24 10:30:40.374 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-03-24 10:30:40.377 INFO  [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-24 10:30:40.382 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-03-24 10:30:40.383 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-03-24 10:30:40.383 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-03-24 10:30:40.383 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-03-24 10:30:40.383 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-03-24 10:30:40.383 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2026-03-24 10:30:40.383 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-03-24 10:30:40.608 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-03-24 10:30:40.610 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2026-03-24 10:30:40.612 INFO  [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-03-24 10:30:40.615 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1774328440613 with initial instances count: 3
+2026-03-24 10:30:40.628 INFO  [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ORDER with eureka with status UP
+2026-03-24 10:30:40.628 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1774328440628, current=UP, previous=STARTING]
+2026-03-24 10:30:40.630 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881: registering service...
+2026-03-24 10:30:40.631 INFO  [restartedMain] o.s.c.s.binder.DefaultBinderFactory      : Creating binder: rabbit
+2026-03-24 10:30:40.631 INFO  [restartedMain] o.s.c.s.binder.DefaultBinderFactory      : Constructing binder child context for rabbit
+2026-03-24 10:30:40.674 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881 - registration status: 204
+2026-03-24 10:30:40.714 INFO  [restartedMain] o.s.c.s.binder.DefaultBinderFactory      : Caching the binder: rabbit
+2026-03-24 10:30:40.720 INFO  [restartedMain] c.s.b.r.p.RabbitExchangeQueueProvisioner : declaring queue for inbound: springCloudBus.anonymous.XrGC8WrCRZWl6qOrHeBiYg, bound to: springCloudBus
+2026-03-24 10:30:40.722 INFO  [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-03-24 10:30:40.788 INFO  [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#29d8a876:0/SimpleConnection@677f1337 [delegate=amqp://guest@127.0.0.1:5672/, localPort=55999]
+2026-03-24 10:30:40.874 INFO  [restartedMain] o.s.c.stream.binder.BinderErrorChannel   : Channel 'rabbit-63210333.springCloudBusInput.errors' has 1 subscriber(s).
+2026-03-24 10:30:40.875 INFO  [restartedMain] o.s.c.stream.binder.BinderErrorChannel   : Channel 'rabbit-63210333.springCloudBusInput.errors' has 2 subscriber(s).
+2026-03-24 10:30:40.900 INFO  [restartedMain] o.s.i.a.i.AmqpInboundChannelAdapter      : started bean 'inbound.springCloudBus.anonymous.XrGC8WrCRZWl6qOrHeBiYg'
+2026-03-24 10:30:40.918 INFO  [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8881 (http) with context path '/'
+2026-03-24 10:30:40.919 INFO  [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8881
+2026-03-24 10:30:41.008 INFO  [http-nio-8881-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-24 10:30:41.009 INFO  [http-nio-8881-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-24 10:30:41.010 INFO  [http-nio-8881-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-03-24 10:30:41.014 INFO  [restartedMain] com.ecommerce.order.OrderApplication     : Started OrderApplication in 11.657 seconds (process running for 12.942)
+2026-03-24 10:31:23.950 INFO  [http-nio-8881-exec-6] c.e.order.controllers.OrderController    : Request received to create order
+2026-03-24 10:31:24.458 DEBUG [http-nio-8881-exec-6] org.hibernate.SQL                        : 
+    select
+        ci1_0.id,
+        ci1_0.created_at,
+        ci1_0.price,
+        ci1_0.product_id,
+        ci1_0.quantity,
+        ci1_0.updated_at,
+        ci1_0.user_id 
+    from
+        cart_tab ci1_0 
+    where
+        ci1_0.user_id=?
+2026-03-24 10:31:24.459 TRACE [http-nio-8881-exec-6] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-03-24 10:31:24.493 WARN  [http-nio-8881-exec-6] c.e.order.controllers.OrderController    : Failed to create order - Cart is empty
+2026-03-24 10:31:37.701 INFO  [http-nio-8881-exec-1] c.e.order.controllers.OrderController    : Request received to create order
+2026-03-24 10:31:37.746 DEBUG [http-nio-8881-exec-1] org.hibernate.SQL                        : 
+    select
+        ci1_0.id,
+        ci1_0.created_at,
+        ci1_0.price,
+        ci1_0.product_id,
+        ci1_0.quantity,
+        ci1_0.updated_at,
+        ci1_0.user_id 
+    from
+        cart_tab ci1_0 
+    where
+        ci1_0.user_id=?
+2026-03-24 10:31:37.748 TRACE [http-nio-8881-exec-1] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-03-24 10:31:37.759 WARN  [http-nio-8881-exec-1] c.e.order.controllers.OrderController    : Failed to create order - Cart is empty
+2026-03-24 10:31:44.425 INFO  [http-nio-8881-exec-5] c.e.order.controllers.OrderController    : Request received to create order
+2026-03-24 10:31:44.443 DEBUG [http-nio-8881-exec-5] org.hibernate.SQL                        : 
+    select
+        ci1_0.id,
+        ci1_0.created_at,
+        ci1_0.price,
+        ci1_0.product_id,
+        ci1_0.quantity,
+        ci1_0.updated_at,
+        ci1_0.user_id 
+    from
+        cart_tab ci1_0 
+    where
+        ci1_0.user_id=?
+2026-03-24 10:31:44.444 TRACE [http-nio-8881-exec-5] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-03-24 10:31:44.449 WARN  [http-nio-8881-exec-5] c.e.order.controllers.OrderController    : Failed to create order - Cart is empty
+2026-03-24 10:35:40.394 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-24 10:36:27.126 INFO  [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ORDER with eureka with status DOWN
+2026-03-24 10:36:27.129 INFO  [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1774328787129, current=DOWN, previous=UP]
+2026-03-24 10:36:27.131 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881: registering service...
+2026-03-24 10:36:27.203 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881 - registration status: 204
+2026-03-24 10:36:27.218 INFO  [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-24 10:36:28.953 INFO  [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-24 10:36:29.017 INFO  [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2026-03-24 10:36:29.187 INFO  [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2026-03-24 10:36:29.190 INFO  [SpringApplicationShutdownHook] o.s.i.a.i.AmqpInboundChannelAdapter      : stopped bean 'inbound.springCloudBus.anonymous.XrGC8WrCRZWl6qOrHeBiYg'
+2026-03-24 10:36:29.199 INFO  [SpringApplicationShutdownHook] o.s.c.stream.binder.BinderErrorChannel   : Channel 'order.rabbit-63210333.springCloudBusInput.errors' has 1 subscriber(s).
+2026-03-24 10:36:29.201 INFO  [SpringApplicationShutdownHook] o.s.c.stream.binder.BinderErrorChannel   : Channel 'order.rabbit-63210333.springCloudBusInput.errors' has 0 subscriber(s).
+2026-03-24 10:36:29.260 INFO  [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2026-03-24 10:36:29.261 INFO  [SpringApplicationShutdownHook] o.s.i.channel.PublishSubscribeChannel    : Channel 'order.errorChannel' has 0 subscriber(s).
+2026-03-24 10:36:29.261 INFO  [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean '_org.springframework.integration.errorLogger'
+2026-03-24 10:36:29.293 INFO  [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-24 10:36:29.308 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-24 10:36:29.353 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-03-24 10:36:30.149 INFO  [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2026-03-24 10:36:33.159 INFO  [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2026-03-24 10:36:33.224 INFO  [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881 - deregister  status: 200
+2026-03-24 10:36:33.225 INFO  [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2026-03-24 10:36:38.041 INFO  [restartedMain] com.ecommerce.order.OrderApplication     : Starting OrderApplication using Java 17.0.17 with PID 26459 (/Users/codey/Desktop/my-apps/Spring_Ecommerce_App/order/target/classes started by codey in /Users/codey/Desktop/my-apps/Spring_Ecommerce_App)
+2026-03-24 10:36:38.042 DEBUG [restartedMain] com.ecommerce.order.OrderApplication     : Running with Spring Boot v4.0.2, Spring v7.0.3
+2026-03-24 10:36:38.043 INFO  [restartedMain] com.ecommerce.order.OrderApplication     : The following 1 profile is active: "dev"
+2026-03-24 10:36:38.069 INFO  [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2026-03-24 10:36:38.069 INFO  [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=order, profiles=[default], label=null, version=null, state=null
+2026-03-24 10:36:38.070 INFO  [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2026-03-24 10:36:38.070 INFO  [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=order, profiles=[dev], label=null, version=null, state=null
+2026-03-24 10:36:38.071 INFO  [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-24 10:36:38.071 INFO  [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-24 10:36:40.390 INFO  [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-24 10:36:40.498 INFO  [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 99 ms. Found 2 JPA repository interfaces.
+2026-03-24 10:36:40.758 INFO  [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2026-03-24 10:36:40.762 INFO  [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2026-03-24 10:36:40.885 INFO  [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=fd3d7652-91c4-3601-b363-ca519c7bd3d9
+2026-03-24 10:36:41.567 INFO  [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8881 (http)
+2026-03-24 10:36:41.576 INFO  [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-24 10:36:41.576 INFO  [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-24 10:36:41.610 INFO  [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 3538 ms
+2026-03-24 10:36:42.208 INFO  [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-24 10:36:42.246 INFO  [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.1.Final
+2026-03-24 10:36:42.523 INFO  [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-24 10:36:42.547 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-24 10:36:42.678 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@27a759cd
+2026-03-24 10:36:42.679 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-24 10:36:42.708 WARN  [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-24 10:36:42.723 INFO  [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/ecomm_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.11
+	Default catalog/schema: ecomm_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-24 10:36:43.453 INFO  [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-24 10:36:43.530 INFO  [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-24 10:36:43.646 INFO  [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-24 10:36:44.381 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-24 10:36:44.953 INFO  [restartedMain] o.s.c.s.m.DirectWithAttributesChannel    : Channel 'order.springCloudBusInput' has 1 subscriber(s).
+2026-03-24 10:36:45.963 INFO  [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestClient.
+2026-03-24 10:36:46.041 WARN  [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-03-24 10:36:46.049 INFO  [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 36 endpoints beneath base path '/actuator'
+2026-03-24 10:36:46.162 INFO  [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2026-03-24 10:36:46.163 INFO  [restartedMain] o.s.i.channel.PublishSubscribeChannel    : Channel 'order.errorChannel' has 1 subscriber(s).
+2026-03-24 10:36:46.163 INFO  [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : started bean '_org.springframework.integration.errorLogger'
+2026-03-24 10:36:46.185 INFO  [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-03-24 10:36:46.209 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-03-24 10:36:46.212 INFO  [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-24 10:36:46.220 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-03-24 10:36:46.220 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-03-24 10:36:46.220 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-03-24 10:36:46.220 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-03-24 10:36:46.220 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-03-24 10:36:46.220 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2026-03-24 10:36:46.220 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-03-24 10:36:46.366 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-03-24 10:36:46.367 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2026-03-24 10:36:46.368 INFO  [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-03-24 10:36:46.369 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1774328806369 with initial instances count: 3
+2026-03-24 10:36:46.376 INFO  [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ORDER with eureka with status UP
+2026-03-24 10:36:46.376 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1774328806376, current=UP, previous=STARTING]
+2026-03-24 10:36:46.377 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881: registering service...
+2026-03-24 10:36:46.378 INFO  [restartedMain] o.s.c.s.binder.DefaultBinderFactory      : Creating binder: rabbit
+2026-03-24 10:36:46.378 INFO  [restartedMain] o.s.c.s.binder.DefaultBinderFactory      : Constructing binder child context for rabbit
+2026-03-24 10:36:46.411 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881 - registration status: 204
+2026-03-24 10:36:46.473 INFO  [restartedMain] o.s.c.s.binder.DefaultBinderFactory      : Caching the binder: rabbit
+2026-03-24 10:36:46.481 INFO  [restartedMain] c.s.b.r.p.RabbitExchangeQueueProvisioner : declaring queue for inbound: springCloudBus.anonymous.7p-hGzmcQ-S9Qz4ghi7XRg, bound to: springCloudBus
+2026-03-24 10:36:46.483 INFO  [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-03-24 10:36:46.555 INFO  [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#efe150e:0/SimpleConnection@10841a26 [delegate=amqp://guest@127.0.0.1:5672/, localPort=56262]
+2026-03-24 10:36:46.636 INFO  [restartedMain] o.s.c.stream.binder.BinderErrorChannel   : Channel 'rabbit-150853694.springCloudBusInput.errors' has 1 subscriber(s).
+2026-03-24 10:36:46.637 INFO  [restartedMain] o.s.c.stream.binder.BinderErrorChannel   : Channel 'rabbit-150853694.springCloudBusInput.errors' has 2 subscriber(s).
+2026-03-24 10:36:46.652 INFO  [restartedMain] o.s.i.a.i.AmqpInboundChannelAdapter      : started bean 'inbound.springCloudBus.anonymous.7p-hGzmcQ-S9Qz4ghi7XRg'
+2026-03-24 10:36:46.671 INFO  [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8881 (http) with context path '/'
+2026-03-24 10:36:46.672 INFO  [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8881
+2026-03-24 10:36:46.752 INFO  [restartedMain] com.ecommerce.order.OrderApplication     : Started OrderApplication in 9.757 seconds (process running for 10.587)
+2026-03-24 10:36:46.986 INFO  [http-nio-8881-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-24 10:36:46.987 INFO  [http-nio-8881-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-24 10:36:46.989 INFO  [http-nio-8881-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-03-24 10:38:48.888 INFO  [http-nio-8881-exec-2] c.e.order.controllers.OrderController    : Request received to create order
+2026-03-24 10:38:49.608 DEBUG [http-nio-8881-exec-2] org.hibernate.SQL                        : 
+    select
+        ci1_0.id,
+        ci1_0.created_at,
+        ci1_0.price,
+        ci1_0.product_id,
+        ci1_0.quantity,
+        ci1_0.updated_at,
+        ci1_0.user_id 
+    from
+        cart_tab ci1_0 
+    where
+        ci1_0.user_id=?
+2026-03-24 10:38:49.611 TRACE [http-nio-8881-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-03-24 10:38:49.713 WARN  [http-nio-8881-exec-2] c.e.order.controllers.OrderController    : Failed to create order - Cart is empty
+2026-03-24 10:39:29.125 INFO  [http-nio-8881-exec-7] c.e.order.controllers.OrderController    : Request received to create order
+2026-03-24 10:39:29.141 DEBUG [http-nio-8881-exec-7] org.hibernate.SQL                        : 
+    select
+        ci1_0.id,
+        ci1_0.created_at,
+        ci1_0.price,
+        ci1_0.product_id,
+        ci1_0.quantity,
+        ci1_0.updated_at,
+        ci1_0.user_id 
+    from
+        cart_tab ci1_0 
+    where
+        ci1_0.user_id=?
+2026-03-24 10:39:29.142 TRACE [http-nio-8881-exec-7] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-03-24 10:39:29.148 WARN  [http-nio-8881-exec-7] c.e.order.controllers.OrderController    : Failed to create order - Cart is empty
+2026-03-24 10:40:20.384 INFO  [http-nio-8881-exec-5] c.e.order.controllers.CartController     : Request received to fetch cart items
+2026-03-24 10:40:20.397 DEBUG [http-nio-8881-exec-5] org.hibernate.SQL                        : 
+    select
+        ci1_0.id,
+        ci1_0.created_at,
+        ci1_0.price,
+        ci1_0.product_id,
+        ci1_0.quantity,
+        ci1_0.updated_at,
+        ci1_0.user_id 
+    from
+        cart_tab ci1_0 
+    where
+        ci1_0.user_id=?
+2026-03-24 10:40:20.398 TRACE [http-nio-8881-exec-5] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-03-24 10:40:20.411 WARN  [http-nio-8881-exec-5] c.e.order.controllers.CartController     : Failed to fetch cart items - Cart is empty
+2026-03-24 10:41:17.964 INFO  [http-nio-8881-exec-5] c.e.order.controllers.OrderController    : Request received to create order
+2026-03-24 10:41:18.015 DEBUG [http-nio-8881-exec-5] org.hibernate.SQL                        : 
+    select
+        ci1_0.id,
+        ci1_0.created_at,
+        ci1_0.price,
+        ci1_0.product_id,
+        ci1_0.quantity,
+        ci1_0.updated_at,
+        ci1_0.user_id 
+    from
+        cart_tab ci1_0 
+    where
+        ci1_0.user_id=?
+2026-03-24 10:41:18.016 TRACE [http-nio-8881-exec-5] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-03-24 10:41:18.043 WARN  [http-nio-8881-exec-5] c.e.order.controllers.OrderController    : Failed to create order - Cart is empty
+2026-03-24 10:41:20.494 INFO  [http-nio-8881-exec-7] c.e.order.controllers.OrderController    : Request received to create order
+2026-03-24 10:41:20.510 DEBUG [http-nio-8881-exec-7] org.hibernate.SQL                        : 
+    select
+        ci1_0.id,
+        ci1_0.created_at,
+        ci1_0.price,
+        ci1_0.product_id,
+        ci1_0.quantity,
+        ci1_0.updated_at,
+        ci1_0.user_id 
+    from
+        cart_tab ci1_0 
+    where
+        ci1_0.user_id=?
+2026-03-24 10:41:20.511 TRACE [http-nio-8881-exec-7] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-03-24 10:41:20.521 WARN  [http-nio-8881-exec-7] c.e.order.controllers.OrderController    : Failed to create order - Cart is empty
+2026-03-24 10:41:46.234 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-24 10:43:00.622 INFO  [http-nio-8881-exec-1] c.e.order.controllers.CartController     : Request received to fetch cart items
+2026-03-24 10:43:00.648 DEBUG [http-nio-8881-exec-1] org.hibernate.SQL                        : 
+    select
+        ci1_0.id,
+        ci1_0.created_at,
+        ci1_0.price,
+        ci1_0.product_id,
+        ci1_0.quantity,
+        ci1_0.updated_at,
+        ci1_0.user_id 
+    from
+        cart_tab ci1_0 
+    where
+        ci1_0.user_id=?
+2026-03-24 10:43:00.650 TRACE [http-nio-8881-exec-1] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-03-24 10:43:00.661 WARN  [http-nio-8881-exec-1] c.e.order.controllers.CartController     : Failed to fetch cart items - Cart is empty
+2026-03-24 10:43:28.951 INFO  [http-nio-8881-exec-1] c.e.order.controllers.OrderController    : Request received to create order
+2026-03-24 10:43:28.968 DEBUG [http-nio-8881-exec-1] org.hibernate.SQL                        : 
+    select
+        ci1_0.id,
+        ci1_0.created_at,
+        ci1_0.price,
+        ci1_0.product_id,
+        ci1_0.quantity,
+        ci1_0.updated_at,
+        ci1_0.user_id 
+    from
+        cart_tab ci1_0 
+    where
+        ci1_0.user_id=?
+2026-03-24 10:43:28.969 TRACE [http-nio-8881-exec-1] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-03-24 10:43:28.976 WARN  [http-nio-8881-exec-1] c.e.order.controllers.OrderController    : Failed to create order - Cart is empty
+2026-03-24 10:46:23.180 INFO  [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ORDER with eureka with status DOWN
+2026-03-24 10:46:23.184 INFO  [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1774329383184, current=DOWN, previous=UP]
+2026-03-24 10:46:23.185 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881: registering service...
+2026-03-24 10:46:23.286 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881 - registration status: 204
+2026-03-24 10:46:23.316 INFO  [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-24 10:46:25.411 INFO  [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-03-24 10:46:25.509 INFO  [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2026-03-24 10:46:25.753 INFO  [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2026-03-24 10:46:25.756 INFO  [SpringApplicationShutdownHook] o.s.i.a.i.AmqpInboundChannelAdapter      : stopped bean 'inbound.springCloudBus.anonymous.7p-hGzmcQ-S9Qz4ghi7XRg'
+2026-03-24 10:46:25.774 INFO  [SpringApplicationShutdownHook] o.s.c.stream.binder.BinderErrorChannel   : Channel 'order.rabbit-150853694.springCloudBusInput.errors' has 1 subscriber(s).
+2026-03-24 10:46:25.777 INFO  [SpringApplicationShutdownHook] o.s.c.stream.binder.BinderErrorChannel   : Channel 'order.rabbit-150853694.springCloudBusInput.errors' has 0 subscriber(s).
+2026-03-24 10:46:25.879 INFO  [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2026-03-24 10:46:25.879 INFO  [SpringApplicationShutdownHook] o.s.i.channel.PublishSubscribeChannel    : Channel 'order.errorChannel' has 0 subscriber(s).
+2026-03-24 10:46:25.880 INFO  [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean '_org.springframework.integration.errorLogger'
+2026-03-24 10:46:25.915 INFO  [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-24 10:46:25.959 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-24 10:46:25.965 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-03-24 10:46:26.348 INFO  [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2026-03-24 10:46:29.357 INFO  [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2026-03-24 10:46:29.399 INFO  [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881 - deregister  status: 200
+2026-03-24 10:46:29.400 INFO  [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2026-03-24 10:46:34.585 INFO  [restartedMain] com.ecommerce.order.OrderApplication     : Starting OrderApplication using Java 17.0.17 with PID 26722 (/Users/codey/Desktop/my-apps/Spring_Ecommerce_App/order/target/classes started by codey in /Users/codey/Desktop/my-apps/Spring_Ecommerce_App)
+2026-03-24 10:46:34.586 DEBUG [restartedMain] com.ecommerce.order.OrderApplication     : Running with Spring Boot v4.0.2, Spring v7.0.3
+2026-03-24 10:46:34.587 INFO  [restartedMain] com.ecommerce.order.OrderApplication     : The following 1 profile is active: "dev"
+2026-03-24 10:46:34.621 INFO  [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2026-03-24 10:46:34.621 INFO  [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=order, profiles=[default], label=null, version=null, state=null
+2026-03-24 10:46:34.621 INFO  [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2026-03-24 10:46:34.621 INFO  [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=order, profiles=[dev], label=null, version=null, state=null
+2026-03-24 10:46:34.623 INFO  [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-24 10:46:34.623 INFO  [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-24 10:46:35.469 INFO  [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-24 10:46:35.564 INFO  [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 88 ms. Found 2 JPA repository interfaces.
+2026-03-24 10:46:35.818 INFO  [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2026-03-24 10:46:35.822 INFO  [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2026-03-24 10:46:35.943 INFO  [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=fd3d7652-91c4-3601-b363-ca519c7bd3d9
+2026-03-24 10:46:36.549 INFO  [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8881 (http)
+2026-03-24 10:46:36.557 INFO  [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-24 10:46:36.557 INFO  [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-03-24 10:46:36.587 INFO  [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1964 ms
+2026-03-24 10:46:37.163 INFO  [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-24 10:46:37.203 INFO  [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.1.Final
+2026-03-24 10:46:37.463 INFO  [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-24 10:46:37.485 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-24 10:46:37.674 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3483f2ad
+2026-03-24 10:46:37.675 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-24 10:46:37.720 WARN  [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-24 10:46:37.741 INFO  [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/ecomm_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.11
+	Default catalog/schema: ecomm_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-24 10:46:38.620 INFO  [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-24 10:46:38.787 INFO  [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-24 10:46:38.928 INFO  [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-24 10:46:39.701 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-24 10:46:40.327 INFO  [restartedMain] o.s.c.s.m.DirectWithAttributesChannel    : Channel 'order.springCloudBusInput' has 1 subscriber(s).
+2026-03-24 10:46:40.971 INFO  [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestClient.
+2026-03-24 10:46:41.051 WARN  [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-03-24 10:46:41.061 INFO  [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 36 endpoints beneath base path '/actuator'
+2026-03-24 10:46:41.198 INFO  [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2026-03-24 10:46:41.198 INFO  [restartedMain] o.s.i.channel.PublishSubscribeChannel    : Channel 'order.errorChannel' has 1 subscriber(s).
+2026-03-24 10:46:41.198 INFO  [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : started bean '_org.springframework.integration.errorLogger'
+2026-03-24 10:46:41.220 INFO  [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-03-24 10:46:41.241 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-03-24 10:46:41.244 INFO  [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-24 10:46:41.250 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-03-24 10:46:41.250 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-03-24 10:46:41.250 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-03-24 10:46:41.251 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-03-24 10:46:41.251 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-03-24 10:46:41.251 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2026-03-24 10:46:41.251 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-03-24 10:46:41.378 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-03-24 10:46:41.379 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2026-03-24 10:46:41.380 INFO  [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-03-24 10:46:41.381 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1774329401381 with initial instances count: 3
+2026-03-24 10:46:41.389 INFO  [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ORDER with eureka with status UP
+2026-03-24 10:46:41.389 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1774329401389, current=UP, previous=STARTING]
+2026-03-24 10:46:41.390 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881: registering service...
+2026-03-24 10:46:41.391 INFO  [restartedMain] o.s.c.s.binder.DefaultBinderFactory      : Creating binder: rabbit
+2026-03-24 10:46:41.391 INFO  [restartedMain] o.s.c.s.binder.DefaultBinderFactory      : Constructing binder child context for rabbit
+2026-03-24 10:46:41.431 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ORDER/192.168.1.9:order:8881 - registration status: 204
+2026-03-24 10:46:41.473 INFO  [restartedMain] o.s.c.s.binder.DefaultBinderFactory      : Caching the binder: rabbit
+2026-03-24 10:46:41.481 INFO  [restartedMain] c.s.b.r.p.RabbitExchangeQueueProvisioner : declaring queue for inbound: springCloudBus.anonymous.-DbSV8IITb-KewhTPeoujA, bound to: springCloudBus
+2026-03-24 10:46:41.483 INFO  [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2026-03-24 10:46:41.526 INFO  [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#7a69808b:0/SimpleConnection@46aca732 [delegate=amqp://guest@127.0.0.1:5672/, localPort=56785]
+2026-03-24 10:46:41.586 INFO  [restartedMain] o.s.c.stream.binder.BinderErrorChannel   : Channel 'rabbit-1144223090.springCloudBusInput.errors' has 1 subscriber(s).
+2026-03-24 10:46:41.586 INFO  [restartedMain] o.s.c.stream.binder.BinderErrorChannel   : Channel 'rabbit-1144223090.springCloudBusInput.errors' has 2 subscriber(s).
+2026-03-24 10:46:41.598 INFO  [restartedMain] o.s.i.a.i.AmqpInboundChannelAdapter      : started bean 'inbound.springCloudBus.anonymous.-DbSV8IITb-KewhTPeoujA'
+2026-03-24 10:46:41.609 INFO  [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8881 (http) with context path '/'
+2026-03-24 10:46:41.609 INFO  [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8881
+2026-03-24 10:46:41.679 INFO  [restartedMain] com.ecommerce.order.OrderApplication     : Started OrderApplication in 8.342 seconds (process running for 9.332)
+2026-03-24 10:46:44.052 INFO  [http-nio-8881-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-24 10:46:44.053 INFO  [http-nio-8881-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-24 10:46:44.064 INFO  [http-nio-8881-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2026-03-24 10:47:48.638 INFO  [http-nio-8881-exec-3] c.e.order.controllers.OrderController    : Request received to create order
+2026-03-24 10:47:49.129 DEBUG [http-nio-8881-exec-3] org.hibernate.SQL                        : 
+    select
+        ci1_0.id,
+        ci1_0.created_at,
+        ci1_0.price,
+        ci1_0.product_id,
+        ci1_0.quantity,
+        ci1_0.updated_at,
+        ci1_0.user_id 
+    from
+        cart_tab ci1_0 
+    where
+        ci1_0.user_id=?
+2026-03-24 10:47:49.130 TRACE [http-nio-8881-exec-3] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-03-24 10:47:49.165 WARN  [http-nio-8881-exec-3] c.e.order.controllers.OrderController    : Failed to create order - Cart is empty
+2026-03-24 10:48:07.034 INFO  [http-nio-8881-exec-10] c.e.order.controllers.CartController     : Request received to fetch cart items
+2026-03-24 10:48:07.046 DEBUG [http-nio-8881-exec-10] org.hibernate.SQL                        : 
+    select
+        ci1_0.id,
+        ci1_0.created_at,
+        ci1_0.price,
+        ci1_0.product_id,
+        ci1_0.quantity,
+        ci1_0.updated_at,
+        ci1_0.user_id 
+    from
+        cart_tab ci1_0 
+    where
+        ci1_0.user_id=?
+2026-03-24 10:48:07.047 TRACE [http-nio-8881-exec-10] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-03-24 10:48:07.055 WARN  [http-nio-8881-exec-10] c.e.order.controllers.CartController     : Failed to fetch cart items - Cart is empty
+2026-03-24 10:48:15.180 INFO  [http-nio-8881-exec-4] c.e.order.controllers.OrderController    : Request received to create order
+2026-03-24 10:48:15.189 DEBUG [http-nio-8881-exec-4] org.hibernate.SQL                        : 
+    select
+        ci1_0.id,
+        ci1_0.created_at,
+        ci1_0.price,
+        ci1_0.product_id,
+        ci1_0.quantity,
+        ci1_0.updated_at,
+        ci1_0.user_id 
+    from
+        cart_tab ci1_0 
+    where
+        ci1_0.user_id=?
+2026-03-24 10:48:15.190 TRACE [http-nio-8881-exec-4] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-03-24 10:48:15.197 WARN  [http-nio-8881-exec-4] c.e.order.controllers.OrderController    : Failed to create order - Cart is empty
+2026-03-24 10:48:35.849 INFO  [http-nio-8881-exec-2] c.e.order.controllers.CartController     : Request received to fetch cart items
+2026-03-24 10:48:35.857 DEBUG [http-nio-8881-exec-2] org.hibernate.SQL                        : 
+    select
+        ci1_0.id,
+        ci1_0.created_at,
+        ci1_0.price,
+        ci1_0.product_id,
+        ci1_0.quantity,
+        ci1_0.updated_at,
+        ci1_0.user_id 
+    from
+        cart_tab ci1_0 
+    where
+        ci1_0.user_id=?
+2026-03-24 10:48:35.858 TRACE [http-nio-8881-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-03-24 10:48:35.864 WARN  [http-nio-8881-exec-2] c.e.order.controllers.CartController     : Failed to fetch cart items - Cart is empty
+2026-03-24 10:51:41.259 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-03-24 10:56:41.270 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

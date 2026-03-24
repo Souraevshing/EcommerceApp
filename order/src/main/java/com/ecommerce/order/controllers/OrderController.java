@@ -20,7 +20,7 @@ public class OrderController {
     private final OrderServiceImpl orderService;
 
     @PostMapping("/create")
-    public ResponseEntity<OrderResponseDto> createOrder(@RequestHeader("X-User-ID") Long userId) {
+    public ResponseEntity<ResponseDto<OrderResponseDto>> createOrder(@RequestHeader("X-User-ID") Long userId) {
         log.info("Request received to create order");
         ResponseDto<OrderResponseDto> newOrder = orderService.createOrder(userId);
 
@@ -28,12 +28,12 @@ public class OrderController {
             log.warn("Failed to create order - {}", newOrder.getError());
             return ResponseEntity
                     .status(HttpStatus.BAD_REQUEST)
-                    .body(newOrder.getData());
+                    .body(newOrder);
         }
 
         log.info("Successfully created order");
         return ResponseEntity
                 .status(HttpStatus.CREATED)
-                .body(newOrder.getData());
+                .body(newOrder);
     }
 }

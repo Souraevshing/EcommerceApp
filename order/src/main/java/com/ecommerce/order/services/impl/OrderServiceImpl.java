@@ -12,16 +12,19 @@ import com.ecommerce.order.services.OrderService;
 import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 import io.github.resilience4j.retry.annotation.Retry;
 import lombok.RequiredArgsConstructor;
+import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
 import java.util.List;
+import java.util.Map;
 
 @Service
 @RequiredArgsConstructor
 public class OrderServiceImpl implements OrderService {
     private final CartItemServiceImpl cartItemService;
     private final OrderRepository orderRepository;
+    private final RabbitTemplate rabbitTemplate;
 
     @Override
     @CircuitBreaker(name = "user", fallbackMethod = "createOrderFallback")
@@ -35,6 +38,7 @@ public class OrderServiceImpl implements OrderService {
         List<CartItemResponseDto> cartItemsFound = cartItems.getData();
 
 // TODO adding units and quantity to the order items
+
 //        BigDecimal totalPrice = cartItemsFound
 //                .stream()
 //                .map(CartItemResponseDto::getPrice)
@@ -64,6 +68,14 @@ public class OrderServiceImpl implements OrderService {
         Order savedOrder = orderRepository.save(order);
 
         cartItemService.clearCart(userId);
+
+        // send order created event to RabbitMQ
+        rabbitTemplate
+                .convertAndSend(
+                        "order.exchange",
+                        "order.tracking",
+                        Map.of("orderId", savedOrder.getId(), "status", "CREATED")
+                );
 
         return ResponseDto.success(OrderMapper.toDto(savedOrder), "Order created successfully");
     }

@@ -4,6 +4,12 @@ spring:
     username: ${POSTGRES_DB_USER}
     password: ${POSTGRES_DB_PASSWORD}
 
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
   jpa:
     hibernate:
       ddl-auto: update
@@ -11,6 +17,14 @@ spring:
 
 server:
   port: 8881
+
+rabbitmq:
+  exchange:
+    name: order.exchange
+  queue:
+    name: order.queue
+  routing:
+    key: order.tracking
 
 info:
   app:
